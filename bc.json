@@ -1,10 +1,1 @@
-{
-    "compiler": "react",
-    "exercises": [
-        { "slug": "01-hello-world", "title": "Hello World" },
-        { "slug": "02-separate-files", "title": "Split into several files" },
-        { "slug": "03-jsx", "title": "Using JSX instead of strings" },
-        { "slug": "04-first-component", "title": "Creating a <Link> Tag" },
-        { "slug": "05-custom-tag", "title": "Creating custom tags" }
-    ]
-}
+{"compiler":"react"}
