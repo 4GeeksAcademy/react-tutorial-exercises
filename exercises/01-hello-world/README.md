@@ -1,4 +1,4 @@
-# 01 - Hello World
+# `01` Hello World
 
 React it's just a rendering engine, its main goal is save us (the developers) time and effort in order to create dynamic HTML.
 

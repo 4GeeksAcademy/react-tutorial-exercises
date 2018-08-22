@@ -1,0 +1,73 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  width: 60%;
+  padding: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  width: 40%;
+  padding: 10px;
+  border-left: 1px solid #23241f;
+  .prev-next-bar{
+    overflow: hidden;
+    margin-bottom: 10px;
+    .prev-exercise{
+      float: left;
+    }
+    .next-exercise{
+      float: right;
+    }
+  }
+}
+.alert{
+  padding: 5px;
+  height: 60px;
+  background: #23241f;
+  color: white;
+  p{
+    margin: 0;
+  }
+  code{
+    background: #393a38;
+    padding: 3px;
+  }
+  .refresh{
+    border-radius: 50%;
+    float: right;
+    width: 30px;
+    padding-top: 4px;
+    margin: 10px;
+    height: 30px;
+    background: #5d5dff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    &.rotate{
+      animation-name: spin;
+      animation-duration: 4000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      @keyframes spin { 
+          from { 
+              transform: rotate(0deg); 
+          } to { 
+              transform: rotate(360deg); 
+          }
+      }
+    }
+  }
+}

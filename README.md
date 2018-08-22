@@ -10,17 +10,21 @@ $ bc start:react-exercises -r
 Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
 Each exercise is a small react application containing the following files:
-    1. __index.js__: represents the entry file for the entire app.
-    2. __README.md__: contains exercise instructions.
-    3. __test.js__: you don't have to open this file, it contains the testing script for the exercise.
 
-Each folder also have a README.md file that you can open to read the instructions or you can run the following command from the root directory to read the instructions in a cleaner format:
+1. **index.js:** represents the entry file for the entire app.
+2. **README.md:** contains exercise instructions.
+3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+
+### Reading the instructions
+We have created a small application to read the instructions in a better format, to run it type the following on your command line:
 ```sh
 $ bc run:instructions
 ```
-
-One you finish reading the instructions for an exercise you can run the following command to start a development server and live-test your app as you code:
+### Completing the exercises
+One you finish reading the instructions, start a development server for the particular exercise you want to preview:
 ```sh
 $ bc run:exercise -n=<exercise number>
 ```
 Note: you have to replace ```<exercise number>``` with the real exercise number you want to run.
+
+Once the development server is running you can start coding your solution on any of the files inside the exercise folder number.
