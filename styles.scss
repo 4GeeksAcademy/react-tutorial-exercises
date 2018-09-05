@@ -1,3 +1,6 @@
+.tc{
+  text-align: center;
+}
 /* Split the screen in half */
 .split {
   height: 100%;
@@ -13,6 +16,20 @@
   left: 0;
   width: 60%;
   padding: 0;
+  .not-running{
+    background: #f9f9f9;
+  }
+  .preview-instructions{
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    width: 500px;
+    font-size: 12px;
+    h2{
+      text-align: center;
+    }
+  }
 }
 
 /* Control the right side */
@@ -32,17 +49,26 @@
     }
   }
 }
+code{
+  background: #fffce0;
+  padding: 3px;
+}
 .alert{
   padding: 5px;
-  height: 60px;
-  background: #23241f;
-  color: white;
+  &.alert-info{
+    background: #23241f;
+    color: white;
+  }
+  &.alert-danger{
+    background: red;
+    color: white;
+  }
+  &.alert-success{
+    background: #c1e4c1;
+    color: #1f2d01;
+  }
   p{
     margin: 0;
-  }
-  code{
-    background: #393a38;
-    padding: 3px;
   }
   .refresh{
     border-radius: 50%;
