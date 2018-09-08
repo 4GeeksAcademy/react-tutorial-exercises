@@ -1,6 +1,6 @@
 # `03` Separate Files
 
-Thanks to WebPack, we can use modules to split our code in several files using the [***import*** statement](https://breatheco.de/en/lesson/importing-and-exporting-javascript-modules/) like this:
+Thanks to WebPack, we can split our code in several files using the [***import*** statement](https://breatheco.de/en/lesson/importing-and-exporting-javascript-modules/) like this:
 
 ```js
 // file1.js
@@ -22,7 +22,7 @@ import sum from './file1.js';
 console.log(sum(2,2)); //will output 4
 ```
 
-The best usage for this feature is to separate each big component in a different file to keep the code organized.
+The best usage for this feature is to separate each component in a different file to keep the code organized.
 
 ## Instructions
 
