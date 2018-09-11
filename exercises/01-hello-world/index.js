@@ -1,7 +1,6 @@
-//Main React.js library
-import React from 'react';
-//we use ReactDOM to render into the DOM
-import ReactDOM from 'react-dom';
+import React from 'react';//Main React.js library
+
+import ReactDOM from 'react-dom';//we use ReactDOM to render into the DOM
 
 // This function returns a string that will be rendered
 const WhatToRender = () => {
