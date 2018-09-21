@@ -1,10 +1,10 @@
 # `01` Hello World
 
-As a web developer, you would use React to create dynamic HTML and CSS faster and easier.
+Today's bigest pain for front-end developers is **working with the DOM** something that React.js does best.
 
-Today's bigest pain for front-end developers is **Working with the DOM**. And that its what React.js do best.
+React.js it's a rendering engine/library, its main goal is to save us (the developers) time while creating dynamic HTML.
 
-To acomplish that, the library comes with a function called **ReactDOM.render** that receives two parameters:
+The library comes with a function called **ReactDOM.render** that receives two parameters:
 
 1. What to render.
 2. Where to render it.
@@ -27,6 +27,7 @@ const myDiv = document.querySelector('#myDiv');
 ReactDOM.render(whatToRender(), myDiv);
 ```
 
+<<<<<<< HEAD
 The function `ReactDOM.render` will set the innerHTML of `myDiv` to contain what the function `whatToRender` returns, very similar to how innerHTML works:
 ```
 //This is how you would do it without react.
@@ -40,3 +41,10 @@ ReactDOM.render(whatToRender(), myDiv);
 
 Open the `01-hello-world/index.js` file and take some time to understand it.
 Then, make the function __whatToRender__ return `"I Love React"` instead of `"Hello World"`
+=======
+As you can see, the function is simillar to the innerHTML property handling.
+
+# Instructions
+
+Open the `01-hello-world/index.js` file, take some time to understand it, when you feel that you successfully locate variables/functions change the function __whatToRender__ so it wil return "I Love React" instead of "Hello World".
+>>>>>>> e46912d7ae3af6d262f27156c7bda5c8d2068848

@@ -16,6 +16,7 @@ const sum = (a,b) => {
 export default sum; //export
 ```
 
+
 ```js
 // file2.js
 
@@ -26,12 +27,12 @@ import sum from './file1.js';
 console.log(sum(2,2)); //will output 4
 ```
 
-> Note: The best usage for this feature is to separate each component in a different file to keep the code organized.
+The intended usage of this feature is the ability to separate each component in its own file, in order to keep the code organized. Divide and conquer.
 
 ## Instructions
 
-Right now, there is a componented declared on the file whatToRender.js and it is being exported as default.
+You have two files now: index.js and whatToRender.js, in the former you'll find a Component which is being exported as default.
 
-Open the index.js file and import `as default` the `WhatToRender` function, keep the same variable name __WhatToRender__
+Open the index.js file and import the WhatToRender function (as default). Note: keep the same variable name __WhatToRender__.
 
 If you imported correctly you will see the "hello world" on the screen.
