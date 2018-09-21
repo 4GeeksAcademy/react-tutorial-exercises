@@ -1,20 +1,18 @@
 # `04` Exporting Default vs Non-default
 
-Thanks to WebPack, we can split our code in several files using the [***import*** statement](https://breatheco.de/en/lesson/importing-and-exporting-javascript-modules/) like this:
+We don't have to allways import the entire file, we can also import particular functions, classes or variables.
 
 ```js
 // file1.js
 
-
 const sum = (a,b) => {
   return a+b;
 }
-export default sum; //export
+export default sum; //export by default
 ```
 
 ```js
 // file2.js
-
 
                 //relative path to the file1.js
 import sum from './file1.js';

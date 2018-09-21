@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 
 // This function returns a string that will be rendered
 const WhatToRender = () => {
-    return 'Hello Worldss';
+    return 'Hello Worlds';
 };
 
 //A DOM element were react will render the image
