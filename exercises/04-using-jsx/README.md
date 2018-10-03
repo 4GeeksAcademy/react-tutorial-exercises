@@ -1,33 +1,34 @@
-# `03` Separate Files
+# `04` Custom Tags
 
-Thanks to WebPack, we can use modules to split our code in several files using the [***import*** statement](https://breatheco.de/en/lesson/importing-and-exporting-javascript-modules/) like this:
+Ok, now we know how to split our code into different files. Lets focus back on React and JSX.
 
-```js
-// file1.js
-
-
-const sum = (a,b) => {
-  return a+b;
-}
-export default sum; //export
+Another great feature about JSX, is allowing us to use curly brackets `{` to include dynamic content within our HTML like this:
+```html
+<a>{ /* you can use js here */  }</a>
 ```
 
-```js
-// file2.js
+For example, let's say we have a js object **person** with **first_name** and **last_name**, JSX allows us to create a `<PersonCard />`  
+Instead of just using the old [HTML strings](http://krasimirtsonev.com/blog/article/Convert-HTML-string-to-DOM-element) we could use the JSX curly brackets:
+```jsx
+const person = {
+  first_name: 'Bob',
+  last_name: 'Smith'
+  age: 23
+};
 
-
-                //relative path to the file1.js
-import sum from './file1.js';
-
-console.log(sum(2,2)); //will output 4
+const PersonCard = function(){
+  // everything within the curly brackets is written in javascript
+  return <p>{person.first_name + ' ' + person.last_name}</p>;
+};
 ```
 
-The best usage for this feature is to separate each big component in a different file to keep the code organized.
+# Instructions
 
-## Instructions
-
-Right now, there is a componented declared on the file whatToRender.js and it is being exported as default.
-
-Open the index.js file and import as default the WhatToRender function, keep the same variable name __WhatToRender__
-
-If you imported correctly you will see the "hello world" on the screen.
+Open the `PersonCard.js` component and change its code to make it output the following HTML:
+```html
+<div>
+    <p>My Name is Bob Smith</p>
+    <p>and I am is 12 years old</p>
+</div>
+```
+Note: The *first name*, *last name* and *age* have to be dynamically rendered based on the `person` variable declared above the component.

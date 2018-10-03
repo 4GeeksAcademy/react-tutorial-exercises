@@ -27,7 +27,6 @@ const myDiv = document.querySelector('#myDiv');
 ReactDOM.render(whatToRender(), myDiv);
 ```
 
-<<<<<<< HEAD
 The function `ReactDOM.render` will set the innerHTML of `myDiv` to contain what the function `whatToRender` returns, very similar to how innerHTML works:
 ```
 //This is how you would do it without react.
@@ -41,10 +40,3 @@ ReactDOM.render(whatToRender(), myDiv);
 
 Open the `01-hello-world/index.js` file and take some time to understand it.
 Then, make the function __whatToRender__ return `"I Love React"` instead of `"Hello World"`
-=======
-As you can see, the function is simillar to the innerHTML property handling.
-
-# Instructions
-
-Open the `01-hello-world/index.js` file, take some time to understand it, when you feel that you successfully locate variables/functions change the function __whatToRender__ so it wil return "I Love React" instead of "Hello World".
->>>>>>> e46912d7ae3af6d262f27156c7bda5c8d2068848

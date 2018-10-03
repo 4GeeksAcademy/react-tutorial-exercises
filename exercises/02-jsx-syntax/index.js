@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const WhatToRender = () => {
-    return 'Hello World';
+    return 'Hello Worldd';
 };
 
 const myDiv = document.querySelector('#myDiv');
