@@ -7,8 +7,8 @@ Another great feature about JSX, is allowing us to use curly brackets `{` to inc
 <a>{ /* you can use js here */  }</a>
 ```
 
-For example, let's say we have a js object **person** with **first_name** and **last_name**, JSX allows us to create a `<PersonCard />`  
-Instead of just using the old [HTML strings](http://krasimirtsonev.com/blog/article/Convert-HTML-string-to-DOM-element) we could use the JSX curly brackets:
+For example, let's say we have a js object **person** with **first_name** and **last_name**, JSX allows us to create a `<PersonCard />` component.  
+Instead of just using the old [HTML strings](http://krasimirtsonev.com/blog/article/Convert-HTML-string-to-DOM-element) we could use the JSX and curly brackets:
 ```jsx
 const person = {
   first_name: 'Bob',

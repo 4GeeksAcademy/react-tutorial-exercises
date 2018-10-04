@@ -2,6 +2,10 @@
 
 Thanks to WebPack, we can split our code in several files using the [***import*** statement](https://breatheco.de/en/lesson/importing-and-exporting-javascript-modules/) like this:
 
+```js
+import VariableName from 'path/to/file';
+```
+
 Note: This is not a react.js functionality only, all javascript projects will be able to use import/export because of Webpack.
 
 ## Here is an example:

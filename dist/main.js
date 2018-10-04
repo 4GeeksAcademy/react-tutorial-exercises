@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f2b559a321e0e7eb97f8";
+/******/ 	var hotCurrentHash = "5f0c9cee7198ca6cd72d";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -794,10 +794,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/ansi-html/index.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/ansi-html/index.js ***!
-  \*********************************************************************************************************************************************/
+/***/ "../../node_modules/ansi-html/index.js":
+/*!******************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/ansi-html/index.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -982,10 +982,10 @@ ansiHTML.reset()
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/ansi-regex/index.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/ansi-regex/index.js ***!
-  \**********************************************************************************************************************************************/
+/***/ "../../node_modules/ansi-regex/index.js":
+/*!*******************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/ansi-regex/index.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1004,10 +1004,10 @@ module.exports = () => {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/events/events.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/events/events.js ***!
-  \*******************************************************************************************************************************************/
+/***/ "../../node_modules/events/events.js":
+/*!****************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/events/events.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1317,10 +1317,10 @@ function isUndefined(arg) {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/ExecutionEnvironment.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/ExecutionEnvironment.js ***!
-  \***********************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/ExecutionEnvironment.js":
+/*!********************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/ExecutionEnvironment.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1361,10 +1361,10 @@ module.exports = ExecutionEnvironment;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/camelize.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/camelize.js ***!
-  \***********************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/camelize.js":
+/*!********************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/camelize.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1401,10 +1401,10 @@ module.exports = camelize;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/camelizeStyleName.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/camelizeStyleName.js ***!
-  \********************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/camelizeStyleName.js":
+/*!*****************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/camelizeStyleName.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1420,7 +1420,7 @@ module.exports = camelize;
 
 
 
-var camelize = __webpack_require__(/*! ./camelize */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/camelize.js");
+var camelize = __webpack_require__(/*! ./camelize */ "../../node_modules/fbjs/lib/camelize.js");
 
 var msPattern = /^-ms-/;
 
@@ -1449,10 +1449,10 @@ module.exports = camelizeStyleName;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/containsNode.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/containsNode.js ***!
-  \***************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/containsNode.js":
+/*!************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/containsNode.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1468,7 +1468,7 @@ module.exports = camelizeStyleName;
  * 
  */
 
-var isTextNode = __webpack_require__(/*! ./isTextNode */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/isTextNode.js");
+var isTextNode = __webpack_require__(/*! ./isTextNode */ "../../node_modules/fbjs/lib/isTextNode.js");
 
 /*eslint-disable no-bitwise */
 
@@ -1497,10 +1497,10 @@ module.exports = containsNode;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyFunction.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyFunction.js ***!
-  \****************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/emptyFunction.js":
+/*!*************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/emptyFunction.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1544,10 +1544,10 @@ module.exports = emptyFunction;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyObject.js":
-/*!**************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyObject.js ***!
-  \**************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/emptyObject.js":
+/*!***********************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/emptyObject.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1572,10 +1572,10 @@ module.exports = emptyObject;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/getActiveElement.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/getActiveElement.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/getActiveElement.js":
+/*!****************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/getActiveElement.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1619,10 +1619,10 @@ module.exports = getActiveElement;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/hyphenate.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/hyphenate.js ***!
-  \************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/hyphenate.js":
+/*!*********************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/hyphenate.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1660,10 +1660,10 @@ module.exports = hyphenate;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/hyphenateStyleName.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/hyphenateStyleName.js ***!
-  \*********************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/hyphenateStyleName.js":
+/*!******************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/hyphenateStyleName.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1679,7 +1679,7 @@ module.exports = hyphenate;
 
 
 
-var hyphenate = __webpack_require__(/*! ./hyphenate */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/hyphenate.js");
+var hyphenate = __webpack_require__(/*! ./hyphenate */ "../../node_modules/fbjs/lib/hyphenate.js");
 
 var msPattern = /^ms-/;
 
@@ -1707,10 +1707,10 @@ module.exports = hyphenateStyleName;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/invariant.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/invariant.js ***!
-  \************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/invariant.js":
+/*!*********************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/invariant.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1771,10 +1771,10 @@ module.exports = invariant;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/isNode.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/isNode.js ***!
-  \*********************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/isNode.js":
+/*!******************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/isNode.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1804,10 +1804,10 @@ module.exports = isNode;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/isTextNode.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/isTextNode.js ***!
-  \*************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/isTextNode.js":
+/*!**********************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/isTextNode.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1823,7 +1823,7 @@ module.exports = isNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(/*! ./isNode */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/isNode.js");
+var isNode = __webpack_require__(/*! ./isNode */ "../../node_modules/fbjs/lib/isNode.js");
 
 /**
  * @param {*} object The object to check.
@@ -1837,10 +1837,10 @@ module.exports = isTextNode;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/shallowEqual.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/shallowEqual.js ***!
-  \***************************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/shallowEqual.js":
+/*!************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/shallowEqual.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1913,10 +1913,10 @@ module.exports = shallowEqual;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/warning.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/warning.js ***!
-  \**********************************************************************************************************************************************/
+/***/ "../../node_modules/fbjs/lib/warning.js":
+/*!*******************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/fbjs/lib/warning.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1931,7 +1931,7 @@ module.exports = shallowEqual;
 
 
 
-var emptyFunction = __webpack_require__(/*! ./emptyFunction */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyFunction.js");
+var emptyFunction = __webpack_require__(/*! ./emptyFunction */ "../../node_modules/fbjs/lib/emptyFunction.js");
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -1986,27 +1986,27 @@ module.exports = warning;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/index.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/index.js ***!
-  \*************************************************************************************************************************************************/
+/***/ "../../node_modules/html-entities/index.js":
+/*!**********************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/html-entities/index.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  XmlEntities: __webpack_require__(/*! ./lib/xml-entities.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/xml-entities.js"),
-  Html4Entities: __webpack_require__(/*! ./lib/html4-entities.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/html4-entities.js"),
-  Html5Entities: __webpack_require__(/*! ./lib/html5-entities.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/html5-entities.js"),
-  AllHtmlEntities: __webpack_require__(/*! ./lib/html5-entities.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/html5-entities.js")
+  XmlEntities: __webpack_require__(/*! ./lib/xml-entities.js */ "../../node_modules/html-entities/lib/xml-entities.js"),
+  Html4Entities: __webpack_require__(/*! ./lib/html4-entities.js */ "../../node_modules/html-entities/lib/html4-entities.js"),
+  Html5Entities: __webpack_require__(/*! ./lib/html5-entities.js */ "../../node_modules/html-entities/lib/html5-entities.js"),
+  AllHtmlEntities: __webpack_require__(/*! ./lib/html5-entities.js */ "../../node_modules/html-entities/lib/html5-entities.js")
 };
 
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/html4-entities.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/html4-entities.js ***!
-  \**************************************************************************************************************************************************************/
+/***/ "../../node_modules/html-entities/lib/html4-entities.js":
+/*!***********************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/html-entities/lib/html4-entities.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2161,10 +2161,10 @@ module.exports = Html4Entities;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/html5-entities.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/html5-entities.js ***!
-  \**************************************************************************************************************************************************************/
+/***/ "../../node_modules/html-entities/lib/html5-entities.js":
+/*!***********************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/html-entities/lib/html5-entities.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2362,10 +2362,10 @@ module.exports = Html5Entities;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/xml-entities.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/lib/xml-entities.js ***!
-  \************************************************************************************************************************************************************/
+/***/ "../../node_modules/html-entities/lib/xml-entities.js":
+/*!*********************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/html-entities/lib/xml-entities.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2528,10 +2528,10 @@ module.exports = XmlEntities;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/loglevel/lib/loglevel.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/loglevel/lib/loglevel.js ***!
-  \***************************************************************************************************************************************************/
+/***/ "../../node_modules/loglevel/lib/loglevel.js":
+/*!************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/loglevel/lib/loglevel.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2789,10 +2789,10 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/node-libs-browser/node_modules/punycode/punycode.js":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "../../node_modules/node-libs-browser/node_modules/punycode/punycode.js":
+/*!***************************************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3316,14 +3316,14 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "../../node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "../../node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/object-assign/index.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/object-assign/index.js ***!
-  \*************************************************************************************************************************************************/
+/***/ "../../node_modules/object-assign/index.js":
+/*!**********************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/object-assign/index.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3422,10 +3422,10 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/prop-types/checkPropTypes.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/prop-types/checkPropTypes.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ "../../node_modules/prop-types/checkPropTypes.js":
+/*!****************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/prop-types/checkPropTypes.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3442,7 +3442,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 var printWarning = function() {};
 
 if (true) {
-  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/prop-types/lib/ReactPropTypesSecret.js");
+  var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../../node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
 
   printWarning = function(text) {
@@ -3525,10 +3525,10 @@ module.exports = checkPropTypes;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/prop-types/lib/ReactPropTypesSecret.js":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "../../node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!**************************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3549,10 +3549,10 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/decode.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/decode.js ***!
-  \****************************************************************************************************************************************************/
+/***/ "../../node_modules/querystring-es3/decode.js":
+/*!*************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/querystring-es3/decode.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3645,10 +3645,10 @@ var isArray = Array.isArray || function (xs) {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/encode.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/encode.js ***!
-  \****************************************************************************************************************************************************/
+/***/ "../../node_modules/querystring-es3/encode.js":
+/*!*************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/querystring-es3/encode.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3742,26 +3742,26 @@ var objectKeys = Object.keys || function (obj) {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/index.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/index.js ***!
-  \***************************************************************************************************************************************************/
+/***/ "../../node_modules/querystring-es3/index.js":
+/*!************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/querystring-es3/index.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/decode.js");
-exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/encode.js");
+exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "../../node_modules/querystring-es3/decode.js");
+exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "../../node_modules/querystring-es3/encode.js");
 
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react-dom/cjs/react-dom.development.js":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react-dom/cjs/react-dom.development.js ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "../../node_modules/react-dom/cjs/react-dom.development.js":
+/*!**************************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/react-dom/cjs/react-dom.development.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3783,19 +3783,19 @@ if (true) {
   (function() {
 'use strict';
 
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/invariant.js");
-var React = __webpack_require__(/*! react */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react/index.js");
-var warning = __webpack_require__(/*! fbjs/lib/warning */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/warning.js");
-var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/ExecutionEnvironment.js");
-var _assign = __webpack_require__(/*! object-assign */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/object-assign/index.js");
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyFunction.js");
-var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/prop-types/checkPropTypes.js");
-var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/getActiveElement.js");
-var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/shallowEqual.js");
-var containsNode = __webpack_require__(/*! fbjs/lib/containsNode */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/containsNode.js");
-var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyObject.js");
-var hyphenateStyleName = __webpack_require__(/*! fbjs/lib/hyphenateStyleName */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/hyphenateStyleName.js");
-var camelizeStyleName = __webpack_require__(/*! fbjs/lib/camelizeStyleName */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/camelizeStyleName.js");
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "../../node_modules/fbjs/lib/invariant.js");
+var React = __webpack_require__(/*! react */ "../../node_modules/react/index.js");
+var warning = __webpack_require__(/*! fbjs/lib/warning */ "../../node_modules/fbjs/lib/warning.js");
+var ExecutionEnvironment = __webpack_require__(/*! fbjs/lib/ExecutionEnvironment */ "../../node_modules/fbjs/lib/ExecutionEnvironment.js");
+var _assign = __webpack_require__(/*! object-assign */ "../../node_modules/object-assign/index.js");
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "../../node_modules/fbjs/lib/emptyFunction.js");
+var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "../../node_modules/prop-types/checkPropTypes.js");
+var getActiveElement = __webpack_require__(/*! fbjs/lib/getActiveElement */ "../../node_modules/fbjs/lib/getActiveElement.js");
+var shallowEqual = __webpack_require__(/*! fbjs/lib/shallowEqual */ "../../node_modules/fbjs/lib/shallowEqual.js");
+var containsNode = __webpack_require__(/*! fbjs/lib/containsNode */ "../../node_modules/fbjs/lib/containsNode.js");
+var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "../../node_modules/fbjs/lib/emptyObject.js");
+var hyphenateStyleName = __webpack_require__(/*! fbjs/lib/hyphenateStyleName */ "../../node_modules/fbjs/lib/hyphenateStyleName.js");
+var camelizeStyleName = __webpack_require__(/*! fbjs/lib/camelizeStyleName */ "../../node_modules/fbjs/lib/camelizeStyleName.js");
 
 // Relying on the `invariant()` implementation lets us
 // have preserve the format and params in the www builds.
@@ -21201,10 +21201,10 @@ module.exports = reactDom;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react-dom/index.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react-dom/index.js ***!
-  \*********************************************************************************************************************************************/
+/***/ "../../node_modules/react-dom/index.js":
+/*!******************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/react-dom/index.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21240,16 +21240,16 @@ function checkDCE() {
 }
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react-dom/cjs/react-dom.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "../../node_modules/react-dom/cjs/react-dom.development.js");
 }
 
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react/cjs/react.development.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react/cjs/react.development.js ***!
-  \*********************************************************************************************************************************************************/
+/***/ "../../node_modules/react/cjs/react.development.js":
+/*!******************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/react/cjs/react.development.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21271,12 +21271,12 @@ if (true) {
   (function() {
 'use strict';
 
-var _assign = __webpack_require__(/*! object-assign */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/object-assign/index.js");
-var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/invariant.js");
-var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyObject.js");
-var warning = __webpack_require__(/*! fbjs/lib/warning */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/warning.js");
-var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/fbjs/lib/emptyFunction.js");
-var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/prop-types/checkPropTypes.js");
+var _assign = __webpack_require__(/*! object-assign */ "../../node_modules/object-assign/index.js");
+var invariant = __webpack_require__(/*! fbjs/lib/invariant */ "../../node_modules/fbjs/lib/invariant.js");
+var emptyObject = __webpack_require__(/*! fbjs/lib/emptyObject */ "../../node_modules/fbjs/lib/emptyObject.js");
+var warning = __webpack_require__(/*! fbjs/lib/warning */ "../../node_modules/fbjs/lib/warning.js");
+var emptyFunction = __webpack_require__(/*! fbjs/lib/emptyFunction */ "../../node_modules/fbjs/lib/emptyFunction.js");
+var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "../../node_modules/prop-types/checkPropTypes.js");
 
 // TODO: this is special because it gets imported during build.
 
@@ -22744,10 +22744,10 @@ module.exports = react;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react/index.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react/index.js ***!
-  \*****************************************************************************************************************************************/
+/***/ "../../node_modules/react/index.js":
+/*!**************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/react/index.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22755,16 +22755,16 @@ module.exports = react;
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react/cjs/react.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "../../node_modules/react/cjs/react.development.js");
 }
 
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/sockjs-client/dist/sockjs.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/sockjs-client/dist/sockjs.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ "../../node_modules/sockjs-client/dist/sockjs.js":
+/*!****************************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/sockjs-client/dist/sockjs.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28521,30 +28521,30 @@ module.exports = URL;
 
 //# sourceMappingURL=sockjs.js.map
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "../../node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/strip-ansi/index.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/strip-ansi/index.js ***!
-  \**********************************************************************************************************************************************/
+/***/ "../../node_modules/strip-ansi/index.js":
+/*!*******************************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/strip-ansi/index.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-const ansiRegex = __webpack_require__(/*! ansi-regex */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/ansi-regex/index.js");
+const ansiRegex = __webpack_require__(/*! ansi-regex */ "../../node_modules/ansi-regex/index.js");
 
 module.exports = input => typeof input === 'string' ? input.replace(ansiRegex(), '') : input;
 
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/url/url.js":
-/*!*************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/url/url.js ***!
-  \*************************************************************************************************************************************/
+/***/ "../../node_modules/url/url.js":
+/*!**********************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/url/url.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28572,8 +28572,8 @@ module.exports = input => typeof input === 'string' ? input.replace(ansiRegex(),
 
 
 
-var punycode = __webpack_require__(/*! punycode */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/node-libs-browser/node_modules/punycode/punycode.js");
-var util = __webpack_require__(/*! ./util */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/url/util.js");
+var punycode = __webpack_require__(/*! punycode */ "../../node_modules/node-libs-browser/node_modules/punycode/punycode.js");
+var util = __webpack_require__(/*! ./util */ "../../node_modules/url/util.js");
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -28648,7 +28648,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(/*! querystring */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/querystring-es3/index.js");
+    querystring = __webpack_require__(/*! querystring */ "../../node_modules/querystring-es3/index.js");
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -29285,10 +29285,10 @@ Url.prototype.parseHost = function() {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/url/util.js":
-/*!**************************************************************************************************************************************!*\
-  !*** /home/ubuntu/.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/url/util.js ***!
-  \**************************************************************************************************************************************/
+/***/ "../../node_modules/url/util.js":
+/*!***********************************************************************!*\
+  !*** /home/ubuntu/workspace/bc-exercise-cli/node_modules/url/util.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29313,7 +29313,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:8080":
+/***/ "../../node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:8080":
 /*!*******************************************************!*\
   !*** (webpack)-dev-server/client?http://0.0.0.0:8080 ***!
   \*******************************************************/
@@ -29326,11 +29326,11 @@ module.exports = {
 /* global __resourceQuery WorkerGlobalScope self */
 /* eslint prefer-destructuring: off */
 
-var url = __webpack_require__(/*! url */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/url/url.js");
-var stripAnsi = __webpack_require__(/*! strip-ansi */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/strip-ansi/index.js");
-var log = __webpack_require__(/*! loglevel */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/loglevel/lib/loglevel.js").getLogger('webpack-dev-server');
-var socket = __webpack_require__(/*! ./socket */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack-dev-server/client/socket.js");
-var overlay = __webpack_require__(/*! ./overlay */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack-dev-server/client/overlay.js");
+var url = __webpack_require__(/*! url */ "../../node_modules/url/url.js");
+var stripAnsi = __webpack_require__(/*! strip-ansi */ "../../node_modules/strip-ansi/index.js");
+var log = __webpack_require__(/*! loglevel */ "../../node_modules/loglevel/lib/loglevel.js").getLogger('webpack-dev-server');
+var socket = __webpack_require__(/*! ./socket */ "../../node_modules/webpack-dev-server/client/socket.js");
+var overlay = __webpack_require__(/*! ./overlay */ "../../node_modules/webpack-dev-server/client/overlay.js");
 
 function getCurrentScriptSource() {
   // `document.currentScript` is the most accurate way to find the current script,
@@ -29409,7 +29409,7 @@ var onSocketMsg = {
     sendMsg('StillOk');
   },
   'log-level': function logLevel(level) {
-    var hotCtx = __webpack_require__("../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/hot sync ^\\.\\/log$");
+    var hotCtx = __webpack_require__("../../node_modules/webpack/hot sync ^\\.\\/log$");
     if (hotCtx.keys().indexOf('./log') !== -1) {
       hotCtx('./log').setLogLevel(level);
     }
@@ -29540,7 +29540,7 @@ function reloadApp() {
   if (_hot) {
     log.info('[WDS] App hot update...');
     // eslint-disable-next-line global-require
-    var hotEmitter = __webpack_require__(/*! webpack/hot/emitter */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/hot/emitter.js");
+    var hotEmitter = __webpack_require__(/*! webpack/hot/emitter */ "../../node_modules/webpack/hot/emitter.js");
     hotEmitter.emit('webpackHotUpdate', currentHash);
     if (typeof self !== 'undefined' && self.window) {
       // broadcast update to window
@@ -29573,7 +29573,7 @@ function reloadApp() {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack-dev-server/client/overlay.js":
+/***/ "../../node_modules/webpack-dev-server/client/overlay.js":
 /*!**********************************************!*\
   !*** (webpack)-dev-server/client/overlay.js ***!
   \**********************************************/
@@ -29586,8 +29586,8 @@ function reloadApp() {
 // The error overlay is inspired (and mostly copied) from Create React App (https://github.com/facebookincubator/create-react-app)
 // They, in turn, got inspired by webpack-hot-middleware (https://github.com/glenjamin/webpack-hot-middleware).
 
-var ansiHTML = __webpack_require__(/*! ansi-html */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/ansi-html/index.js");
-var Entities = __webpack_require__(/*! html-entities */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/html-entities/index.js").AllHtmlEntities;
+var ansiHTML = __webpack_require__(/*! ansi-html */ "../../node_modules/ansi-html/index.js");
+var Entities = __webpack_require__(/*! html-entities */ "../../node_modules/html-entities/index.js").AllHtmlEntities;
 
 var entities = new Entities();
 
@@ -29710,7 +29710,7 @@ exports.showMessage = function handleMessage(messages) {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack-dev-server/client/socket.js":
+/***/ "../../node_modules/webpack-dev-server/client/socket.js":
 /*!*********************************************!*\
   !*** (webpack)-dev-server/client/socket.js ***!
   \*********************************************/
@@ -29720,7 +29720,7 @@ exports.showMessage = function handleMessage(messages) {
 "use strict";
 
 
-var SockJS = __webpack_require__(/*! sockjs-client/dist/sockjs */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/sockjs-client/dist/sockjs.js");
+var SockJS = __webpack_require__(/*! sockjs-client/dist/sockjs */ "../../node_modules/sockjs-client/dist/sockjs.js");
 
 var retries = 0;
 var sock = null;
@@ -29767,7 +29767,7 @@ module.exports = socket;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/buildin/global.js":
+/***/ "../../node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -29798,7 +29798,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/buildin/module.js":
+/***/ "../../node_modules/webpack/buildin/module.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
   \***********************************/
@@ -29831,7 +29831,7 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/hot sync ^\\.\\/log$":
+/***/ "../../node_modules/webpack/hot sync ^\\.\\/log$":
 /*!*************************************************!*\
   !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
   \*************************************************/
@@ -29839,7 +29839,7 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./log": "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/hot/log.js"
+	"./log": "../../node_modules/webpack/hot/log.js"
 };
 
 
@@ -29861,24 +29861,24 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/hot sync ^\\.\\/log$";
+webpackContext.id = "../../node_modules/webpack/hot sync ^\\.\\/log$";
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/hot/emitter.js":
+/***/ "../../node_modules/webpack/hot/emitter.js":
 /*!********************************!*\
   !*** (webpack)/hot/emitter.js ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var EventEmitter = __webpack_require__(/*! events */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/events/events.js");
+var EventEmitter = __webpack_require__(/*! events */ "../../node_modules/events/events.js");
 module.exports = new EventEmitter();
 
 
 /***/ }),
 
-/***/ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack/hot/log.js":
+/***/ "../../node_modules/webpack/hot/log.js":
 /*!****************************!*\
   !*** (webpack)/hot/log.js ***!
   \****************************/
@@ -29936,57 +29936,51 @@ module.exports.setLogLevel = function(level) {
 
 /***/ }),
 
-/***/ "./exercises/01-hello-world/index.js":
-/*!*******************************************!*\
-  !*** ./exercises/01-hello-world/index.js ***!
-  \*******************************************/
+/***/ "./exercises/03-separate-files/index.js":
+/*!**********************************************!*\
+  !*** ./exercises/03-separate-files/index.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.WhatToRender = undefined;
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "../../node_modules/react/index.js"));
 
-var _react = __webpack_require__(/*! react */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react/index.js");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(/*! react-dom */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react-dom/index.js");
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
+var _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ "../../node_modules/react-dom/index.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//we use ReactDOM to render into the DOM
-
-// This function returns a string that will be rendered
-var WhatToRender = exports.WhatToRender = function WhatToRender() {
-    return 'Hello Worlds';
-};
-
-//A DOM element were react will render the image
-//Main React.js library
-
-var myDiv = document.querySelector('#myDiv');
-
-//what           //where
-_reactDom2.default.render(WhatToRender(), myDiv);
+/**
+ * here you need to import the variable that was exported
+ * by default on WhatToRender.js
+ * 
+ * Use this syntax:
+ * import <variable_name> from '<path_to_file>';
+ * 
+ * You can pick any variable_name that you want, 
+ * but you should stick to the original variable name that is being exported from the other file (best practice)
+ * 
+ * The path_to_file has to be wrapped in quotes and starting with a dot or double dots depending on the file path.
+ * For example:
+ * import MySuperVariable from './path/to/file.js';
+ */
+// YOUR CODE HERE
+//fake html tag           //where
+_reactDom.default.render(_react.default.createElement(WhatToRender, null), document.querySelector('#myDiv'));
 
 /***/ }),
 
 /***/ 0:
-/*!***********************************************************************************************!*\
-  !*** multi ./exercises/01-hello-world/index.js webpack-dev-server/client?http://0.0.0.0:8080 ***!
-  \***********************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** multi ./exercises/03-separate-files/index.js webpack-dev-server/client?http://0.0.0.0:8080 ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./exercises/01-hello-world/index.js */"./exercises/01-hello-world/index.js");
-module.exports = __webpack_require__(/*! webpack-dev-server/client?http://0.0.0.0:8080 */"../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:8080");
+__webpack_require__(/*! ./exercises/03-separate-files/index.js */"./exercises/03-separate-files/index.js");
+module.exports = __webpack_require__(/*! webpack-dev-server/client?http://0.0.0.0:8080 */"../../node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:8080");
 
 
 /***/ })
