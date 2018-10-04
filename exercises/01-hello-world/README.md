@@ -28,7 +28,7 @@ ReactDOM.render(whatToRender(), myDiv);
 ```
 
 The function `ReactDOM.render` will set the innerHTML of `myDiv` to contain what the function `whatToRender` returns, very similar to how innerHTML works:
-```
+```js
 //This is how you would do it without react.
 myDiv.innerHTML = whatToRender();
 

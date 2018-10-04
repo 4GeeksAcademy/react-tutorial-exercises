@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const WhatToRender = () => {
-    return 'Hello Worldd';
+export const WhatToRender = () => {
+    return 'I Love React';
 };
 
 const myDiv = document.querySelector('#myDiv');

@@ -8,7 +8,7 @@ One of the things we can do thanks to JSX is calling functions like they are HTM
 ```js
 // if we declare a function MyFunction
 const MyFunction = () => {
-    return 'hello world'
+    return 'I Love React'
 }
 
 // we can call the function as an HTML tag like this:

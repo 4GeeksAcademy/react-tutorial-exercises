@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "a2ce7094ec676568b780";
+/******/ 	var hotCurrentHash = "f2b559a321e0e7eb97f8";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -29936,15 +29936,20 @@ module.exports.setLogLevel = function(level) {
 
 /***/ }),
 
-/***/ "./exercises/02-jsx-syntax/index.js":
-/*!******************************************!*\
-  !*** ./exercises/02-jsx-syntax/index.js ***!
-  \******************************************/
+/***/ "./exercises/01-hello-world/index.js":
+/*!*******************************************!*\
+  !*** ./exercises/01-hello-world/index.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.WhatToRender = undefined;
 
 var _react = __webpack_require__(/*! react */ "../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/react/index.js");
 
@@ -29956,25 +29961,31 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var WhatToRender = function WhatToRender() {
-    return 'Hello Worldd';
+//we use ReactDOM to render into the DOM
+
+// This function returns a string that will be rendered
+var WhatToRender = exports.WhatToRender = function WhatToRender() {
+    return 'Hello Worlds';
 };
+
+//A DOM element were react will render the image
+//Main React.js library
 
 var myDiv = document.querySelector('#myDiv');
 
-// change the syntaxt of the first parameter to make it <WhatToRender /> instead of WhatToRender()
+//what           //where
 _reactDom2.default.render(WhatToRender(), myDiv);
 
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************!*\
-  !*** multi ./exercises/02-jsx-syntax/index.js webpack-dev-server/client?http://0.0.0.0:8080 ***!
-  \**********************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** multi ./exercises/01-hello-world/index.js webpack-dev-server/client?http://0.0.0.0:8080 ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./exercises/02-jsx-syntax/index.js */"./exercises/02-jsx-syntax/index.js");
+__webpack_require__(/*! ./exercises/01-hello-world/index.js */"./exercises/01-hello-world/index.js");
 module.exports = __webpack_require__(/*! webpack-dev-server/client?http://0.0.0.0:8080 */"../../.nvm/versions/node/v8.11.4/lib/node_modules/breathecode-cli/node_modules/bc-exercise-cli/node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:8080");
 
 
