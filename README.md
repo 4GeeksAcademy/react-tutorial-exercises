@@ -29,5 +29,5 @@ To start the coding editor and read the instructions run the following command:
 $ bc run:exercises
 ```
 <p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
+  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
