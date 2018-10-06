@@ -1,6 +1,6 @@
-# `01.3` Render with Functions
+# `02` Render with Functions
 
-You can also use functions to render HTML, that is the most used practice when developing because it lets you create boilerplates and re-use your code a lot, e.g:
+You can also use functions to render HTML, that is the most used practice because it lets you create boilerplates and re-use your code a lot, e.g:
 
 ```js
 
@@ -28,7 +28,7 @@ myDiv.innerHTML = whatToRender();
 ReactDOM.render(whatToRender(), myDiv);
 ```
 
-# Instructions
+# :speech_balloon: Instructions
 
 Open the `01.3-render-with-functions/index.js` file and take some time to understand it.
 Then, make the function __whatToRender__ return `<h1>I Love React</h1>` instead of `<h1>Hello World</h1>`.

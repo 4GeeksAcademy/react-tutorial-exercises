@@ -20,6 +20,6 @@ MyFunction();
 
 When you call a function like that, it becomes a **"React component"**, which is a function that generates (returns) HTML dynamically. Whatever the function returns will be replaced in the same place the original `<MyFunction />` was placed.
 
-## Instructions
+## :speech_balloon: Instructions
 
 On the line 11th of index.js, change the way the function is called, call the function as a **"React component"** (using the JSX syntax) instead of parentheses.

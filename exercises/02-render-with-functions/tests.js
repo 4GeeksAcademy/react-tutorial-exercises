@@ -9,7 +9,7 @@ test('ReactDOM needs to be called once', () => {
     expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test('The component should return <h1>I Love React</h1>', () => {
+test('The component should return return the exact HTML', () => {
     const tree = renderer
         .create(ReactDOM.render.mock.calls[0][0])
         .toJSON();

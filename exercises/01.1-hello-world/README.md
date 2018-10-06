@@ -33,8 +33,8 @@ myDiv.innerHTML = '<span> James is 12 years old </span>';
 // This is hot you would do it with react.
 ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 ```
-
-# Instructions
+  
+# :speech_balloon: Instructions
 
 Open the `01.1-hello-world/index.js` file and take some time to understand it.
 Then, change variable __output__ to:

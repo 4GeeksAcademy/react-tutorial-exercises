@@ -1,17 +1,19 @@
 # `01.2` Hello JSX
 
-JSX also allows you easily include variables into your HTML, e.g:
+JSX also allows you easily include variables into your HTML, for example, lets asume that you have the following variable available:
 
 ```js
 let age = 12;
 ```
 
-We can create the following HTML varilable
+If you want to include the value of that variable into your HTML code dynamically, you can do it like this:
 ```jsx
 let output = <span> James is { age } years old </span>
 ```
+Note the position curly brackets `{` and `}` wraping the variable.
 
-And then render it using ReactDOM.render like this:
+Then, we can render the **output** variable content using `ReactDOM.render` like this:
+
 ```jsx
 // use react-dom to render it into the DOM
 import ReactDOM from 'react-dom';
@@ -23,11 +25,11 @@ The ultimate output in the HTML document will be:
 <span>James is 12 years old</span>
 ```
 
-Basically, we are now ably too mix HTML and JS in the same file without having to concatenate and use strings.
+Basically, we are now able too mix HTML and JS in the same file without having to concatenate and use strings.
 
-#### Amazing! right?
+#### :smiley: Amazing! :angry: right?
 
-## Instructions
+## :speech_balloon: Instructions
 
 The index.js file contains now a varilable `name` that can contain any value.
 

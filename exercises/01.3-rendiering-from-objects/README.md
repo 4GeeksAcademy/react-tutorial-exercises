@@ -1,6 +1,6 @@
 # `01.3` Rendering from objects
 
-Now lets use a more cmplex variable to render our HTML, let's say we have the following JS Object containing a customer information:
+Now lets use a more complex variable to render our HTML, let's say we have the following JS Object containing a customer information:
 
 ```js
 const customer = {
@@ -13,9 +13,9 @@ To retrieve any property from the `Customer` object we have to use the dot `.` o
 
 ```js
 console.log(customer.first_name); // will print "Bob" on the console.
-```
-
-# Instructions
+```  
+  
+# :speech_balloon: Instructions
 
 Open the `01.3-rendering-from-object/index.js` and create the necesary code to make your file render the following output into the DOM:
 
