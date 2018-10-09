@@ -14,5 +14,5 @@ test('The component should return what LITERALLY what was asked', () => {
         .create(ReactDOM.render.mock.calls[0][0])
         .toJSON();
         console.log(tree);
-    expect(tree).toMatchSnapshot();
+    expect(tree).toMatchInlineSnapshot();
 });

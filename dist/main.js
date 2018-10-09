@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "ff1456031dc7f5fe9529";
+/******/ 	var hotCurrentHash = "d844bc0185484c0ce577";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -29936,20 +29936,15 @@ module.exports.setLogLevel = function(level) {
 
 /***/ }),
 
-/***/ "./exercises/02-render-with-functions/index.js":
-/*!*****************************************************!*\
-  !*** ./exercises/02-render-with-functions/index.js ***!
-  \*****************************************************/
+/***/ "./exercises/01.1-hello-world/index.js":
+/*!*********************************************!*\
+  !*** ./exercises/01.1-hello-world/index.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.WhatToRender = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "../../node_modules/react/index.js"));
 
@@ -29959,26 +29954,24 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 //Main React.js library
 //we use ReactDOM to render into the DOM
-// This function returns a string that will be rendered
-var WhatToRender = function WhatToRender() {
-  return _react.default.createElement("h1", null, "Hello World");
-}; //what           //where
+// WHAT: This variable returns contains the html to render
+var output = _react.default.createElement("span", null, "James is ", _react.default.createElement("strong", null, "12"), " years old"); // WHERE: A DOM element that will contain the entire react generated html
 
 
-exports.WhatToRender = WhatToRender;
+var myDiv = document.querySelector("#myDiv"); //what   //where
 
-_reactDom.default.render(WhatToRender(), document.querySelector("#myDiv"));
+_reactDom.default.render(output, myDiv);
 
 /***/ }),
 
 /***/ 0:
-/*!*********************************************************************************************************!*\
-  !*** multi ./exercises/02-render-with-functions/index.js webpack-dev-server/client?http://0.0.0.0:8080 ***!
-  \*********************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** multi ./exercises/01.1-hello-world/index.js webpack-dev-server/client?http://0.0.0.0:8080 ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./exercises/02-render-with-functions/index.js */"./exercises/02-render-with-functions/index.js");
+__webpack_require__(/*! ./exercises/01.1-hello-world/index.js */"./exercises/01.1-hello-world/index.js");
 module.exports = __webpack_require__(/*! webpack-dev-server/client?http://0.0.0.0:8080 */"../../node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:8080");
 
 

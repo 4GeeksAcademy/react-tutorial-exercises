@@ -1,4 +1,4 @@
-# `01.4` Your first component
+# `02.1` Your first component
 
 When you create functions that output HTML, JSX will let you treat them as **"Components"**, basically they will become your own custom HTML tags.
 
@@ -8,7 +8,7 @@ One of the things we can do thanks to JSX is calling functions like they are HTM
 ```js
 // if we declare a function MyFunction
 const MyFunction = () => {
-    return 'I Love React'
+    return <h1>I Love React</h1>;
 }
 
 // we can call the function as an HTML tag like this:
