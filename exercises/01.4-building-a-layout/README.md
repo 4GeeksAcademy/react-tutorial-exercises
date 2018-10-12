@@ -2,15 +2,15 @@
 
 Let's practice a little bit more about using JSX for creating HTML.
 
-Now we have another object that is jsut a bit more complex that the last one.
+Now we have another object that is just a bit more complex that the last one.
 
 # :speech_balloon: Instructions
 
-Using the information you have on the `postcard` object build this small postcard.
+Using the information you have on the `data` object build this small card.
 
 ```js
 const data = {
-  backgroundImage: "https://assets.breatheco.de/apis/img/images.php?blob&tags=bobdylan",
+  backgroundImage: "/asset/bobdylan.png",
   cardTitle: "Bob Dylan",
   cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
   button: {
@@ -31,6 +31,7 @@ const data = {
   </div>
 </div>
 ````
+Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
 
 ### This is how your end result needs to look like:
 

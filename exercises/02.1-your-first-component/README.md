@@ -1,6 +1,6 @@
 # `02.1` Your first component
 
-When you create functions that output HTML, JSX will let you treat them as **"Components"**, basically they will become your own custom HTML tags.
+When you create functions that return HTML, JSX will let you treat them as **"Components"**, basically they will become your own custom HTML tags.
 
 ## Creating our first Component
 

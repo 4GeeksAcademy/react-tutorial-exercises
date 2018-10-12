@@ -12,17 +12,20 @@ let output = <span> James is { age } years old </span>
 ```
 Note the position curly brackets `{` and `}` wraping the variable.
 
-Then, we can render the **output** variable content using `ReactDOM.render` like this:
+Then, we can render the everything in the website content using `ReactDOM.render` like this:
 
 ```jsx
 // use react-dom to render it into the DOM
 import ReactDOM from 'react-dom';
-ReactDOM.render(output, document.querySelector('css_selector'));
+               //render output      //inside the innerHTML of #myDiv
+ReactDOM.render(output,             document.querySelector('#myDiv'));
 ```
 
-The ultimate output in the HTML document will be:
+The resulting website HTML document will look like this be:
 ```html
-<span>James is 12 years old</span>
+<div id="myDiv">
+    <span>James is 12 years old</span>
+</div>
 ```
 
 Basically, we are now able too mix HTML and JS in the same file without having to concatenate and use strings.
@@ -31,6 +34,6 @@ Basically, we are now able too mix HTML and JS in the same file without having t
 
 ## :speech_balloon: Instructions
 
-The index.js file contains now a varilable `name` that can contain any value.
+The index.js file has varilable called `name` that can contain a name.
 
-Please include that variable inside the output instead of `"James"`.
+Please include that variable inside the react output, replace the variable with the hard coded `"James"`.

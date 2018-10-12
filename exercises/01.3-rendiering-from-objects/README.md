@@ -17,9 +17,9 @@ console.log(customer.first_name); // will print "Bob" on the console.
   
 # :speech_balloon: Instructions
 
-Open the `01.3-rendering-from-object/index.js` and create the necesary code to make your file render the following output into the DOM:
+Open the `index.js` and create the necesary code to make your file render the following output into the DOM:
 
-```
+```jsx
 <div>
     <h1>My name is Bob</h1>
     <h2>My las name is Dylan</h2>

@@ -1,3 +1,5 @@
+![4Geeks Logo](/asset/logo.png)
+
 # `01` Welcome
 
 Hello. We are very excited to have you here !! :tada: :joy:

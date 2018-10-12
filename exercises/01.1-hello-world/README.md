@@ -1,10 +1,12 @@
 # `01.1` Hello World
 
-Today's bigest pain for front-end developers is **working with the DOM** something that React.js does best.
+Today's bigest pain for front-end developers is **working with the DOM** for create dynamic HTML, something that React.js does best.
 
-React.js it's a rendering engine/library, its main goal is to save us (the developers) time while creating dynamic HTML.
+React.js it's a rendering library made to optimize the DOM: Developers save time the browser is faster.
 
-The library comes with a function called **ReactDOM.render** that receives two parameters:
+The library comes with a function called **ReactDOM.render** that you can see like a replacement for the classic [innerHTML property](https://www.w3schools.com/jsref/prop_html_innerhtml.asp).
+
+`ReactDOM.render` receives two parameters:
 
 1. What to render.
 2. Where to render it.
@@ -22,10 +24,10 @@ let output = <span> James is 12 years old </span>
 const myDiv = document.querySelector('#myDiv');
 
                //what           //where
-ReactDOM.render(whatToRender(), myDiv);
+ReactDOM.render(output, myDiv);
 ```
 
-The function `ReactDOM.render` will set the innerHTML of `myDiv` (any DOM element) to be whatever the variable `output` contains, very similar to how `innerHTML` works:
+The function `ReactDOM.render` will set the innerHTML of `myDiv` (a DOM element) to be whatever the variable `output` contains, very similar to how `innerHTML` works:
 ```js
 //This is how you would do it without react.
 myDiv.innerHTML = '<span> James is 12 years old </span>';
