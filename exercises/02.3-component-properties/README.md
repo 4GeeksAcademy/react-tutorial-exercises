@@ -1,6 +1,6 @@
 # `02.3` Component Properties
 
-Your bootstrap card right is [hard coded](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) for **Bob Dylan**. What if we also what to use the `<BootstrapCard />` component for **Paul Mccartney**
+The BootstrapCard you just made right now is [hard coded](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) for **Bob Dylan** only. What if we also want to use the `<BootstrapCard />` component for **Paul Mccartney**?
 
 ## Using properties in HTML
 
@@ -16,10 +16,10 @@ When you use the **anchor** tag (`<a>`) you have to specify the **href** propery
 In React js we also can create our own tags and use our own invented properties, for example we could specify the `title` property of our `<BootstrapCard />` like this:
 
 ```jsx
-//for Paul Mccartney
+               //for Paul Mccartney
 <BootstrapCard title="Paul Mccartney" />
 
-//for Bob Dylan
+               //for Bob Dylan
 <BootstrapCard title="Bob Dylan" />
 ```
 
@@ -38,6 +38,15 @@ const BootstrapCard = (property) => {
 }
 ```
 
+Lastly, we also have to specify what properties component will receive (name and type of propertie), [here you can read more about prop-types](https://reactjs.org/docs/typechecking-with-proptypes.html). e.g:
+
+```js
+// here we are specifing that this component will receive the propertie "title" and it will be a string.
+BootstrapCard.propTypes = {
+	title: PropType.string
+};
+```
+
 # :speech_balloon: Instructions
 
-Please add the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` inside the **BootstrapCard** function and on the `<BootstrapCard />`, the same way title was already included in both.
+Please add/use the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` properties inside the **BootstrapCard** function and olsa on the `<BootstrapCard />` tag. Do it the same way `title` was already included in both.

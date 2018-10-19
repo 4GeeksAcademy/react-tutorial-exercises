@@ -1,20 +1,24 @@
 import React from "react"; //Main React.js library
 import ReactDOM from "react-dom"; //we use ReactDOM to render into the DOM
 
-const data = {
-	backgroundImage: "/asset/bobdylan.png",
-	cardTitle: "Bob Dylan",
-	cardDescription:
-		"Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
-	button: {
-		url: "https://en.wikipedia.org/wiki/Bob_Dylan",
-		label: "Go to wikipedia"
-	}
-};
+// only update the value of this array
+const dropdownItems = [];
 
-/**
- * define the variable 'content' here and fill it with the
- * needed code to render the bootstrap card
- **/
+const content = (
+	<div className="dropdown">
+		<button
+			className="btn btn-secondary dropdown-toggle"
+			type="button"
+			id="dropdownMenuButton"
+			data-toggle="dropdown"
+			aria-haspopup="true"
+			aria-expanded="false">
+			Dropdown button
+		</button>
+		<div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			{dropdownItems}
+		</div>
+	</div>
+);
 
 ReactDOM.render(content, document.querySelector("#myDiv"));

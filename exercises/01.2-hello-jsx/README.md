@@ -21,16 +21,14 @@ import ReactDOM from 'react-dom';
 ReactDOM.render(output,             document.querySelector('#myDiv'));
 ```
 
-The resulting website HTML document will look like this be:
+The resulting website HTML document will look like this:
 ```html
 <div id="myDiv">
     <span>James is 12 years old</span>
 </div>
 ```
 
-Basically, we are now able too mix HTML and JS in the same file without having to concatenate and use strings.
-
-#### :smiley: Amazing! :angry: right?
+Basically, we are now able too mix HTML and JS in the same file without having to concatenate and use strings. :smiley: Amazing! :angry: right?
 
 ## :speech_balloon: Instructions
 

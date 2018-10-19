@@ -1,10 +1,6 @@
 # `01.5` Building from arrays
 
-But what if instead of the data being an object, we have an array? Like for example if we have an array of names and we need to render a list of `<li>` with those names.
-
-## :sunglasses: We have to loop my friend :sunglasses:
-
-JSX allow us to have arrays of HTML elements like this:
+But what if instead of the data being an object, we have an array? Like for example if we have an array of <li> we can include all of them into the document at once like this:
 
 ```jsx
 const namesInHTML = [
@@ -13,29 +9,41 @@ const namesInHTML = [
   <li>Shazam Nikola</li>,
   <li>Wilibin Walabam</li>
 ];
+
+const content = <ul>{namesInHTML}</ul>;
+
+ReactDOM.render(content, document.querySelector("#myDiv"));
 ```
 
-And include them all together inside the website using the variable namesInHTML and the ReactDOM.render method like always:
-
-```js
-               //the array    //where to render it
-ReactDOM.render(namesInHTML, document.querySelector("#myDiv"));
-```
-
-The resulting HTML on the website will be like this:
+The resulting HTML on the website will be:
 ```html
 <div id="myDiv">
-  <li>Bob Dust</li>
-  <li>Fredy Mercury</li>
-  <li>Shazam Nikola</li>
-  <li>Wilibin Walabam</li>
+  <ul>
+    <li>Bob Dust</li>
+    <li>Fredy Mercury</li>
+    <li>Shazam Nikola</li>
+    <li>Wilibin Walabam</li>
+  </ul>
 </div>
 ```
 
 # :speech_balloon: Instructions
 
-Use the map function to generate an new array of <li> animals based on this original array:
+Lets say that we want react to render into the document the following output:
 
-```js
-const animals = [ 'Horse', 'Turtle', 'Elephan', 'Monkey' ];
+```html
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
 ```
+
+Update the `dropdownItems` array to make the current code output what we want.
+
+Note: you only have to update the `dropdownItems` array, nothing else.

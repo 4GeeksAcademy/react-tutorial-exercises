@@ -2,7 +2,7 @@
 
 Everything on web development is becoming "component driven", there are [Bootstrap components](https://getbootstrap.com/docs/4.0/components/buttons/), [jQuery Components](https://jqueryui.com/), etc.
 
-Lets grab the typical code for a Bootstrap Card Components (like the one we use on `01.4`) and make it a React.js component that we can reuse.
+Lets grab the typical code for a Bootstrap Card Component (like the one we use on `01.4`) and make it a React.js component that we can reuse.
 
 Here is the code for a bootstrap card:
 
