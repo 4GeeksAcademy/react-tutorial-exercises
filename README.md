@@ -30,6 +30,7 @@ Each exercise is a small react application containing the following files:
 To start the coding editor and read the instructions run the following command:
 
 ```sh
+$ npm i jest -g
 $ bc run:exercises
 ```
 <p align="center">
