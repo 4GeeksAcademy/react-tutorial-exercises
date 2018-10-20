@@ -6,7 +6,11 @@
     <h2 align="center"> React Exercises at 4Geeks Academy (beta) </h2>
 </p>
 
-Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8
+Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+```
+This is the command to install the breathecode-cli
+$ npm i breathecode-cli -g
+```
 
 To download the react exercises run:
 ```
