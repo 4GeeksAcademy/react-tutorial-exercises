@@ -1,0 +1,9 @@
+*
+*/
+!.gitignore
+_app
+_assets
+exercises
+bc.json
+preview.gif
+README.md
