@@ -1,48 +1,50 @@
+import ReactDOM from "react-dom";
+import { WhatToRender } from "./index";
+import renderer from "react-test-renderer";
 
-import ReactDOM from 'react-dom';
-import { WhatToRender } from './index';
-import renderer from 'react-test-renderer';
+jest.mock("react-dom", () => ({ render: jest.fn() }));
 
-jest.mock('react-dom', () => ({ render: jest.fn() }));
-
-test('ReactDOM needs to be called once', () => {
-    expect(ReactDOM.render.mock.calls.length).toBe(1);
+test("ReactDOM.render needs to be called once", () => {
+  expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test('The component should return return the exact HTML', () => {
-    const tree = renderer
-        .create(ReactDOM.render.mock.calls[0][0])
-        .toJSON();
-        console.log(tree);
-    expect(tree).toMatchInlineSnapshot(`
-<div
-  className="card col-3 mx-auto"
+test("The component should return return the exact HTML", () => {
+  const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
+  console.log(tree);
+  expect(tree).toMatchInlineSnapshot(`
+<ul
+  className="list-group m-5"
 >
-  <img
-    alt="Card image cap"
-    className="card-img-top"
-    src="https://assets.breatheco.de/apis/img/images.php?blob&tags=bobdylan"
-  />
-  <div
-    className="card-body"
+  <li
+    className="list-group-item"
   >
-    <h5
-      className="card-title"
-    >
-      Bob Dylan
-    </h5>
-    <p
-      className="card-text"
-    >
-      Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.
-    </p>
-    <a
-      className="btn btn-primary"
-      href="https://en.wikipedia.org/wiki/Bob_Dylan"
-    >
-      Go to wikipedia
-    </a>
-  </div>
-</div>
+    Mars
+  </li>
+  <li
+    className="list-group-item"
+  >
+    Venus
+  </li>
+  <li
+    className="list-group-item"
+  >
+    Jupiter
+  </li>
+  <li
+    className="list-group-item"
+  >
+    Earth
+  </li>
+  <li
+    className="list-group-item"
+  >
+    Saturn
+  </li>
+  <li
+    className="list-group-item"
+  >
+    Neptune
+  </li>
+</ul>
 `);
 });

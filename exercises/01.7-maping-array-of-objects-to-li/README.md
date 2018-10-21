@@ -1,6 +1,6 @@
 # `01.6` Mapping function
 
-When you are maping an array of data to convert it into an array of HTML you have to specify a **"mapping function"** that will receive each item from the original array, convert it and insert it on the new array. E.g:
+When you are maping an array of data to convert it into an array of HTML you have to specify a **"mapping function"** that will receive each item from the original array, transform it and insert it on the new array. E.g:
 
 ```js
 
@@ -25,7 +25,7 @@ const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
 Use the [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) and make your algorithm output the following HHTML:
 
 ```jsx
-<ul class="list-group">
+<ul class="list-group m-5">
   <li class="list-group-item">Mars</li>
   <li class="list-group-item">Venus</li>
   <li class="list-group-item">Jupiter</li>

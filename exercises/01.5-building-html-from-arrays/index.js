@@ -4,10 +4,6 @@ import ReactDOM from "react-dom"; //we use ReactDOM to render into the DOM
 // only update the value of this array
 const navlinkItems = [];
 
-const content = (
-	<ul class="nav">
-		{navlinkItems}
-	</ul>
-);
+const content = <ul className="nav">{navlinkItems}</ul>;
 
 ReactDOM.render(content, document.querySelector("#myDiv"));

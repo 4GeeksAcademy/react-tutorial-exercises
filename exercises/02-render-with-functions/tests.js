@@ -4,7 +4,7 @@ import renderer from "react-test-renderer";
 
 jest.mock("react-dom", () => ({ render: jest.fn() }));
 
-test("ReactDOM needs to be called once", () => {
+test("ReactDOM.render needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 

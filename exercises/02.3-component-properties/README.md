@@ -23,22 +23,19 @@ In React js we also can create our own tags and use our own invented properties,
 <BootstrapCard title="Bob Dylan" />
 ```
 
-Our component function will receive there title property thru the first parameter of the function like this:
+Our component function will receive all its properties (including title) thru the first param that we can call "props".
 
 ```jsx
-const BootstrapCard = (property) => {
+const BootstrapCard = (props) => {
   return <div class="card">
-    <img class="card-img-top" src="/asset/01.4-bobdylan-postcard.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">{property.title}</h5>
-      <p class="card-text">Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.</p>
-      <a href="https://en.wikipedia.org/wiki/Bob_Dylan" class="btn btn-primary">Go to wikipedia</a>
-    </div>
+    ...
+      <h5 class="card-title">{props.title}</h5>
+    ...
   </div>;
 }
 ```
 
-Lastly, we also have to specify what properties component will receive (name and type of propertie), [here you can read more about prop-types](https://reactjs.org/docs/typechecking-with-proptypes.html). e.g:
+To be able to work with component properties, you have to specify what properties the component will receive (the name and data-type of each property), [here you can read more about prop-types](https://reactjs.org/docs/typechecking-with-proptypes.html). e.g:
 
 ```js
 // here we are specifing that this component will receive the propertie "title" and it will be a string.
@@ -50,3 +47,10 @@ BootstrapCard.propTypes = {
 # :speech_balloon: Instructions
 
 Please add/use the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` properties inside the **BootstrapCard** function and olsa on the `<BootstrapCard />` tag. Do it the same way `title` was already included in both.
+
+#### :bulb: Hint
+
+- You have to edit 3 parts of the file (check the comments for help).
+- The first step will be to replace the hardcoded stuff with properties inside the component.
+- The second step will be to define those properties in the prop-types object in the line 23, [here is a video on how to do it](https://www.youtube.com/watch?v=oty7VGcXK44).
+- The third step will be to use ReactDOM to add the `<BootstrapCard>` tag declaration including the 5 properties and their respective values.

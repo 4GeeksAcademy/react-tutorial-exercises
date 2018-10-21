@@ -7,7 +7,7 @@ Lets grab the typical code for a Bootstrap Card Component (like the one we use o
 Here is the code for a bootstrap card:
 
 ```jsx
-<div class="card">
+<div class="card m-5">
   <img class="card-img-top" src="/asset/bobdylan.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Bob Dylan</h5>

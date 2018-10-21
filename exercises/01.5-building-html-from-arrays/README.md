@@ -1,6 +1,6 @@
 # `01.5` Building from arrays
 
-But what if instead of the data being an object, we have an array? Like for example if we have an array of <li> we can include all of them into the document at once like this:
+With JSX you can also create arrays of HTML items. E.g: If we have an array of `<li>` we can include all of them into the document at once like this:
 
 ```jsx
 const namesInHTML = [
@@ -47,7 +47,7 @@ Lets say that we want react to render into the document the following output:
 
 Update the `navlinkItems` array to make the current code output what we want.
 
-##### :bulb: Hint:
+#### :bulb: Hint:
 - You only have to update the `navlinkItems` array, nothing else.
 - React will ask you to use keys on each item of the array, [you can read more about it here](https://reactjs.org/docs/lists-and-keys.html#keys).
 - Remember to use `className` instead of `class`.
