@@ -32,18 +32,22 @@ The resulting HTML on the website will be:
 Lets say that we want react to render into the document the following output:
 
 ```html
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown button
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link to google.com</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link to facebook.com</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link to amazon.com</a>
+  </li>
+</ul>
 ```
 
-Update the `dropdownItems` array to make the current code output what we want.
+Update the `navlinkItems` array to make the current code output what we want.
 
-Note: you only have to update the `dropdownItems` array, nothing else.
+##### :bulb: Hint:
+- You only have to update the `navlinkItems` array, nothing else.
+- React will ask you to use keys on each item of the array, [you can read more about it here](https://reactjs.org/docs/lists-and-keys.html#keys).
+- Remember to use `className` instead of `class`.

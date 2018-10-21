@@ -16,7 +16,7 @@ test('The component should return return the exact HTML', () => {
         console.log(tree);
     expect(tree).toMatchInlineSnapshot(`
 <div
-  className="card col-3 mx-auto"
+  className="card m-5"
 >
   <img
     alt="Card image cap"
