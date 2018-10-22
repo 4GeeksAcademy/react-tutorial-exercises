@@ -12,7 +12,7 @@ This is the command to install the breathecode-cli
 $ npm i breathecode-cli -g
 ```
 
-To download the react exercises run:
+To download the react exercises in the current directory run:
 ```
 $ bc start:react-exercises -r
 ```
