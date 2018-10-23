@@ -14,7 +14,7 @@ const MyFunction = () => {
 // we can call the function as an HTML tag like this:
 <MyFunction />
 
-// instead of in the typical way using round brackets
+// instead of the typical way of using round brackets
 MyFunction();
 ```
 
