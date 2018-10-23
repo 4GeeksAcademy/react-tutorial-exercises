@@ -29,7 +29,7 @@ The resulting HTML on the website will be:
 
 # :speech_balloon: Instructions
 
-Lets say that we want react to render into the document the following output:
+Lets say that we want react to render the following output into the document:
 
 ```html
 <ul class="nav">

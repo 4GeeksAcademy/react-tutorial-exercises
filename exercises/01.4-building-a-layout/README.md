@@ -2,7 +2,7 @@
 
 Let's practice a little bit more about using JSX for creating HTML.
 
-Now we have another object that is just a bit more complex that the last one.
+Now we have another object that is just a bit more complex than the last one.
 
 # :speech_balloon: Instructions
 
@@ -12,14 +12,14 @@ Using the information you have on the `data` object build this small card.
 const data = {
   image: "/asset/bobdylan.png",
   cardTitle: "Bob Dylan",
-  cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
+  cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
   button: {
     url: "https://en.wikipedia.org/wiki/Bob_Dylan",
     label: "Go to wikipedia"
   }
 };
 ```
-### Here is the code HTML for creating a bootstrap card:
+### Here is the HTML code for creating a bootstrap card:
 
 ```html
 <div class="card m-5">

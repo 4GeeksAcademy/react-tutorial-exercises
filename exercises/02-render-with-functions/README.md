@@ -2,7 +2,7 @@
 
 JSX allows using functions to render HTML, and that is awesome!
 
-It is a strongly recomended practice because it lets you create templates and re-use your code, e.g:
+It is a strongly recommended practice because it lets you create templates and re-use your code, e.g:
 
 ```js
 

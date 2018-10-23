@@ -13,7 +13,7 @@ Using everything you've learned, build a Jumbotron component that receives the f
 />
 ```
 
-Your component should output an HTML code similar to this one:
+Your component should output HTML code similar to this:
 
 ```html
 <div class="jumbotron m-5">

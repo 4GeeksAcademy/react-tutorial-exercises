@@ -4,7 +4,7 @@ Right now this `<Alert>` component can render in **orange** or **red** depending
 
 # :speech_balloon: Instructions
 
-Please add the posibility to specify color as **green**
+Please add the possibility to specify the color as **green**
 
 Your website must end up looking similar to this:
 
