@@ -2,7 +2,7 @@
 
 Everything on web development is becoming "component driven", there are [Bootstrap components](https://getbootstrap.com/docs/4.0/components/buttons/), [jQuery Components](https://jqueryui.com/), etc.
 
-Lets grab the typical code for a Bootstrap Card Component (like the one we use on `01.4`) and make it a React.js component that we can reuse.
+Lets grab the typical code for a Bootstrap Card Component (like the one we used on `01.4`) and make it a React.js component that we can reuse.
 
 Here is the code for a bootstrap card:
 
@@ -11,7 +11,7 @@ Here is the code for a bootstrap card:
   <img class="card-img-top" src="/asset/bobdylan.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Bob Dylan</h5>
-    <p class="card-text">Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.</p>
+    <p class="card-text">Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.</p>
     <a href="https://en.wikipedia.org/wiki/Bob_Dylan" class="btn btn-primary">Go to wikipedia</a>
   </div>
 </div>

@@ -1,6 +1,6 @@
 # `01.6` Mapping function
 
-When you are maping an array of data to convert it into an array of HTML you have to specify a **"mapping function"** that will receive each item from the original array, transform it and insert it on the new array. E.g:
+When you are mapping an array of data to convert it into an array of HTML you have to specify a **"mapping function"** that will receive each item from the original array, transform it and insert it into the new array. E.g:
 
 ```js
 
@@ -22,7 +22,7 @@ Use the [list-group bootstrap](https://getbootstrap.com/docs/4.1/components/list
 const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
 ```
 
-Use the [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) and make your algorithm output the following HHTML:
+Use the [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) and make your algorithm output the following HTML:
 
 ```jsx
 <ul class="list-group m-5">

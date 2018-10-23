@@ -4,9 +4,9 @@ When you create functions that return HTML, JSX will let you treat them as **"Co
 
 ## Creating our first Component
 
-One of the things we can do thanks to JSX is calling functions like they are HTML tag, for example:
+One of the things we can do thanks to JSX is calling functions like they are an HTML tag, for example:
 ```js
-// if we declare a function MyFunction
+// if we declare a function called MyFunction
 const MyFunction = () => {
     return <h1>I Love React</h1>;
 }
@@ -14,11 +14,11 @@ const MyFunction = () => {
 // we can call the function as an HTML tag like this:
 <MyFunction />
 
-// instead of like in the typical way using round brackets
+// instead of the typical way of using round brackets
 MyFunction();
 ```
 
-When you call a function like that, it becomes a **"React component"**, which is a function that generates (returns) HTML dynamically. Whatever the function returns will be replaced in the same place the original `<MyFunction />` was placed.
+When you call a function like that, it becomes a **"React component"**, which is a function that generates (returns) HTML dynamically. Whatever the function returns will be replaced in the same place as the original `<MyFunction />` was placed.
 
 ## :speech_balloon: Instructions
 
