@@ -28,4 +28,4 @@ Remember to use prop-types to validate your component properties.
 
 This is how your website should look like in the end.
 
-![Jumbotron](/asset/jumbotron.png)
+![Jumbotron](/_assets/jumbotron.png)

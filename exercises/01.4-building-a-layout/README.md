@@ -27,7 +27,7 @@ const data = {
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Go somewheyre</a>
   </div>
 </div>
 ````
@@ -36,4 +36,3 @@ Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#exam
 ### This is how your end result needs to look like:
 
 ![Bob Dylan Card](/_assets/01.4-bobdylan-postcard.png "Bob Dylan Bootstrap Card")
-

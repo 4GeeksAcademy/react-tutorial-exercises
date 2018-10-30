@@ -39,4 +39,4 @@ And include them all together inside the website.
 
 #### The resulting website has to look like this:
 
-![list-group](/asset/list-group.png)
+![list-group](/_assets/list-group.png)
