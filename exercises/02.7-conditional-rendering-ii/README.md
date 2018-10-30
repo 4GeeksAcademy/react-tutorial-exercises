@@ -8,4 +8,4 @@ Please add the possibility to specify the color as **green**
 
 Your website must end up looking similar to this:
 
-![3 Color Alert](/_assets/3-color-alert.png)
+![3 Color Alert](/assets/3-color-alert.png)

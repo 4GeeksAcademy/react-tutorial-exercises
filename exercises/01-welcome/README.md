@@ -1,4 +1,4 @@
-![4Geeks Logo](/asset/logo.png)
+![4Geeks Logo](/assets/logo.png)
 
 # `01` Welcome
 

@@ -16,7 +16,7 @@ test("Component title is being passed properly", () => {
 
 test("Component imageUrl is being passed properly", () => {
   const component = ReactDOM.render.mock.calls[0][0];
-  expect(component.props.imageUrl).toBe("/asset/bobdylan.png");
+  expect(component.props.imageUrl).toBe("/assets/bobdylan.png");
 });
 
 test("Component description is being passed properly", () => {
@@ -47,7 +47,7 @@ test("The component should return return the exact HTML", () => {
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="/asset/bobdylan.png"
+    src="/assets/bobdylan.png"
   />
   <div
     className="card-body"

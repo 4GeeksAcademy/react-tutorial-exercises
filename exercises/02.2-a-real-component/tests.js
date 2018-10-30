@@ -23,7 +23,7 @@ test("The component should return return the exact HTML", () => {
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="/asset/bobdylan.png"
+    src="/assets/bobdylan.png"
   />
   <div
     className="card-body"

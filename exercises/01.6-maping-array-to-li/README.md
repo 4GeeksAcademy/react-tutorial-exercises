@@ -25,4 +25,4 @@ And include them all together inside the website.
 
 - You can use the second parameter of the map function as a `key` to uniquely identify each html item.
 
-Your website should look like this: ![LIs](/asset/lis.png)
+Your website should look like this: ![LIs](/assets/lis.png)
