@@ -8,29 +8,28 @@
 
 You can find lots of interactive tutorials online, but none about React.js. That's why we decided to create a very complete selection of autograded react.js exercises developers interested in learning React.js: For seniors or juniors!
 
-### Enjoy!
+## Instalation
 
-Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
 ```
 This is the command to install the breathecode-cli
 $ npm i breathecode-cli -g
 ```
 
-To download the react exercises in the current directory run:
+2) Download the react exercises in the current directory run:
 ```
 $ bc start:react-exercises -r
 ```
 
-Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
-## Start making the exercises
-
-To start the coding editor and read the instructions run the following command from the root of the project:
+3) Start the tutorial/exercises by running the following command from the root of the project:
 
 ```sh
 $ npm i jest -g
 $ bc run:exercises
 ```
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
