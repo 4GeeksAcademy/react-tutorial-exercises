@@ -21,7 +21,7 @@ test('The component should return return the exact HTML', () => {
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="https://assets.breatheco.de/apis/img/images.php?blob&tags=bobdylan"
+    src="/assets/bobdylan.png"
   />
   <div
     className="card-body"
