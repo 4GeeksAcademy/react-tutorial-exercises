@@ -1,9 +1,2 @@
-*
-*/
-!.gitignore
-_app
-_assets
-exercises
-bc.json
-preview.gif
-README.md
+node_modules/
+dist/
