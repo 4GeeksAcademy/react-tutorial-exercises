@@ -35,5 +35,5 @@ Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#exam
 
 ### This is how your end result needs to look like:
 
-![Bob Dylan Card](/asset/01.4-bobdylan-postcard.png "Bob Dylan Bootstrap Card")
+![Bob Dylan Card](/_assets/01.4-bobdylan-postcard.png "Bob Dylan Bootstrap Card")
 
