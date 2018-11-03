@@ -39,4 +39,4 @@ And include them all together inside the website.
 
 #### The resulting website has to look like this:
 
-![list-group](/assets/list-group.png)
+![list-group](https://ucarecdn.com/7e3e746c-9c37-4064-ac50-5303dfd76b9d/)
