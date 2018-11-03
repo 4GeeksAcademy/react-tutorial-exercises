@@ -35,4 +35,4 @@ Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#exam
 
 ### This is how your end result needs to look like:
 
-![Bob Dylan Card](/assets/01.4-bobdylan-postcard.png "Bob Dylan Bootstrap Card")
+![Bob Dylan Card](https://ucarecdn.com/322f140b-cc8e-446b-8afb-e69fcbb5f8c8/)
