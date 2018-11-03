@@ -19,7 +19,7 @@ test("The component should return return the exact HTML", () => {
     Turtle
   </li>
   <li>
-    Elephan
+    Elephant
   </li>
   <li>
     Monkey
