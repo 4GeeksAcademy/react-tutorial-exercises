@@ -54,3 +54,4 @@ Please add/use the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` prop
 - The first step will be to replace the hardcoded stuff with properties inside the component.
 - The second step will be to define those properties in the prop-types object on line 23, [here is a video on how to do it](https://www.youtube.com/watch?v=oty7VGcXK44).
 - The third step will be to use ReactDOM to add the `<BootstrapCard>` tag declaration including the 5 properties and their respective values.
+- You don't have to render the component too times, just once.
