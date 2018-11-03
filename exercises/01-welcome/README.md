@@ -1,4 +1,4 @@
-![4Geeks Logo](/assets/logo.png)
+![4Geeks Logo](https://ucarecdn.com/5bdea1ff-b62b-4c90-931f-3156021a544a/-/resize/200x/)
 
 # `01` Welcome
 
