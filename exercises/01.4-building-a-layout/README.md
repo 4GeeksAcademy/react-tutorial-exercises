@@ -10,7 +10,7 @@ Using the information you have on the `data` object build this small card.
 
 ```js
 const data = {
-  image: "/assets/bobdylan.png",
+  image: "https://ucarecdn.com/0be9ec85-1ff9-44ab-927e-7ce2c0803753/",
   cardTitle: "Bob Dylan",
   cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
   button: {
