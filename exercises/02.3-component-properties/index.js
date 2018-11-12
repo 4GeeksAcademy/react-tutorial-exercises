@@ -6,7 +6,7 @@ const BootstrapCard = props => {
 	// 1) replace the hard-coded image, description, link, etc. With their property variable.
 	return (
 		<div className="card m-5">
-			<img className="card-img-top" src="/assets/bobdylan.png" alt="Card image cap" />
+			<img className="card-img-top" src="https://ucarecdn.com/0be9ec85-1ff9-44ab-927e-7ce2c0803753/" alt="Card image cap" />
 			<div className="card-body">
 				<h5 className="card-title">{props.title}</h5>
 				<p className="card-text">Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter.</p>
