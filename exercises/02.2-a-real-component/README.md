@@ -8,7 +8,7 @@ Here is the code for a bootstrap card:
 
 ```jsx
 <div class="card m-5">
-  <img class="card-img-top" src="/assets/bobdylan.png" alt="Card image cap">
+  <img class="card-img-top" src="https://ucarecdn.com/0be9ec85-1ff9-44ab-927e-7ce2c0803753/" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Bob Dylan</h5>
     <p class="card-text">Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.</p>
