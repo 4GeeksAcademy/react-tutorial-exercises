@@ -10,7 +10,7 @@ Using the information you have on the `data` object build this small card.
 
 ```js
 const data = {
-  image: "https://ucarecdn.com/0be9ec85-1ff9-44ab-927e-7ce2c0803753/",
+  image: "https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/",
   cardTitle: "Bob Dylan",
   cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
   button: {
@@ -35,4 +35,4 @@ Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#exam
 
 ### This is how your end result needs to look like:
 
-![Bob Dylan Card](https://ucarecdn.com/322f140b-cc8e-446b-8afb-e69fcbb5f8c8/)
+![Bob Dylan Card](https://ucarecdn.com/cc7588d6-6ae4-4b95-aaea-0d46fd4ec72c/)

@@ -28,4 +28,4 @@ Remember to use prop-types to validate your component properties.
 
 This is how your website should look like in the end.
 
-![Jumbotron](https://ucarecdn.com/184501e0-39a3-4b20-9428-65f7752c9f17/)
+![Jumbotron](https://ucarecdn.com/d376101b-6af1-45cb-97fc-ee246ee312d3/)

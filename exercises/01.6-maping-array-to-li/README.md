@@ -25,4 +25,4 @@ And include them all together inside the website.
 
 - You can use the second parameter of the map function as a `key` to uniquely identify each html item.
 
-Your website should look like this: ![LIs](https://ucarecdn.com/6562d16d-c02b-4c90-8172-343722f43a07/)
+Your website should look like this: ![LIs](https://ucarecdn.com/773cea7c-acab-46f2-b8af-d03911bbfe24/)

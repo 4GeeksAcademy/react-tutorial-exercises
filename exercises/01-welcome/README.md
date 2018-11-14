@@ -1,4 +1,4 @@
-![4Geeks Logo](https://ucarecdn.com/5bdea1ff-b62b-4c90-931f-3156021a544a/-/resize/200x/)
+![4Geeks Logo](https://ucarecdn.com/7df7942f-cad6-48a0-8dc4-8d8fe0e12985/-/resize/200x/)
 
 # `01` Welcome
 

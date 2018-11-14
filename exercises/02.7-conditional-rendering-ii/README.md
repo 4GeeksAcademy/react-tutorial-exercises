@@ -8,4 +8,4 @@ Please add the possibility to specify the color as **green**
 
 Your website must end up looking similar to this:
 
-![3 Color Alert](https://ucarecdn.com/6ea9ca0d-4ddb-4925-9fe2-47c73fef8f61/)
+![3 Color Alert](https://ucarecdn.com/42b2d03c-f3e4-4cee-8225-d16707fc7bef/)
