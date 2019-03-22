@@ -1,4 +1,4 @@
-# `02.6` Conditional Rendering (Part II)
+# `02.7` Conditional Rendering (Part II)
 
 Right now this `<Alert>` component can render in **orange** or **red** depending on the value of its `color` property.
 
