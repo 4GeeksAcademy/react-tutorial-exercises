@@ -16,8 +16,8 @@ const Alert = props => {
 	);
 };
 Alert.propTypes = {
-	color: PropTypes.text,
-	text: PropTypes.text
+	color: PropTypes.string,
+	text: PropTypes.string
 };
 
 // here is where the alert component is being used, you don't have to edit this part,
