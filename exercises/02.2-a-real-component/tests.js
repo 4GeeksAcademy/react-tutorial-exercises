@@ -23,7 +23,7 @@ test("The component should return return the exact HTML", () => {
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="/assets/bobdylan.png"
+    src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/"
   />
   <div
     className="card-body"
@@ -36,7 +36,7 @@ test("The component should return return the exact HTML", () => {
     <p
       className="card-text"
     >
-      Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.
+      Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.
     </p>
     <a
       className="btn btn-primary"
