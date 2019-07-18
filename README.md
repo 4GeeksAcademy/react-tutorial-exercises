@@ -26,7 +26,7 @@ Note: Once you finish downloading, you will find a "exercises" folder that conta
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
 ```sh
-$ npm i jest@23.6.0 -g
+$ npm i jest@24.8.0 -g
 $ bc run:exercises
 ```
 
