@@ -4,6 +4,5 @@ tasks:
     - init: >
         npm i jest@24.8.0 -g;
         npm i breathecode-cli -g;
-    - command:
         bc run:exercises;
 
