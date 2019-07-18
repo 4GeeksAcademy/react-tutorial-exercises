@@ -1,5 +1,6 @@
 ports:
     - port: 8080
+      onOpen: open-browser
 tasks:
     - init: >
         npm i jest@24.8.0 -g;
