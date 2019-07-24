@@ -8,7 +8,12 @@
 
 You can find lots of interactive tutorials online, but none about React.js. That's why we decided to create a very complete selection of autograded react.js exercises developers interested in learning React.js: For seniors or juniors!
 
-## Instalation
+## Start practicing right now in gitpod:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-exercises.git)
+
+
+## Instalation (if you prefer not to use gitpod)
 
 1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
 ```
