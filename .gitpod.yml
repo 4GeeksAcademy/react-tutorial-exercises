@@ -2,7 +2,7 @@ ports:
     - port: 8080
       onOpen: open-browser
 tasks:
-    - init: >
+    - command: >
         npm i jest@24.8.0 -g;
         npm i breathecode-cli -g;
         bc run:exercises;
