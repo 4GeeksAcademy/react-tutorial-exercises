@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const animals = ["Horse", "Turtle", "Elephant", "Monkey"];
+const animals = [ { label: 'Horse' }, { label: 'Turtle' }, { label: 'Elephan' }, { label: 'Monkey' } ];
 
 /**
  * change the content of the map function
