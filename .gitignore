@@ -1,4 +1,10 @@
-node_modules/
-dist/
-app.tar.gz
-_app/
+# Ignore everything
+*
+
+!.gitignore
+!.gitpod.yml
+!.gitpod.dockerfile
+!.bc.json
+!README.md
+
+!exercises/*/*
