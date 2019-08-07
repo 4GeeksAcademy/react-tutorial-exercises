@@ -1,12 +1,13 @@
+
+image:
+  file: .gitpod.dockerfile
+
 ports:
     - port: 8080
       onOpen: open-browser
 tasks:
     - command: >
-        npm i jest@24.8.0 -g;
-        npm i breathecode-cli -g;
         bc run:exercises;
-        
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
