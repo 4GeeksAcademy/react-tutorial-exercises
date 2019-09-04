@@ -1,6 +1,6 @@
 # `01.5` Building from arrays
 
-With JSX you can also create arrays of HTML items. E.g: If we have an array of `<li>` we can include all of them into the document at once like this:
+With JSX you can also create **arrays** of HTML items. E.g: If we have an array of `<li>` we can include all of them into the document at once like this:
 
 ```jsx
 const namesInHTML = [

@@ -8,7 +8,7 @@ const originalData = [];
 
 const mappingFunction = (item, index) => {
   // return something in JSX.
-}
+};
 
 const htmlList = originalData.map(mappingFunction);
 // the htmlList variable now contains a new array.
