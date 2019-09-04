@@ -14,11 +14,11 @@ test("The component should return what LITERALLY what was asked", () => {
   expect(tree).toMatchInlineSnapshot(`
 <div>
   <h1>
-    My name is 
+    My name is
     Bob
   </h1>
   <h2>
-    My las name is 
+    My last name is
     Dylan
   </h2>
 </div>
