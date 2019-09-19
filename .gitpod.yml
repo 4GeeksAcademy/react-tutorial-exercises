@@ -3,11 +3,11 @@ image:
   file: .gitpod.dockerfile
 
 ports:
-    - port: 8080
-      onOpen: open-browser
+    - port: 3000
+      onOpen: open-preview
 tasks:
     - command: >
-        bc run:exercises;
+        bc run:exercises -e=gitpod;
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
