@@ -4,13 +4,14 @@ import PropTypes from "prop-types";
 
 // add the green inside this function
 const Alert = props => {
-	let alertClasses = "alert";
-	if (props.color == "red") alertClasses += " alert-danger";
-	else if (props.color == "orange") alertClasses += " alert-warning";
-	else alert("Invalid color, you can only specify: red or orange (for now)");
+    const colorClasses = {
+        'red': 'alert-danger',
+        'orange': 'alert-warning'
+    };
+    if(colorClasses[props.color] === undefined) alert(`The color ${props.color} is not in the possible list of colors`);
 
 	return (
-		<div className={alertClasses} role="alert">
+		<div className={`alert ${colorClasses[props.color]}`} role="alert">
 			{props.text}
 		</div>
 	);

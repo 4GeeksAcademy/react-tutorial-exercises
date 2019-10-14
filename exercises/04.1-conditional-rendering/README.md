@@ -6,19 +6,20 @@ When using JSX you have all of the Javascript functionalities available: Variabl
 
 We have already used loops and variables, it's time to use conditionals!
 
-For example, the following code renders a red or orange alert depending on the `color` variable.
+For example, the following code renders a red or orange alert depending on the `color` property.
 
 ```jsx
-let alertClasses = 'alert';
-if(color == 'red') alertClasses += ' alert-danger';
-else if(color == 'orange')  alertClasses += ' alert-warning';
+const colorClasses = {
+    'red': 'alert-danger',
+    'orange': 'alert-warning'
+}
 
-<div class={alertClasses} role="alert">
+<div class={`alert ${colorClasses[props.color]}`} role="alert">
   This is a primary alert-check it out!
 </div>
 
 ```
-We are declaring a variable `alertClasses` that will contain all the class names that will be applied to the alert.
+We are declaring a variable `colorClasses` that will contain all the class names that will be applied to the alert.
 
 # :speech_balloon: Instructions
 

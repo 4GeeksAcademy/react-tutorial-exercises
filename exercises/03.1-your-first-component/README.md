@@ -1,8 +1,8 @@
-# `03.1` Your first component
+# `03.1` Your first functional component
 
 When you create functions that return HTML, JSX will let you treat them as **"Components"**, basically they will become your own custom HTML tags.
 
-## Creating our first Component
+## Creating our first functional Component
 
 One of the things we can do thanks to JSX is calling functions like they are an HTML tag, for example:
 ```js
@@ -22,4 +22,4 @@ When you call a function like that, it becomes a **"React component"**, which is
 
 ## :speech_balloon: Instructions
 
-On the 9th line of index.js, change the way the function is called, call the function as a **"React component"** (using the JSX syntax) instead of parentheses.
+On the 9th line of index.js, change the way the function is called, call the function as a **"React component"** using `<` and `>` like it an HTML tag (instead of parentheses).

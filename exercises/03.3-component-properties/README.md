@@ -1,15 +1,21 @@
 # `03.3` Component Properties
 
-The BootstrapCard you just made right now is [hard coded](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) for **Bob Dylan** only. What if we also want to use the `<BootstrapCard />` component for **Paul Mccartney**?
+The BootstrapCard you just made right now is [hard coded](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) for **Bob Dylan** only.
+
+But, what if we also want to re-use the same `<BootstrapCard />` component for **Paul Mccartney**?
 
 ## Using properties in HTML
 
 When you are coding HTML you are constantly using the `<tag>` properties to modify the tag behavior, e.g.:
+
 When you use the **anchor** tag (`<a>`) you have to specify the **href** property like this:
 
 ```html
 <a href="http://google.com">Take me to google</a>
+<a href="http://twitter.com">Take me to twitter</a>
 ```
+
+:point_up: Here I'm re-using the anchor tag for two different links
 
 ## Using properties in React.js
 

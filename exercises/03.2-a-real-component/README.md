@@ -1,10 +1,11 @@
 # `03.2` A real component
 
-Everything on web development is becoming "component driven", there are [Bootstrap components](https://getbootstrap.com/docs/4.0/components/buttons/), [jQuery Components](https://jqueryui.com/), etc.
+In the past exercise we created our first component called **PrintHello** and we learn that we can use the component like an HTML tag.
+```jsx
+<PrintHello />
+```
 
-Lets grab the typical code for a Bootstrap Card Component (like the one we used on `01.4`) and make it a React.js component that we can reuse.
-
-Here is the code for a bootstrap card:
+Now let's create another component (function) called **"Card"** that outputs the following HTML:
 
 ```jsx
 <div class="card m-5">
@@ -17,8 +18,10 @@ Here is the code for a bootstrap card:
 </div>
 ```
 
+:point_up: This HTML code its based on the [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
+
 # :speech_balloon: Instructions
 
-Please create a function called BootstrapCard that returns the card code and use the ReactDOM.render function `<BootstrapCard />` to add it into the website inside `#myDiv`.
+Please create a function called BootstrapCard that returns the card code and use the ReactDOM.render function `<BootstrapCard />` to add it into the website inside `#myDiv` using the ReactDOM.render function.
 
 Note: if you don't know or remember how to use `ReactDOM.render` you can review the past exercises.
