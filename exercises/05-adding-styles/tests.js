@@ -9,7 +9,7 @@ test("ReactDOM needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("The component Alert should return return the exact HTML", () => {
+test("The component Badge should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <button
