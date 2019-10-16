@@ -11,7 +11,7 @@ test("ReactDOM needs to be called once", () => {
 
 
 
-test("The component Alert should return return the exact HTML", () => {
+test("The component Alert should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div>
@@ -19,13 +19,7 @@ test("The component Alert should return return the exact HTML", () => {
     className="alert alert-danger"
     role="alert"
   >
-    OMG! Something really bad has happended!
-  </div>
-  <div
-    className="alert alert-warning"
-    role="alert"
-  >
-    Well, it is not that bad after all!
+    This is a primary alert-check it out!
   </div>
 </div>
 `);
