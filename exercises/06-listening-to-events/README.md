@@ -4,6 +4,7 @@ Events work in react pretty much the same way the would do on Vanilla JS, if you
 
 # :speech_balloon: Instructions
 
-The current code has one component that changes color on click:
+The current code has one component that prints on the console "I was clicked!".
+- Update the **Alert** component to call it correctly and check then the console.
 
 
