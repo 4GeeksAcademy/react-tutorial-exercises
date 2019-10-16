@@ -14,7 +14,7 @@ test("The component needs to be called like a JSX tag: E.g: <FunctionName />", (
   expect(jsxParam).toBe("<BootstrapCard />");
 });
 
-test("The component should return return the exact HTML", () => {
+test("The component should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
