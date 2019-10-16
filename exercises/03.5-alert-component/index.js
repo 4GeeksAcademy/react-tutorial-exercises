@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 /**
- * here you have declare your Alert component and return 
+ * here you have declare your Alert component and return
  * the html that bootstrap dictates for its alert component
  */
 

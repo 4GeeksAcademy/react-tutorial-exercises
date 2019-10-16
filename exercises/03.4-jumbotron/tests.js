@@ -31,7 +31,7 @@ test("Component buttonURL is being passed properly", () => {
   expect(component.props.buttonURL).toBe("https://reactjs.org/");
 });
 
-test("The component should return return the exact HTML", () => {
+test("The component should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
