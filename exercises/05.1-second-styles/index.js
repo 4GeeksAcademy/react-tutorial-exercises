@@ -27,4 +27,4 @@ Badge.propTypes = {
 	number: PropTypes.string
 };
 //dont forget to change the label
-ReactDOM.render(<Badge label="Alerts" number={2} />, document.querySelector("#myDiv"));
+ReactDOM.render(<Badge label="Alerts" number="2" />, document.querySelector("#myDiv"));
