@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import PropType from "prop-types";
+import PropTypes from "prop-types";
 
 const Jumbotron = props => {
 	//here you have to return expected html using the properties being passed to the component
 };
 
 Jumbotron.propTypes = {
-    //proptypes here
+	//proptypes here
 };
 
 ReactDOM.render(
