@@ -16,7 +16,7 @@ test("Component title is being passed properly", () => {
 
 test("Component imageUrl is being passed properly", () => {
   const component = ReactDOM.render.mock.calls[0][0];
-  expect(component.props.imageUrl).toBe("/assets/bobdylan.png");
+  expect(component.props.imageUrl).toBe("https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/");
 });
 
 test("Component description is being passed properly", () => {
@@ -38,7 +38,7 @@ test("Component buttonLabel is being passed properly", () => {
   expect(component.props.buttonLabel).toBe("Go to wikipedia");
 });
 
-test("The component should return return the exact HTML", () => {
+test("The component should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
@@ -47,7 +47,7 @@ test("The component should return return the exact HTML", () => {
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="/assets/bobdylan.png"
+    src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/"
   />
   <div
     className="card-body"

@@ -14,7 +14,7 @@ Update the code's [.map function](https://medium.com/poka-techblog/simplify-your
 const animalsInHTML = [
   <li>Horse</li>,
   <li>Turtle</li>,
-  <li>Elephan</li>,
+  <li>Elephant</li>,
   <li>Monkey</li>
 ];
 ```

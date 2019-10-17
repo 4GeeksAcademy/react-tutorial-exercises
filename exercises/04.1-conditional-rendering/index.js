@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 const Alert = props => {
 	//your component here
+
 };
 Alert.propTypes = {
 	color: PropTypes.string,
