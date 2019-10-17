@@ -13,37 +13,37 @@ test("The component should return the exact HTML", () => {
   console.log(tree);
   expect(tree).toMatchInlineSnapshot(`
 <ul
-  className="nav"
+  className="list-group m-5"
 >
   <li
-    className="nav-item"
+    className="list-group-item"
   >
-    <a
-      className="nav-link"
-      href="#"
-    >
-      Link to google.com
-    </a>
+    Mars
   </li>
   <li
-    className="nav-item"
+    className="list-group-item"
   >
-    <a
-      className="nav-link"
-      href="#"
-    >
-      Link to facebook.com
-    </a>
+    Venus
   </li>
   <li
-    className="nav-item"
+    className="list-group-item"
   >
-    <a
-      className="nav-link"
-      href="#"
-    >
-      Link to amazon.com
-    </a>
+    Jupiter
+  </li>
+  <li
+    className="list-group-item"
+  >
+    Earth
+  </li>
+  <li
+    className="list-group-item"
+  >
+    Saturn
+  </li>
+  <li
+    className="list-group-item"
+  >
+    Neptune
   </li>
 </ul>
 `);

@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom";
-import jsxToString from "jsx-to-string";
-import file from "./index";
+import { WhatToRender } from "./index";
 import renderer from "react-test-renderer";
 
 jest.mock("react-dom", () => ({ render: jest.fn() }));
@@ -9,15 +8,22 @@ test("ReactDOM.render needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("The returned JSX statement should be exactly this: <span>{ name } is { age } years old</span>", () => {
+test("The component should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
-  console.log(tree);
   expect(tree).toMatchInlineSnapshot(`
-<span>
-  John
-   is
-  12
-   years old
-</span>
+<ul>
+  <li>
+    Horse
+  </li>
+  <li>
+    Turtle
+  </li>
+  <li>
+    Elephant
+  </li>
+  <li>
+    Monkey
+  </li>
+</ul>
 `);
 });

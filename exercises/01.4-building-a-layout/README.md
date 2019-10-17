@@ -6,7 +6,7 @@ Now we have another object that is just a bit more complex than the last one.
 
 # :speech_balloon: Instructions
 
-Using the information you have on the `data` object build this small card.
+You have a `data` object that contains Bob Dylans information (image, title, etc).
 
 ```js
 const data = {
@@ -19,7 +19,10 @@ const data = {
   }
 };
 ```
-### Here is the HTML code for creating a bootstrap card:
+
+Use the information contained in `data` to render a bootstrap card, for example: The card's title will be the `data.cardTitle`, etc.
+
+Here is the HTML code for creating a card in bootstrap:
 
 ```html
 <div class="card m-5">
