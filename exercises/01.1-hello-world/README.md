@@ -1,6 +1,6 @@
 # `01.1` Hello World
 
-Today's biggest pain for front-end developers is **working with the DOM** for create dynamic HTML, something that React.js does best.
+Today's biggest pain for front-end developers is **working with the DOM** to create dynamic HTML, something that React.js does best.
 
 React.js is a rendering library made to optimize the DOM: Developers save time and the browser is faster.
 
@@ -8,8 +8,8 @@ The library comes with a function called **ReactDOM.render** that you can see as
 
 `ReactDOM.render` receives two parameters:
 
-1. What to render.
-2. Where to render it.
+1. What to render (the inner HTML).
+2. Where to render it (DOM element).
 
 For example:
 
