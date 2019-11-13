@@ -6,7 +6,10 @@
     <h2 align="center"> React Exercises at 4Geeks Academy (beta) </h2>
 </p>
 
-You can find lots of interactive tutorials online, but none about React.js. That's why we decided to create a very complete selection of autograded react.js exercises developers interested in learning React.js: For seniors or juniors!
+You can find lots of free interactive/autograded tutorials online, but none about React.js. That's why we decided to create a very complete selection of exercises for developers interested in learning React.js: For seniors or juniors! 
+
+These exercises are intent to be built by collaboration, we need you!
+If you find any bugs or misspells plese contribute and report them.
 
 ## Start practicing right now in gitpod:
 
