@@ -26,10 +26,10 @@ $ npm i breathecode-cli -g
 
 2) Download the react exercises in the current directory run:
 ```
-$ bc start:react-exercises -r
+$ bc download:exercises
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+Note: Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
