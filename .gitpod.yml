@@ -7,7 +7,7 @@ ports:
       onOpen: open-preview
 tasks:
     - command: >
-        bc run:exercises -e=gitpod;
+        bc run;
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
