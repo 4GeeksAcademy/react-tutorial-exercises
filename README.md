@@ -35,7 +35,7 @@ Note: Once you finish downloading, you will find a new folder with a subdirector
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ bc run:exercises
+$ bc run
 ```
 
 <p align="center">
