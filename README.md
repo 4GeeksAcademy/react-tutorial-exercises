@@ -26,7 +26,7 @@ $ npm i breathecode-cli -g
 
 2) Download the react exercises in the current directory run:
 ```
-$ bc download:exercises
+$ breathecode download:exercises
 ```
 
 Note: Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
@@ -35,7 +35,7 @@ Note: Once you finish downloading, you will find a new folder with a subdirector
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ bc run
+$ breathecode run
 ```
 
 <p align="center">
