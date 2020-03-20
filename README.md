@@ -6,6 +6,9 @@
     <h2 align="center"> React Exercises at 4Geeks Academy (beta) </h2>
 </p>
 
+My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
+Learning to code is hard, you need coaching! DM me on twitter if you have any question.
+
 You can find lots of free interactive/autograded tutorials online, but none about React.js. That's why we decided to create a very complete selection of exercises for developers interested in learning React.js: For seniors or juniors! 
 
 These exercises are intent to be built by collaboration, we need you!
