@@ -3,5 +3,7 @@
     "description": "Learn and practice React.js using hooks, interactive tutorial with dozens of react exercises, get instant feedback with automatic grading and watch video solutions afterwards.",
     "language": "react",
     "duration": 8,
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "video-solutions": false,
+    "graded": true
 }
