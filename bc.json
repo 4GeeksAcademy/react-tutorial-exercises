@@ -1,5 +1,7 @@
 {
     "title": "React Interactive and Automatically Graded Exercises",
     "description": "Learn and practice React.js using hooks, interactive tutorial with dozens of react exercises, get instant feedback with automatic grading and watch video solutions afterwards.",
-    "compiler": "react"
+    "language": "react",
+    "duration": 8,
+    "difficulty": "easy"
 }
