@@ -19,16 +19,15 @@ If you find any bugs or misspells plese contribute and report them.
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-exercises.git)
 
 
-## Or Manual Installation
+## Manual Installation
 
-1. Download the react exercises.
+1. Download the react exercises by cloning the project or downloading the zip.
 
-Note: Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
+Note: Once you finish downloading, make sure you are in the right folder (you will find a the subdirectory "exercises").
 
+2. Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+. This is the command to install the breathecode-cli
 
-2. Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+
-```
-This is the command to install the breathecode-cli
+```sh
 $ npm i breathecode-cli -g
 ```
 
