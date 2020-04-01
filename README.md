@@ -14,25 +14,22 @@ You can find lots of free interactive/autograded tutorials online, but none abou
 These exercises are intent to be built by collaboration, we need you!
 If you find any bugs or misspells plese contribute and report them.
 
-## Start practicing right now in gitpod:
-
+<h2>Start practicing right now in gitpod:</h2>
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-exercises.git)
 
 
-## Or Local Installation (if you prefer not to use gitpod)
+## Or Manual Installation
 
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+1. Download the react exercises.
+
+Note: Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
+
+
+2. Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+
 ```
 This is the command to install the breathecode-cli
 $ npm i breathecode-cli -g
 ```
-
-2) Download the react exercises in the current directory run:
-```
-$ breathecode download:exercises
-```
-
-Note: Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
