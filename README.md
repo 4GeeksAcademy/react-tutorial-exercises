@@ -21,15 +21,15 @@ If you find any bugs or misspells plese contribute and report them.
 
 ## Manual Installation
 
-1. Download the react exercises by cloning the project or downloading the zip.
-
-Note: Once you finish downloading, make sure you are in the right folder (you will find a the subdirectory "exercises").
-
-2. Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+. This is the command to install the breathecode-cli
+1. Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+. This is the command to install the breathecode-cli
 
 ```sh
 $ npm i breathecode-cli -g
 ```
+
+1. Download the react exercises by **cloning** the project or typing `breathecode download` or downloading the zip from github.
+
+Note: Once you finish downloading, make sure you are in the right folder (you will find a the subdirectory "exercises").
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
