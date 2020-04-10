@@ -27,9 +27,9 @@ If you find any bugs or misspells plese contribute and report them.
 $ npm i breathecode-cli -g
 ```
 
-1. Download the react exercises by **cloning** the project or typing `breathecode download` or downloading the zip from github.
+2. Download the react exercises by **cloning** the project or typing `breathecode download` or downloading the zip from github.
 
-Note: Once you finish downloading, make sure you are in the right folder (you will find a the subdirectory "exercises").
+> Note: Once you finish downloading, make sure you are in the right folder (you will find a the subdirectory "exercises").
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
