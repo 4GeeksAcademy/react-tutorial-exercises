@@ -1,18 +1,26 @@
-<p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
-</p>
-
-<p>
-    <h2 align="center"> React Exercises at 4Geeks Academy (beta) </h2>
-</p>
+<table>
+  <tr>
+    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
+    <td>
+      <h1 align="center"> Learn React.js exercises at 4Geeks Academy</h1>
+      <img src="https://img.shields.io/github/last-commit/4geeksacademy/react-exercises" />
+      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
+      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
+      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
+    </td>
+  </tr>
+</table>
 
 My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
 
 You can find lots of free interactive/autograded tutorials online, but none about React.js. That's why we decided to create a very complete selection of exercises for developers interested in learning React.js: For seniors or juniors! 
 
-These exercises are intent to be built by collaboration, we need you!
-If you find any bugs or misspells plese contribute and report them.
+These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
+</p>
 
 <h2>One click installation:</h2>
 
@@ -37,10 +45,6 @@ $ npm i breathecode-cli -g
 $ npm i jest@24.8.0 -g
 $ breathecode run
 ```
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
 
 ## How are the exercises organized?
 
