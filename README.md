@@ -12,11 +12,13 @@
 </table>
 
 My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
-Learning to code is hard, you need coaching! DM me on twitter if you have any question.
+Learning to code is hard and everyone needs coaching! DM me on twitter if you have any question.
 
-You can find lots of free interactive/autograded tutorials online, but none about React.js. That's why we decided to create a very complete selection of exercises for developers interested in learning React.js: For seniors or juniors! 
+You can find lots of free interactive/autograded tutorials online, but very few on about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js
 
-These exercises are intent to be built by collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
+These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your corporation !
+
+If you find any bugs or spelling issues, please contribute and report them and we will correct them.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
