@@ -2,11 +2,11 @@
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
-      <h1 align="center"> Learn React.js exercises at 4Geeks Academy</h1>
-      <img src="https://img.shields.io/github/last-commit/4geeksacademy/react-exercises" />
+      <h1 align="center">React.js tutorial exercises at 4Geeks Academy</h1>
+      <img src="https://img.shields.io/github/last-commit/4geeksacademy/react-tutorial-exercises" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
-      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
+      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
     </td>
   </tr>
 </table>
@@ -26,7 +26,7 @@ If you find any bugs or spelling issues, please contribute and report them and w
 
 <h2>One click installation:</h2>
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-exercises.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git)
 
 
 ## Manual Installation
