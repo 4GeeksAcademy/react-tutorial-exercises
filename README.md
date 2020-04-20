@@ -16,7 +16,7 @@ Learning to code is hard and everyone needs coaching! DM me on twitter if you ha
 
 You can find lots of free interactive/autograded tutorials online, but very few on about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js
 
-These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your corporation !
+These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your help !
 
 If you find any bugs or spelling issues, please contribute and report them and we will correct them.
 
