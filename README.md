@@ -56,6 +56,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
 2. [Nicolas (waspothegreat)](https://github.com/waspothegreat), contribution: (bug reports) :bug:, (translation) :earth_americas:
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (translation) :earth_africa:
 
 This project follows the
 [all-contributors](https://github.com/kentcdodds/all-contributors)
