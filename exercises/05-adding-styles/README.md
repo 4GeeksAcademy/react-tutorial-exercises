@@ -2,7 +2,7 @@
 
 The most recommended way to do styles on React is using CSS-in-JS.
 
-Basically you create an object with your stiles like this:
+Basically you create an object with your styles like this:
 
 ```JS
 const mySuperStyles = {
