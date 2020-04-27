@@ -2,7 +2,7 @@
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
-      <h1 align="center">React.js tutorial exercises at 4Geeks Academy</h1>
+      <h1 align="center">React.js tutorial exercises</h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/react-tutorial-exercises" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
@@ -48,11 +48,11 @@ $ npm i jest@24.8.0 -g
 $ breathecode run
 ```
 
-## How are the exercises organized?
+## How are the React Tutorial Exercises organized?
 
 Each exercise is a small react application containing the following files:
 
-1. **index.js:** represents the entry file for the entire app.
+1. **index.js:** represents the entry file for the entire exercise.
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
