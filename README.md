@@ -1,27 +1,23 @@
-<table>
-  <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
-    <td>
-      <h1 align="center">React.js tutorial exercises</h1>
-      <img src="https://img.shields.io/github/last-commit/4geeksacademy/react-tutorial-exercises" />
-      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
-      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
-      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
-    </td>
-  </tr>
-</table>
+# React Interactive Tutorial & Exercises
 
-My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
-Learning to code is hard and everyone needs coaching! DM me on twitter if you have any question.
+<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/side-img.png?raw=true"></a>
 
-You can find lots of free interactive/autograded tutorials online, but very few on about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js
+> By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/react-tutorial-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
+
+![last commit](https://img.shields.io/github/last-commit/4geeksacademy/react-tutorial-exercises)
+[![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
+[![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
+
+All exercises are 👆 interactive, ✅ auto-graded and with 📹 video solutions. [Request a new tutorial](https://github.com/4GeeksAcademy/About-4Geeks-Academy/issues/new), [or help us build one](https://github.com/4GeeksAcademy/About-4Geeks-Academy/labels/help%20wanted).
+
+You can find lots of free interactive/autograded tutorials online, but very few on about React.js. That's I we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js
 
 These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your help !
 
 If you find any bugs or spelling issues, please contribute and report them and we will correct them.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
+  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-tutorial-exercises/master/preview.gif">
 </p>
 
 <h2>One click installation:</h2>
