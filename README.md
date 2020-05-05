@@ -8,9 +8,7 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-All exercises are 👆 interactive, ✅ auto-graded and with 📹 video solutions. [Request a new tutorial](https://github.com/4GeeksAcademy/About-4Geeks-Academy/issues/new), [or help us build one](https://github.com/4GeeksAcademy/About-4Geeks-Academy/labels/help%20wanted).
-
-You can find lots of free interactive/autograded tutorials online, but very few on about React.js. That's I we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js
+You can find lots of free interactive/autograded tutorials online, but very few about React.js. That's I we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js
 
 These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your help !
 
