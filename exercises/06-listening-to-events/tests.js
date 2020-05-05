@@ -13,9 +13,10 @@ test("The component Badge should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <button
+  className="btn btn-success btn-lg"
   onClick={[Function]}
 >
-  Click
+  Click Me
 </button>
 `);
 });
