@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=Gw6i3BWzwNY"
+---
+
 # `02.1` Mapping array to `<li>`
 
 Using the knowledge you have from the previous example, now lets fix the map function again but starting from an array of objects.

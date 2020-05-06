@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=I93UjM0y9aE"
+---
+
 # `05` Adding styles to the components
 
 The most recommended way to do styles on React is using CSS-in-JS.

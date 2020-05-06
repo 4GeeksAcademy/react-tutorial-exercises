@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=MGqH3dOhxL4"
+---
+
 # `03.2` A real component
 
 In the past exercise we created our first component called **PrintHello** and we learn that we can use the component like an HTML tag.

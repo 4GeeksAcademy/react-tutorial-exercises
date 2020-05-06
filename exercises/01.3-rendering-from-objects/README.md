@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=Z9gzZoYM4pY"
+---
+
 # `01.3` Rendering from objects
 
 Now lets use a more complex variable to render our HTML, let's say we have the following JS Object containing a customer information:

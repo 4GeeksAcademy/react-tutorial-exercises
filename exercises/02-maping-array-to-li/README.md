@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=xe-O1jhnVxk"
+---
+
 # `02` Mapping array to `<li>`
 
 Now let's build an array dynamically. Let's say you have an array of animals:

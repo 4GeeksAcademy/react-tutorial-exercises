@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=EdpPIo_JNVc"
+---
+
 # `03` Render with Functions
 
 JSX allows using functions to render HTML, and that is awesome!

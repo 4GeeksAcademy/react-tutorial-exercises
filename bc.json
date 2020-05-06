@@ -1,10 +1,220 @@
 {
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": "/home/gitpod/.nvm/versions/node/v12.16.2/lib/node_modules/breathecode-cli/src/utils/config/compiler/template.html",
+    "disable_grading": false,
+    "onCompilerSuccess": "open-browser",
+    "language": "react",
+    "compiler": "webpack",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
     "title": "Learn React.js Interactively",
     "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png?raw=true",
     "description": "Learn and practice React.js using hooks, interactive tutorial with dozens of react exercises, get instant feedback with automatic grading and watch video solutions afterwards.",
-    "language": "react",
     "duration": 8,
     "difficulty": "easy",
     "video-solutions": false,
-    "graded": true
+    "graded": true,
+    "session": 8312244737946104000,
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "01-welcome",
+            "title": "01-welcome",
+            "path": "exercises/01-welcome",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "01.1-hello-world",
+            "title": "01.1-hello-world",
+            "path": "exercises/01.1-hello-world",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "01.2-hello-jsx",
+            "title": "01.2-hello-jsx",
+            "path": "exercises/01.2-hello-jsx",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "01.3-rendering-from-objects",
+            "title": "01.3-rendering-from-objects",
+            "path": "exercises/01.3-rendering-from-objects",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "01.4-building-a-layout",
+            "title": "01.4-building-a-layout",
+            "path": "exercises/01.4-building-a-layout",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "01.5-building-html-from-arrays",
+            "title": "01.5-building-html-from-arrays",
+            "path": "exercises/01.5-building-html-from-arrays",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "02-maping-array-to-li",
+            "title": "02-maping-array-to-li",
+            "path": "exercises/02-maping-array-to-li",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "02.1-maping-array-objects-to-li",
+            "title": "02.1-maping-array-objects-to-li",
+            "path": "exercises/02.1-maping-array-objects-to-li",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "02.2-maping-array-of-objects-to-li",
+            "title": "02.2-maping-array-of-objects-to-li",
+            "path": "exercises/02.2-maping-array-of-objects-to-li",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "03-render-with-functions",
+            "title": "03-render-with-functions",
+            "path": "exercises/03-render-with-functions",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "03.1-your-first-component",
+            "title": "03.1-your-first-component",
+            "path": "exercises/03.1-your-first-component",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "03.2-a-real-component",
+            "title": "03.2-a-real-component",
+            "path": "exercises/03.2-a-real-component",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "03.3-component-properties",
+            "title": "03.3-component-properties",
+            "path": "exercises/03.3-component-properties",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "03.4-jumbotron",
+            "title": "03.4-jumbotron",
+            "path": "exercises/03.4-jumbotron",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "03.5-alert-component",
+            "title": "03.5-alert-component",
+            "path": "exercises/03.5-alert-component",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "04-conditional-rendering",
+            "title": "04-conditional-rendering",
+            "path": "exercises/04-conditional-rendering",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "04.1-conditional-rendering",
+            "title": "04.1-conditional-rendering",
+            "path": "exercises/04.1-conditional-rendering",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "04.2-conditional-rendering-ii",
+            "title": "04.2-conditional-rendering-ii",
+            "path": "exercises/04.2-conditional-rendering-ii",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "05-adding-styles",
+            "title": "05-adding-styles",
+            "path": "exercises/05-adding-styles",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "05.1-second-styles",
+            "title": "05.1-second-styles",
+            "path": "exercises/05.1-second-styles",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "06-listening-to-events",
+            "title": "06-listening-to-events",
+            "path": "exercises/06-listening-to-events",
+            "translations": [
+                "es",
+                "us"
+            ]
+        }
+    ]
 }

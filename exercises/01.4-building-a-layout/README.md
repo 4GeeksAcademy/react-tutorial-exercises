@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=5Z12IWd4CI8"
+---
+
 # `01.4` Building a layout
 
 Let's practice a little bit more about using JSX for creating HTML.

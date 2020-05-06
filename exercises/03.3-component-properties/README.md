@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=79ho2T5Zy6U"
+---
+
 # `03.3` Component Properties
 
 The BootstrapCard you just made right now is [hard coded](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) for **Bob Dylan** only.

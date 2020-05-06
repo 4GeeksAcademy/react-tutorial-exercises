@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=-B0KJP1tzXE"
+---
+
 # `02.2` Mapping function
 
 When you are mapping an array of data to convert it into an array of HTML you have to specify a **"mapping function"** that will receive each item from the original array, transform it and insert it into the new array. E.g:

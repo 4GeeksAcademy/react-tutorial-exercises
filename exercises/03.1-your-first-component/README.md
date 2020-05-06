@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=9Eiidx--_GQ"
+---
+
 # `03.1` Your first functional component
 
 When you create functions that return HTML, JSX will let you treat them as **"Components"**, basically they will become your own custom HTML tags.

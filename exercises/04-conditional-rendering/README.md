@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=1O9uUXymny4"
+---
+
 # `04` Conditional Rendering
 
 You can also use the component properties to change its behavior, like show or hide your `<Alert />` based on a property called `show`.

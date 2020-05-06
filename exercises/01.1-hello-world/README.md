@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=Qdu6GSew8xM"
+---
+
 # `01.1` Hello World
 
 Today's biggest pain for front-end developers is **working with the DOM** to create dynamic HTML, something that React.js does best.
