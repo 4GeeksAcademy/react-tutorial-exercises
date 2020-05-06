@@ -23,7 +23,7 @@ If you find any bugs or spelling issues, please contribute and report them and w
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git)
 
 
-## Manual Installation
+## Manual Installation of the Tutorial Exercises
 
 1. Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+. This is the command to install the breathecode-cli
 
@@ -50,7 +50,7 @@ Each exercise is a small react application containing the following files:
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
-## Contributors
+## Contributors for this React Exercises
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
