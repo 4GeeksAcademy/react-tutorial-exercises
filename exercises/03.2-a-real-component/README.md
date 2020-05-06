@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=MGqH3dOhxL4"
+tutorial: "https://www.youtube.com/watch?v=MGqH3dOhxL4"
 ---
 
 # `03.2` A real component

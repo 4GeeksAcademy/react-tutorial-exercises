@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=Z9gzZoYM4pY"
+tutorial: "https://www.youtube.com/watch?v=Z9gzZoYM4pY"
 ---
 
 # `01.3` Rendering from objects

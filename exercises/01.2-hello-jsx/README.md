@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=Wp8hcH8jScQ"
+tutorial: "https://www.youtube.com/watch?v=Wp8hcH8jScQ"
 ---
 
 # `01.2` Hello JSX

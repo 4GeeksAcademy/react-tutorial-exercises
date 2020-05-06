@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=l3v6E1o_YUI"
+tutorial: "https://www.youtube.com/watch?v=l3v6E1o_YUI"
 ---
 
 # `04.2` Conditional Rendering (Part II)

@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=zv6HPveyz6g"
+tutorial: "https://www.youtube.com/watch?v=zv6HPveyz6g"
 ---
 
 # `03.4` Jumbotron

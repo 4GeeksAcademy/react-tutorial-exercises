@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=5Z12IWd4CI8"
+tutorial: "https://www.youtube.com/watch?v=5Z12IWd4CI8"
 ---
 
 # `01.4` Building a layout

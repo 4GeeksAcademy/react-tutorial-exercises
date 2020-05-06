@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=80_k11tqhrE"
+tutorial: "https://www.youtube.com/watch?v=80_k11tqhrE"
 ---
 
 # `03.5` Alert Component

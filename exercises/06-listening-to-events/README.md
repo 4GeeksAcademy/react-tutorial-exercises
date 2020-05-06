@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=mKNchkgVtrg"
+tutorial: "https://www.youtube.com/watch?v=mKNchkgVtrg"
 ---
 
 # `06.0` Listening to events

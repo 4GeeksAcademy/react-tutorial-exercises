@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=-B0KJP1tzXE"
+tutorial: "https://www.youtube.com/watch?v=-B0KJP1tzXE"
 ---
 
 # `02.2` Mapping function

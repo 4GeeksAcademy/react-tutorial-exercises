@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=Vr5Kh47NSuM"
+tutorial: "https://www.youtube.com/watch?v=Vr5Kh47NSuM"
 ---
 
 # `05.1` Adding styles to the components
