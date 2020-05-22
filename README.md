@@ -10,6 +10,7 @@
 
 <h3>Start now: </h3>
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" /></a>
+--
 
 You can find lots of free interactive/autograded tutorials online, but very few about React.js. That's I we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js
 
