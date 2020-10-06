@@ -12,7 +12,7 @@
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" /></a>
 
 
-You can find lots of free interactive/autograded tutorials online, but very few about React.js. That's I we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js
+You can find lots of free interactive/autograded tutorials online, but there are very few about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js.
 
 These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your help !
 
