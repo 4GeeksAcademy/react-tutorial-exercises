@@ -12,7 +12,7 @@ const customer = {
 Para obtener cualquier propiedad del objeto `Customer` tenemos que usar el operador punto `.`, así:
 
 ```js
-console.log(customer.first_name); // will print "Bob" on the console.
+console.log(customer.first_name); // imprimirá "Bob" en la consola.
 ```
 
 # :speech_balloon: Instrucciones

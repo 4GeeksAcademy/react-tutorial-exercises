@@ -7,11 +7,11 @@ Cuando estás mapeando un arreglo de datos para convertirlo en un arreglo HTML t
 const originalData = [];
 
 const mappingFunction = (item, index) => {
-  // return something in JSX.
+  // devolver algo en JSX.
 };
 
 const htmlList = originalData.map(mappingFunction);
-// the htmlList variable now contains a new array.
+// la variable htmlList ahora contiene un nuevo arreglo.
 ```
 
 # :speech_balloon: Instrucciones
@@ -39,4 +39,4 @@ E incluye todo junto en tu sitio web.
 
 #### El sitio web resultante tiene que verse así:
 
-![list-group](https://ucarecdn.com/2fa34a3a-33ba-4938-a69f-94d550ece79c/)
+![list-group](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02.2-1.png?raw=true)

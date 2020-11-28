@@ -2,9 +2,9 @@
 
 # `01` Bienvenid@
 
-Mi nombre es Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). ¡¡ Estoy muy emocionado por tenerte aquí !! 🎉 😂
-Aprender a programar es duro, necesitas un coach! Escíbeme en twitter si tienes preguntas.
-
+Mi nombre es Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr).      ¡¡ Estoy muy emocionado por tenerte aquí !! 🎉 😂
+Aprender a programar es duro ¡necesitas un coach! Mándame un DM por twitter si tienes preguntas.
+ 
 Durante este curso aprenderás los siguientes conceptos:
 
 1. **Usar JSX**: Una gran sintaxis propuesta por Facebook que mezcla HTML y JS en el mismo documento para ayudarte a escribir HTML dinámico.

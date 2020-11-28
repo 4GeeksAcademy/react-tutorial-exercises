@@ -12,4 +12,4 @@ Please add the possibility to specify the color as **green**
 
 Your website must end up looking similar to this:
 
-![3 Color Alert](https://ucarecdn.com/42b2d03c-f3e4-4cee-8225-d16707fc7bef/)
+![3 Color Alert](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/04.2-1.png?raw=true)

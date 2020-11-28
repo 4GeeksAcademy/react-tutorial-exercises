@@ -6,15 +6,15 @@ Es una práctica muy recomendable porque te permite crear plantillas y reusar tu
 
 ```js
 
-// WHAT: This function returns a string that will be rendered
+// QUE: Esta función devuelve un string que será renderizado 
 const PrintHello = () => {
     return <h1>Hello World</h1>;
 }
-               //what           //where
+               //que           //donde
 ReactDOM.render(PrintHello(), myDiv);
 ```
 
-Nota: ka función PrintHello inicia con una letra en mayúsculas porque porque lo vamos a convertir en un [Componente React](https://reactjs.org/docs/react-component.html) en el ejercicio.
+Nota: La función PrintHello comienza con una letra en mayúsculas porque lo vamos a convertir en un [Componente React](https://reactjs.org/docs/react-component.html) en el ejercicio.
 
 # :speech_balloon: Instrucciones
 

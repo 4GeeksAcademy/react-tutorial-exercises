@@ -32,4 +32,4 @@ Remember to use prop-types to validate your component properties.
 
 This is how your website should look like in the end.
 
-![Jumbotron](https://ucarecdn.com/d376101b-6af1-45cb-97fc-ee246ee312d3/)
+![Jumbotron](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/03.4-1.png?raw=true)

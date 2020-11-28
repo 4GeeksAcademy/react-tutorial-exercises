@@ -2,7 +2,7 @@
 
 # :speech_balloon: Instrucciones
 
-Basándote en el conocimiento que ahora tienes, por favor, crea un componente `<Alert />` que reciba un prop "text: Proptype.string" y renderice un [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples) como el siguiente:
+Basándote en el conocimiento que ahora tienes, por favor, crea un componente `<Alert />` que reciba 1 prop "text: Proptype.string" y renderiza una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples) como la siguiente:
 
 Así es como deberías usar el componente:
 ```jsx

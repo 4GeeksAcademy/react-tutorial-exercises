@@ -29,4 +29,4 @@ And include them all together inside the website.
 
 - You can use the second parameter of the map function as a `key` to uniquely identify each html item.
 
-Your website should look like this: ![LIs](https://ucarecdn.com/773cea7c-acab-46f2-b8af-d03911bbfe24/)
+Your website should look like this: ![LIs](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02.1-1.png?raw=true)
