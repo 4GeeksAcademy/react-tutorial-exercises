@@ -24,8 +24,9 @@ Tu componente debería generar un HTML similar a este:
 ```
 
 #### :bulb: Ayuda
+
 Recuerda usar los prop-types para validar las propiedades de tu componente.
 
 Así es como el sitio web debería verse al finalizar.
 
-![Jumbotron](https://ucarecdn.com/d376101b-6af1-45cb-97fc-ee246ee312d3/)
+![Jumbotron](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/03.4-1.png?raw=true)

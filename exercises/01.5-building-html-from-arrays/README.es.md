@@ -1,6 +1,6 @@
 # `01.5` Construyendo desde arreglos
 
-Con JSX también puedes crear **arreglos** de elementos HTML. E.g: si tenemos un arreglo de `<li>` podemos incluirlos todos dentro del documento a la vez, así:
+Con JSX también puedes crear **arrays o arreglos** de elementos HTML. Por ejemplo: si tenemos un arreglo de `<li>` podemos incluirlos todos dentro del documento a la vez, así:
 
 ```jsx
 const namesInHTML = [
@@ -15,7 +15,7 @@ const content = <ul>{namesInHTML}</ul>;
 ReactDOM.render(content, document.querySelector("#myDiv"));
 ```
 
-El HTML resultanteen el sitio web sería:
+El HTML resultanteen el sitio web sería así:
 ```html
 <div id="myDiv">
   <ul>
@@ -47,7 +47,10 @@ Digamos que queremos react para renderizar la siguiente salida en el documento:
 
 Actualiza el arreglo `navlinkItems` para hacer el código de salida que queremos.
 
-#### :bulb: Ayuda:
+#### :bulb: Pista:
+
 - Solo tienes que actualizar el arreglo `navlinkItems`, nada más.
-- React te pedirá usar claves en cada elemento del arreglo, [puedes leer más al respecto aquí](https://reactjs.org/docs/lists-and-keys.html#keys).
+
+- React te pedirá usar keys en cada elemento del arreglo, [puedes leer más al respecto aquí](https://reactjs.org/docs/lists-and-keys.html#keys).
+
 - Recuerda usar `className` en lugar de `class`.

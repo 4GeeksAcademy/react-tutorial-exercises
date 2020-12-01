@@ -5,7 +5,7 @@ En el ejericio anterior hemos creado nuestro primer componente llamado **PrintHe
 <PrintHello />
 ```
 
-Ahora, vamos a crear un nuevo componente (función) llamada **"Card"** que generará el siguiente HTML:
+Ahora, vamos a crear un nuevo componente (función) llamado **"Card"** que generará el siguiente HTML:
 
 ```jsx
 <div class="card m-5">
@@ -22,6 +22,6 @@ Ahora, vamos a crear un nuevo componente (función) llamada **"Card"** que gener
 
 # :speech_balloon: Instrucciones
 
-Por favor, crea una función llamada BootstrapCard que devolverá el código de la carta y usará la función ReactDOM.render `<BootstrapCard />` para añadirlo dentro del sitio web, dentro de `#myDiv` usando la función ReactDOM.render.
+Por favor, crea una función llamada BootstrapCard que devolverá el código de la card y usará la función ReactDOM.render `<BootstrapCard />` para añadirlo dentro del sitio web, dentro de `#myDiv` usando la función ReactDOM.render.
 
 Nota: Si no sabes o no recuerdas cómo usar `ReactDOM.render`, puedes revisar los ejercicios anteriores.

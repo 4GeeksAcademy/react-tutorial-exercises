@@ -42,4 +42,7 @@ Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#exam
 
 ### This is how your end result needs to look like:
 
-![Bob Dylan Card](https://ucarecdn.com/cc7588d6-6ae4-4b95-aaea-0d46fd4ec72c/)
+![Bob Dylan Card](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/1.4-1.png?raw=true)
+
+
+

@@ -3,10 +3,10 @@
 También puedes usar las propiedades de un componente para cambiar su comportamiento, como mostrar u ocultar `<Alert />` según una propiedad llamada `show`.
 
 ```jsx
-{/* This will make your alert show */}
+{/* Esto hará que tu alerta se muestre */}
 <Alert text="Are you sure?" show={true}>
 
-{/* This will make your alert to be hidden */}
+{/* Esto hará que tu alerta se oculte */}
 <Alert text="Are you sure?" show={false}>
 ```
 
@@ -18,16 +18,18 @@ const Alert = (props) => {
         return null;
     }
     else{
-        // return here the component html
+        // retorna aquí el componente html
     }
 };
 ```
 
- :point_up: Devolver distinto código HTML según ciertas condiciones es llamado formalmente [renderizado condicional rendering](https://joshblog.net/2018/conditional-rendering-with-react-and-jsx/).
+ :point_up: Devolver distinto código HTML según ciertas condiciones es llamado formalmente [renderizado condicional](https://joshblog.net/2018/conditional-rendering-with-react-and-jsx/).
 
 # :speech_balloon: Instrucciones
 
 Crea un componente `<Alert />` que renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples).
+
 El componente debe ser capaz de recibir las siguientes dos propiedades:
+
 - show (bool): True or false.
 - text (string): El mensaje a incluir dentro del mensaje del alert

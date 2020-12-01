@@ -25,4 +25,4 @@ E inclúyelos juntos en el sitio web.
 
 - Puedes usar el segundo parametro de la función map como una `key` para identificar de forma única cada elemento html.
 
-Tu sitio web debería verse así: ![LIs](https://ucarecdn.com/773cea7c-acab-46f2-b8af-d03911bbfe24/)
+Tu sitio web debería verse así: ![LIs](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02.1-1.png?raw=true)

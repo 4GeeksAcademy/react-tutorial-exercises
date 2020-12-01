@@ -2,9 +2,9 @@
 
 El mayor dolor de los desarrolladores front-end es **trabajar con el DOM** para crear HTML dinámico, algo que React.js hace de lo mejor.
 
-React.js es una biblioteca de renderizado hecha para optimizar el DOM: Los programadores ahorran tiempo y el navegador es más rápido.
+React.js es una librería de renderizado hecha para optimizar el DOM: Los programadores ahorran tiempo y el navegador es más rápido.
 
-La biblioteca viene con una función llamada **ReactDOM.render** que tú puedes ver como un reemplazo de la clásica [propiedad innerHTML](https://www.w3schools.com/jsref/prop_html_innerhtml.asp).
+La librería viene con una función llamada **ReactDOM.render** que tú puedes ver como un reemplazo de la clásica [propiedad innerHTML](https://www.w3schools.com/jsref/prop_html_innerhtml.asp).
 
 `ReactDOM.render` recibe dos parámetros:
 
@@ -14,25 +14,25 @@ La biblioteca viene con una función llamada **ReactDOM.render** que tú puedes 
 Por ejemplo:
 
 ```js
-import React from 'react'; //import the react library
-import ReactDOM from 'react-dom'; //import react-dom to make react generate html
+import React from 'react'; //importar la librería de react
+import ReactDOM from 'react-dom'; //importar react-dom para que react genere el html
 
-// WHAT: This variable contains all the HTML that will be rendered
+// QUE: Esta variable contiene todo el HTML que va a ser renderizado
 let output = <span>James is 12 years old</span>
 
-// WHERE: A DOM element that will contain the entire react generated html
+// DONDE: Un elemento DOM que contendrá todo el html generado por react
 const myDiv = document.querySelector('#myDiv');
 
-               //what           //where
+               //que    //donde
 ReactDOM.render(output, myDiv);
 ```
 
 La función `ReactDOM.render` establecerá el innerHTML de `myDiv` (un elemento DOM) para ser lo que sea que contenga la variable `output`, muy similar a como funciona `innerHTML`:
 ```js
-//This is how you would do it without react.
+//Así lo harías sin react
 myDiv.innerHTML = '<span>James is 12 years old</span>';
 
-// This is not you would do it with react.
+// así lo haces con react
 ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 ```
   

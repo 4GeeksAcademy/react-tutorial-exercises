@@ -4,5 +4,5 @@
 
 Ahora, vamos a cambiar los estilos del componente Badge para hacer que se vea así:
 
-![Alert in bootstrap](https://ucarecdn.com/2ad9b934-4360-4ab7-aa6d-63c37f405084/alert.png)
+![Alert in bootstrap](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/05.1-1.png?raw=true)
 
