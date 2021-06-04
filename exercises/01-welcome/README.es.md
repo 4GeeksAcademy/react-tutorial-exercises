@@ -1,4 +1,4 @@
-![4Geeks Logo](https://ucarecdn.com/7df7942f-cad6-48a0-8dc4-8d8fe0e12985/-/resize/200x/)
+![4Geeks Logo](https://browser-blue-antlion-i1p0z23y.ws-us08.gitpod.io/workspace/react-tutorial-exercises/.learn/assets/4Geeks-logo.png/-/resize/200x/)
 
 # `01` Bienvenid@
 
