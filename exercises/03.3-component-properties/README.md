@@ -33,7 +33,7 @@ In React js we also can create our own tags and use our own invented properties,
 <BootstrapCard title="Bob Dylan" />
 ```
 
-Our component function will receive all its properties (including title) through the first param that we can call "props".
+Our component function will receive all its properties (including title) through the first parameter that we can call "props".
 
 ```jsx
 const BootstrapCard = (props) => {
