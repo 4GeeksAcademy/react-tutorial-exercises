@@ -56,7 +56,7 @@ BootstrapCard.propTypes = {
 
 # :speech_balloon: Instructions
 
-Please add/use the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` properties inside the **BootstrapCard** function and also on the `<BootstrapCard />` tag. Do it the same way `title` was already included in both.
+Please add/use the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` properties inside the **BootstrapCard** function and also on the `<BootstrapCard />` tag (With Bob Dylan's information that has by default). Do it the same way `title` was already included in both.
 
 #### :bulb: Hint
 

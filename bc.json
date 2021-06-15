@@ -1,5 +1,28 @@
 {
+    "port": 3000,
+    "address": "https://lime-catshark-xk6yiju2.ws-us09.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": "/home/gitpod/.nvm/versions/node/v12.16.3/lib/node_modules/breathecode-cli/src/utils/config/compiler/template.html",
+    "disable_grading": false,
+    "onCompilerSuccess": "open-browser",
     "language": "react",
+    "compiler": "webpack",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
     "title": "Learn React.js Interactively",
     "repository": "https://github.com/4GeeksAcademy/react-tutorial-exercises",
     "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png?raw=true",
@@ -7,5 +30,239 @@
     "duration": 8,
     "difficulty": "easy",
     "video-solutions": true,
-    "graded": true
+    "graded": true,
+    "session": 6322939830326178000,
+    "exercises": [
+        {
+            "slug": "01-welcome",
+            "title": "01-welcome",
+            "done": false,
+            "path": "exercises/01-welcome",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "01.1-hello-world",
+            "title": "01.1-hello-world",
+            "done": false,
+            "path": "exercises/01.1-hello-world",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "01.2-hello-jsx",
+            "title": "01.2-hello-jsx",
+            "done": false,
+            "path": "exercises/01.2-hello-jsx",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "01.3-rendering-from-objects",
+            "title": "01.3-rendering-from-objects",
+            "done": false,
+            "path": "exercises/01.3-rendering-from-objects",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "01.4-building-a-layout",
+            "title": "01.4-building-a-layout",
+            "done": false,
+            "path": "exercises/01.4-building-a-layout",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "01.5-building-html-from-arrays",
+            "title": "01.5-building-html-from-arrays",
+            "done": false,
+            "path": "exercises/01.5-building-html-from-arrays",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "02-maping-array-to-li",
+            "title": "02-maping-array-to-li",
+            "done": false,
+            "path": "exercises/02-maping-array-to-li",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "02.1-maping-array-objects-to-li",
+            "title": "02.1-maping-array-objects-to-li",
+            "done": false,
+            "path": "exercises/02.1-maping-array-objects-to-li",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "02.2-maping-array-of-objects-to-li",
+            "title": "02.2-maping-array-of-objects-to-li",
+            "done": false,
+            "path": "exercises/02.2-maping-array-of-objects-to-li",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03-render-with-functions",
+            "title": "03-render-with-functions",
+            "done": false,
+            "path": "exercises/03-render-with-functions",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03.1-your-first-component",
+            "title": "03.1-your-first-component",
+            "done": false,
+            "path": "exercises/03.1-your-first-component",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03.2-a-real-component",
+            "title": "03.2-a-real-component",
+            "done": false,
+            "path": "exercises/03.2-a-real-component",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03.3-component-properties",
+            "title": "03.3-component-properties",
+            "done": false,
+            "path": "exercises/03.3-component-properties",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03.4-jumbotron",
+            "title": "03.4-jumbotron",
+            "done": false,
+            "path": "exercises/03.4-jumbotron",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03.5-alert-component",
+            "title": "03.5-alert-component",
+            "done": false,
+            "path": "exercises/03.5-alert-component",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04-conditional-rendering",
+            "title": "04-conditional-rendering",
+            "done": false,
+            "path": "exercises/04-conditional-rendering",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04.1-conditional-rendering",
+            "title": "04.1-conditional-rendering",
+            "done": false,
+            "path": "exercises/04.1-conditional-rendering",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04.2-conditional-rendering-ii",
+            "title": "04.2-conditional-rendering-ii",
+            "done": false,
+            "path": "exercises/04.2-conditional-rendering-ii",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "05-adding-styles",
+            "title": "05-adding-styles",
+            "done": false,
+            "path": "exercises/05-adding-styles",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "05.1-second-styles",
+            "title": "05.1-second-styles",
+            "done": false,
+            "path": "exercises/05.1-second-styles",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "06-listening-to-events",
+            "title": "06-listening-to-events",
+            "done": false,
+            "path": "exercises/06-listening-to-events",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        }
+    ]
 }
