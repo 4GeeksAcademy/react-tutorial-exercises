@@ -9,7 +9,7 @@ Ahora, vamos a crear un nuevo componente (función) llamado **"Card"** que gener
 
 ```jsx
 <div class="card m-5">
-  <img class="card-img-top" src="https://browser-blue-antlion-i1p0z23y.ws-us08.gitpod.io/workspace/react-tutorial-exercises/.learn/assets/Dylan.png-/resize/300x/" alt="Card image cap" />
+  <img class="card-img-top" src="https://github.com/ElviraQDP/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png-/resize/300x/" alt="Card image cap" />
   <div class="card-body">
     <h5 class="card-title">Bob Dylan</h5>
     <p class="card-text">Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.</p>

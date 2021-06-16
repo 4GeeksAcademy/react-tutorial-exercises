@@ -1,4 +1,4 @@
-![4Geeks Logo](https://browser-blue-antlion-i1p0z23y.ws-us08.gitpod.io/workspace/react-tutorial-exercises/.learn/assets/4Geeks-logo.png/-/resize/200x/)
+![4Geeks Logo](https://github.com/ElviraQDP/react-tutorial-exercises/blob/master/.learn/assets/4Geeks-logo.png/-/resize/200x/)
 
 # `01` Bienvenid@
 
