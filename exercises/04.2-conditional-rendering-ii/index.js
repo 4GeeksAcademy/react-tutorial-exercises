@@ -22,7 +22,7 @@ Alert.propTypes = {
 };
 
 // here is where the alert component is being used, you don't have to edit this part,
-// but it helps you understan what properties is the component using
+// but it helps you understand what properties is the component using
 ReactDOM.render(
 	<div>
 		<Alert text="OMG! Something really bad has happended!" color="red" />
