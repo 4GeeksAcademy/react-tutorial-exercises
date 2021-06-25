@@ -1,48 +1,50 @@
+import ReactDOM from "react-dom";
+import { WhatToRender } from "./index";
+import renderer from "react-test-renderer";
 
-import ReactDOM from 'react-dom';
-import { WhatToRender } from './index';
-import renderer from 'react-test-renderer';
+jest.mock("react-dom", () => ({ render: jest.fn() }));
 
-jest.mock('react-dom', () => ({ render: jest.fn() }));
-
-test('ReactDOM needs to be called once', () => {
-    expect(ReactDOM.render.mock.calls.length).toBe(1);
+test("ReactDOM.render needs to be called once", () => {
+  expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test('The component should return return the exact HTML', () => {
-    const tree = renderer
-        .create(ReactDOM.render.mock.calls[0][0])
-        .toJSON();
-        console.log(tree);
-    expect(tree).toMatchInlineSnapshot(`
-<div
-  className="card col-3 mx-auto"
+test("The component should return the exact HTML", () => {
+  const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
+  console.log(tree);
+  expect(tree).toMatchInlineSnapshot(`
+<ul
+  className="nav"
 >
-  <img
-    alt="Card image cap"
-    className="card-img-top"
-    src="https://assets.breatheco.de/apis/img/images.php?blob&tags=bobdylan"
-  />
-  <div
-    className="card-body"
+  <li
+    className="nav-item"
   >
-    <h5
-      className="card-title"
-    >
-      Bob Dylan
-    </h5>
-    <p
-      className="card-text"
-    >
-      Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.
-    </p>
     <a
-      className="btn btn-primary"
-      href="https://en.wikipedia.org/wiki/Bob_Dylan"
+      className="nav-link"
+      href="#"
     >
-      Go to wikipedia
+      Link to google.com
     </a>
-  </div>
-</div>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <a
+      className="nav-link"
+      href="#"
+    >
+      Link to facebook.com
+    </a>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <a
+      className="nav-link"
+      href="#"
+    >
+      Link to amazon.com
+    </a>
+  </li>
+</ul>
 `);
 });

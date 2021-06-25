@@ -1,1 +1,11 @@
-{"compiler":"react","exercises":[{"slug":"01-hello-world","title":"01-hello-world"},{"slug":"02-jsx-syntax","title":"02-jsx-syntax"},{"slug":"03-separate-files","title":"03-separate-files"},{"slug":"04-using-jsx","title":"04-using-jsx"},{"slug":"05-custom-tag","title":"05-custom-tag"},{"slug":"05-first-component","title":"05-first-component"},{"slug":"05-jsx","title":"05-jsx"},{"slug":"05-passing-properties","title":"05-passing-properties"},{"slug":"10-background-slider","title":"10-background-slider"},{"slug":"10-controlled-input","title":"10-controlled-input"},{"slug":"10-form-validation","title":"10-form-validation"}]}
+{
+    "language": "react",
+    "title": "Learn React.js Interactively",
+    "repository": "https://github.com/4GeeksAcademy/react-tutorial-exercises",
+    "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png?raw=true",
+    "description": "Learn and practice React.js using hooks, interactive tutorial with dozens of react exercises, get instant feedback with automatic grading and watch video solutions afterwards.",
+    "duration": 8,
+    "difficulty": "easy",
+    "video-solutions": true,
+    "graded": true
+}

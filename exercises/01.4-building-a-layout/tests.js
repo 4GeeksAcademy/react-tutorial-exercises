@@ -5,23 +5,23 @@ import renderer from 'react-test-renderer';
 
 jest.mock('react-dom', () => ({ render: jest.fn() }));
 
-test('ReactDOM needs to be called once', () => {
+test('ReactDOM.render needs to be called once', () => {
     expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test('The component should return return the exact HTML', () => {
+test('The component should return the exact HTML', () => {
     const tree = renderer
         .create(ReactDOM.render.mock.calls[0][0])
         .toJSON();
         console.log(tree);
     expect(tree).toMatchInlineSnapshot(`
 <div
-  className="card col-3 mx-auto"
+  className="card m-5"
 >
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="https://assets.breatheco.de/apis/img/images.php?blob&tags=bobdylan"
+    src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/"
   />
   <div
     className="card-body"

@@ -1,12 +1,22 @@
-/**
- * Don't update anything on this file
- * all your changes must be made on PersonCard.js
-**/
+import React from "react";
+import ReactDOM from "react-dom";
+import PropTypes from "prop-types";
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import '~bootstrap/scss/bootstrap.scss';
-//here is were we import the <PersonCard /> component from the ./PersonCard.js file
-import PersonCard from './PersonCard.js';
-//here is were we include the PersonCard output into the #myDiv dom element.
-ReactDOM.render(<PersonCard />, document.querySelector('#myDiv'));
+const Alert = props => {
+	//your component here
+
+};
+Alert.propTypes = {
+	color: PropTypes.string,
+	text: PropTypes.string
+};
+
+// here is where the alert component is being used, you don't have to edit this part,
+// but it helps you understand what properties are being passed to the component
+ReactDOM.render(
+	<div>
+		<Alert text="OMG! Something really bad has happended!" color="red" />
+		<Alert text="Well, it is not that bad after all!" color="orange" />
+	</div>,
+	document.querySelector("#myDiv")
+);

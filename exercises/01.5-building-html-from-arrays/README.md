@@ -1,6 +1,10 @@
+---
+tutorial: "https://www.youtube.com/watch?v=mFPtdyHeKVM"
+---
+
 # `01.5` Building from arrays
 
-But what if instead of the data being an object, we have an array? Like for example if we have an array of <li> we can include all of them into the document at once like this:
+With JSX you can also create **arrays** of HTML items. E.g: If we have an array of `<li>` we can include all of them into the document at once like this:
 
 ```jsx
 const namesInHTML = [
@@ -29,21 +33,25 @@ The resulting HTML on the website will be:
 
 # :speech_balloon: Instructions
 
-Lets say that we want react to render into the document the following output:
+Lets say that we want react to render the following output into the document:
 
 ```html
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown button
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link to google.com</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link to facebook.com</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link to amazon.com</a>
+  </li>
+</ul>
 ```
 
-Update the `dropdownItems` array to make the current code output what we want.
+Update the `navlinkItems` array to make the current code output what we want.
 
-Note: you only have to update the `dropdownItems` array, nothing else.
+#### :bulb: Hint:
+- You only have to update the `navlinkItems` array, nothing else.
+- React will ask you to use keys on each item of the array, [you can read more about it here](https://reactjs.org/docs/lists-and-keys.html#keys).
+- Remember to use `className` instead of `class`.

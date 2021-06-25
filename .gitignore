@@ -1,0 +1,17 @@
+# Ignore everything
+/*
+
+!.gitignore
+!.gitpod.yml
+!.gitpod.Dockerfile
+!bc.json
+!README.md
+!README.es.md
+
+!/exercises
+!/exercises/*
+
+!/.breathecode
+/.breathecode/**
+!/.breathecode/resets
+!/.breathecode/resets/**
