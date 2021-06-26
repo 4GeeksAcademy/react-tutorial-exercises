@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import file from "./index";
+import file from "./app.jsx";
 import renderer from "react-test-renderer";
 //import jsxToString from 'jsx-to-string';
 
