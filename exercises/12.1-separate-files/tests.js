@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import index from './index';
+import index from './app.jsx';
 import jsxToString from 'jsx-to-string';
 import renderer from 'react-test-renderer';
 
