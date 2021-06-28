@@ -21,7 +21,7 @@ console.log(customer.first_name); // will print "Bob" on the console.
 
 # :speech_balloon: Instructions
 
-Open the `index.js` and create the necesary code to make your file render the following output into the DOM:
+Open the `app.jsx` and create the necesary code to make your file render the following output into the DOM:
 
 ```jsx
 <div>
