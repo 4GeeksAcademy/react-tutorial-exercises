@@ -2,6 +2,11 @@ import ReactDOM from "react-dom";
 import { WhatToRender } from "./app.jsx";
 import renderer from "react-test-renderer";
 
+const fs = require('fs');
+const path = require('path');
+
+const app_content = fs.readFileSync(path.resolve(__dirname, './app.jsx'), 'utf8');
+
 jest.mock("react-dom", () => ({ render: jest.fn() }));
 
 test("ReactDOM.render needs to be called once", () => {
@@ -27,3 +32,11 @@ test("The component should return the exact HTML", () => {
 </ul>
 `);
 });
+
+test("You should use singleAnimal to get the anima for each of the iterations", () => {
+    expect(app_content).toMatch("{singleAnimal}");
+})
+
+test("You should add the key for each of them and it should be unique", () => {
+    expect(app_content).toMatch("key={i}");
+})
