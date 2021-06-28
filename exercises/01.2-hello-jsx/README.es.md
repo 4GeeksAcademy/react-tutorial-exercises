@@ -32,6 +32,6 @@ Básicamente, ahora somos capaces de mezclar HTML y JS en el mismo documento sin
 
 ## :speech_balloon: Instrucciones
 
-El archivo index.js tiene una variable llamada `name` que puede contener un nombre.
+El archivo app.jsx tiene una variable llamada `name` que puede contener un nombre.
 
 Por favor, incluye esa variable dentro del resultado(output) de react, reemplaza la variable con el `"James"`.
