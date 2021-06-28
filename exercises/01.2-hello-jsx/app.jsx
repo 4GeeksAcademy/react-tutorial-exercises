@@ -8,7 +8,7 @@ let name = "John";
 // we can use it in our html like this
 let output = (
 	<span>
-		James is{age} years old
+		James is {age} years old
 	</span>
 );
 
