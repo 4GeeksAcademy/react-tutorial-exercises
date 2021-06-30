@@ -26,4 +26,4 @@ When you call a function like that, it becomes a **"React component"**, which is
 
 ## :speech_balloon: Instructions
 
-On the 9th line of index.js, change the way the function is called, call the function as a **"React component"** using `<` and `>` like it an HTML tag (instead of parentheses).
+On the 9th line of app.jsx, change the way the function is called, call the function as a **"React component"** using `<` and `>` like it an HTML tag (instead of parentheses).
