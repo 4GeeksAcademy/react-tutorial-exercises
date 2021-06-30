@@ -22,4 +22,4 @@ Cuando llamas a una función así, se convierte en un **"Componente de React"**,
 
 ## :speech_balloon: Instrucciones
 
-En la 9na línea de index.js, cambia la forma en la que se llama a la función, llama a la función como un **"componente React"** usando `<` y `>` como una etiqueta HTML (en lugar de paréntesis).
+En la 9na línea de app.jsx, cambia la forma en la que se llama a la función, llama a la función como un **"componente React"** usando `<` y `>` como una etiqueta HTML (en lugar de paréntesis).

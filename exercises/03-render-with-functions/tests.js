@@ -10,7 +10,6 @@ test("ReactDOM.render needs to be called once", () => {
 
 test("The component should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
-  console.log(tree);
   expect(tree).toMatchInlineSnapshot(`
 <h1>
   I Love React
