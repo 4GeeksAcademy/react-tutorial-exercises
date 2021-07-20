@@ -11,7 +11,8 @@
 !/exercises
 !/exercises/*
 
-!/.breathecode
-/.breathecode/**
-!/.breathecode/resets
-!/.breathecode/resets/**
+!/.learn
+/.learn/**
+!/.learn/resets
+!/.learn/resets/**
+!/.learn/dist/index.html
