@@ -40,4 +40,4 @@ ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 
 Abre el archivo `01.1-hello-world/index.js` y tómate un tiempo para entenderlo.
 Entonces, cambia la variable __output__ a:
-```<span> James is <strong>12</strong> years old </span>```
+```<span>James is <strong>12</strong> years old</span>```

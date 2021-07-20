@@ -1,6 +1,11 @@
 import ReactDOM from "react-dom";
-import { WhatToRender } from "./index";
+import { WhatToRender } from "./app.jsx";
 import renderer from "react-test-renderer";
+
+const fs = require('fs');
+const path = require('path');
+
+const app_content = fs.readFileSync(path.resolve(__dirname, './app.jsx'), 'utf8');
 
 jest.mock("react-dom", () => ({ render: jest.fn() }));
 
@@ -48,3 +53,7 @@ test("The component should return the exact HTML", () => {
 </ul>
 `);
 });
+
+test("You should use the map() method", () => {
+    expect(app_content).toMatch(".map(");
+})

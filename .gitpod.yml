@@ -7,7 +7,7 @@ ports:
       onOpen: open-preview
 tasks:
     - command: >
-        bc run;
+        learnpack start;
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)

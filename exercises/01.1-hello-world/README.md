@@ -44,4 +44,4 @@ ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 
 Open the `01.1-hello-world/index.js` file and take some time to understand it.
 Then, change the variable __output__ to:
-```<span> James is <strong>12</strong> years old </span>```
+```<span>James is <strong>12</strong> years old</span>```
