@@ -4,7 +4,7 @@
 !.gitignore
 !.gitpod.yml
 !.gitpod.Dockerfile
-!bc.json
+!learn.json
 !README.md
 !README.es.md
 
