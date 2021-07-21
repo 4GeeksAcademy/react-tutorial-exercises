@@ -7,5 +7,10 @@
     "duration": 8,
     "difficulty": "easy",
     "video-solutions": true,
-    "graded": true
+    "graded": true,
+    "config": {
+        "editor": {
+            "version": "1.0.68"
+        }
+    }
 }
