@@ -2,7 +2,7 @@
 intro: "https://www.youtube.com/watch?v=yRjmuLAH25s"
 ---
 
-![4Geeks Logo](https://github.com/ElviraQDP/react-tutorial-exercises/blob/master/.learn/assets/4Geeks-logo.png?raw=true)
+<img src="https://github.com/ElviraQDP/react-tutorial-exercises/blob/master/.learn/assets/4Geeks-logo.png?raw=true" height="200" />
 
 # `01` Welcome
 
