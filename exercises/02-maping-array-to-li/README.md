@@ -7,12 +7,12 @@ tutorial: "https://www.youtube.com/watch?v=xe-O1jhnVxk"
 Now let's build an array dynamically. Let's say you have an array of animals:
 
 ```js
-const animals = [ 'Horse', 'Turtle', 'Elephan', 'Monkey' ];
+const animals = [ 'Horse', 'Turtle', 'Elephant', 'Monkey' ];
 ```
 
-# :speech_balloon: Instructions
+# :pencil: Instructions:
 
-Update the code's [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) to create a new array of `<li>`'s that each of them corresponds one animal from the original array, the resulting array should be something like this:
+1. Update the code's [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) to create a new array of `<li>`'s that each of them corresponds one animal from the original array, the resulting array should be something like this:
 
 ```jsx
 const animalsInHTML = [
@@ -25,8 +25,10 @@ const animalsInHTML = [
 
 And include them all together inside the website.
 
-#### :bulb: Hint
+## :bulb: Hint
 
-- You can use the second parameter of the map function as a `key` to uniquely identify each html item.
++ You can use the second parameter of the map function as a `key` to uniquely identify each html item.
+
+## Expected result:
 
 Your website should look like this: ![LIs](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02-1.png?raw=true)

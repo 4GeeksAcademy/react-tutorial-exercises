@@ -4,15 +4,20 @@ tutorial: "https://www.youtube.com/watch?v=Gw6i3BWzwNY"
 
 # `02.1` Mapping array to `<li>`
 
-Using the knowledge you have from the previous example, now lets fix the map function again but starting from an array of objects.
+Using the knowledge you have from the previous example, now lets fix the `.map` function again but starting from an array of objects.
 
 ```js
-const animals = [ { label: 'Horse' }, { label: 'Turtle' }, { label: 'Elephan' }, { label: 'Monkey' } ];
+const animals = [ { label: 'Horse' }, { label: 'Turtle' }, { label: 'Elephant' }, { label: 'Monkey' } ];
 ```
 
-# :speech_balloon: Instructions
+## :pencil: Instructions:
 
-Update the code's [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) to create a new array of `<li>`'s that each of them corresponds one animal from the original array, the resulting array should be something like this:
+1.  Update the code's [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) to create a new array of `<li>`'s that each of them corresponds one animal from the original array and 
+
+2. Include them all together inside the website.
+
+
+## Expected result:
 
 ```jsx
 const animalsInHTML = [
@@ -22,11 +27,10 @@ const animalsInHTML = [
   <li>Monkey</li>
 ];
 ```
+## :bulb: Hint:
 
-And include them all together inside the website.
++ You can use the second parameter of the map function as a `key` to uniquely identify each html item.
 
-#### :bulb: Hint
+## Expected result:
 
-- You can use the second parameter of the map function as a `key` to uniquely identify each html item.
-
-Your website should look like this: ![LIs](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02.1-1.png?raw=true)
+Your website should look like this: ![LI's](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02.1-1.png?raw=true)

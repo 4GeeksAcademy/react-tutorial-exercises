@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=-B0KJP1tzXE"
 
 # `02.2` Mapping function
 
-When you are mapping an array of data to convert it into an array of HTML you have to specify a **"mapping function"** that will receive each item from the original array, transform it and insert it into the new array. E.g:
+When you are mapping an array of data to convert it into an array of HTML you have to specify a **"mapping function"** that will receive each item from the original array, transform it and insert it into the new array. E.g.:
 
 ```js
 
@@ -18,15 +18,15 @@ const htmlList = originalData.map(mappingFunction);
 // the htmlList variable now contains a new array.
 ```
 
-# :speech_balloon: Instructions
+# :pencil: Instructions:
 
-Use the [list-group bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/#basic-example) component to render a list of planets from a given array:
+1. Use the [list-group bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/#basic-example) component to render a list of planets from a given array:
 
 ```js
 const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
 ```
 
-Use the [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) and make your algorithm output the following HTML:
+2. Use the [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) and make your algorithm output the following HTML:
 
 ```jsx
 <ul class="list-group m-5">
@@ -39,8 +39,8 @@ Use the [.map function](https://medium.com/poka-techblog/simplify-your-javascrip
 </ul>
 ```
 
-And include them all together inside the website.
+3. Include them all together inside the website.
 
-#### The resulting website has to look like this:
+## Expected result:
 
 ![list-group](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02.2-1.png?raw=true)

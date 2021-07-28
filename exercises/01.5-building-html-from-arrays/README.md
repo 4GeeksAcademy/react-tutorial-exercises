@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=mFPtdyHeKVM"
 
 # `01.5` Building from arrays
 
-With JSX you can also create **arrays** of HTML items. E.g: If we have an array of `<li>` we can include all of them into the document at once like this:
+With JSX you can also create **arrays** of HTML items. E.g. if we have an array of `<li>` we can include all of them into the document at once like this:
 
 ```jsx
 const namesInHTML = [
@@ -20,6 +20,7 @@ ReactDOM.render(content, document.querySelector("#myDiv"));
 ```
 
 The resulting HTML on the website will be:
+
 ```html
 <div id="myDiv">
   <ul>
@@ -31,7 +32,7 @@ The resulting HTML on the website will be:
 </div>
 ```
 
-# :speech_balloon: Instructions
+# :pencil: Instructions:
 
 Lets say that we want react to render the following output into the document:
 
@@ -49,9 +50,12 @@ Lets say that we want react to render the following output into the document:
 </ul>
 ```
 
-Update the `navlinkItems` array to make the current code output what we want.
+1. Update the `navlinkItems` array to make the current code output what we want.
 
-#### :bulb: Hint:
+## :bulb: Hint:
+
 - You only have to update the `navlinkItems` array, nothing else.
+
 - React will ask you to use keys on each item of the array, [you can read more about it here](https://reactjs.org/docs/lists-and-keys.html#keys).
+
 - Remember to use `className` instead of `class`.
