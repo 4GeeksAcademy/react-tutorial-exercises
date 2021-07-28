@@ -22,13 +22,13 @@ Si encuentras algún error o falta de ortografía, por favor contribuye y repór
 
 ## Instalación manual
 
-1. Asegúrate de tener el [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) instalado y `node.js` versión 10+. Este e sel comando para instalar breathecode-cli
+1. Asegúrate de tener el [learnpack-cli](https://github.com/learnpack/learnpack-cli)instalado y `node.js` versión 10+. Este e sel comando para instalar learnpack-cli
 
 ```sh
-$ npm i breathecode-cli -g
+$ npm i learnpack -g
 ```
 
-2. Descarga los ejercicios **clonando** el proyecto o escribiendo `breathecode download:exercises` en el terminal, o descargando el zip desde github.
+2. Descarga los ejercicios **clonando** el proyecto o descargando el zip desde github.
 
 > Nota: Una vez termine la descarga, asegúrate de estar en el directorio correcto (te encontrarás en el subdirectorio "exercises").
 
@@ -36,7 +36,8 @@ $ npm i breathecode-cli -g
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ breathecode run
+$ learnpack plugins:install learnpack-react@0.0.17
+$ learnpack start
 ```
 
 <p align="center">
