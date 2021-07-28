@@ -43,7 +43,7 @@ $ npm i learnpack -g
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ learnpack plugins:install learnpack-react@0.0.17
+$ learnpack plugins:install learnpack-react
 $ learnpack start
 ```
 
