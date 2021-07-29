@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import { WhatToRender } from "./index";
+import { WhatToRender } from "./app.jsx";
 import jsxToString from "jsx-to-string";
 import renderer from "react-test-renderer";
 
@@ -18,16 +18,9 @@ test("Component imageUrl is being passed properly", () => {
     const component = ReactDOM.render.mock.calls[0][0];
     if (component.props.imageUrl != undefined) {
         expect(component.props.imageUrl).toBe("https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/");
-
-    } else if (component.props.imageURL != undefined) {
-        expect(component.props.imageURL).toBe("https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/");
-
     } else {
         throw Error('I was expecting the property imageURL')
-
-
     }
-
 });
 
 test("Component description is being passed properly", () => {
@@ -44,14 +37,8 @@ test("Component buttonUrl is being passed properly", () => {
         expect(component.props.buttonUrl).toBe(
         "https://en.wikipedia.org/wiki/Bob_Dylan"
     );
-    } else if (component.props.buttonURL != undefined) {
-            expect(component.props.buttonURL).toBe(
-        "https://en.wikipedia.org/wiki/Bob_Dylan"
-    );
     } else {
         throw Error('I was expecting the property buttonURL')
-
-
     }
 });
 

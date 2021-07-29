@@ -41,10 +41,11 @@ ReactDOM.render(<span> James is 12 years old </span>, myDiv);
   
 # :pencil: Instrucciones:
 
-1. Abre el archivo `01.1-hello-world/index.js` y tómate un tiempo para entenderlo.
+1. Abre el archivo `01.1-hello-world/app.jsx` y tómate un tiempo para entenderlo.
 
 2. Cambia la variable `output` por:
 
 ```js
 <span> James is <strong>12</strong> years old </span>
 ```
+

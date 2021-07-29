@@ -21,7 +21,7 @@ console.log(customer.first_name); // will print "Bob" on the console.
 
 # :pencil: Instructions:
 
-1. Open the `index.js` and create the necesary code to make your file render the following output into the DOM:
+Open the `app.jsx` and create the necesary code to make your file render the following output into the DOM:
 
 ```jsx
 <div>

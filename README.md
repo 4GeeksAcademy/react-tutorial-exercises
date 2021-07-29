@@ -29,13 +29,13 @@ If you find any bugs or spelling issues, please contribute and report them and w
 
 ## Manual Installation of the Tutorial Exercises
 
-1. Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+. This is the command to install the breathecode-cli
+1. Make sure you have the [learnpack-cli](https://github.com/learnpack/learnpack-cli) installed and `node.js` version 10+. This is the command to install the learnpack-cli
 
 ```sh
-$ npm i breathecode-cli -g
+$ npm i learnpack -g
 ```
 
-2. Download the react exercises by **cloning** the project or typing `breathecode download:exercises` on the terminal or downloading the zip from github.
+2. Download the react exercises by **cloning** the project or downloading the zip from github.
 
 > Note: Once you finish downloading, make sure you are in the right folder (you will find a the subdirectory "exercises").
 
@@ -43,7 +43,8 @@ $ npm i breathecode-cli -g
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ breathecode run
+$ learnpack plugins:install learnpack-react
+$ learnpack start
 ```
 
 ## How are the React Tutorial Exercises organized?

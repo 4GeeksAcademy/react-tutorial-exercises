@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import jsxToString from "jsx-to-string";
-import file from "./index";
+import file from "./app.jsx";
 import renderer from "react-test-renderer";
 
 jest.mock("react-dom", () => ({ render: jest.fn() }));
@@ -15,7 +15,7 @@ test("The returned JSX statement should be exactly this: <span>{ name } is { age
   expect(tree).toMatchInlineSnapshot(`
 <span>
   John
-   is
+   is 
   12
    years old
 </span>

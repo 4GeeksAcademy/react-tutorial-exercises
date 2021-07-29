@@ -4,14 +4,15 @@
 !.gitignore
 !.gitpod.yml
 !.gitpod.Dockerfile
-!bc.json
+!learn.json
 !README.md
 !README.es.md
 
 !/exercises
 !/exercises/*
 
-!/.breathecode
-/.breathecode/**
-!/.breathecode/resets
-!/.breathecode/resets/**
+!/.learn
+/.learn/**
+!/.learn/resets
+!/.learn/resets/**
+!/.learn/dist/index.html

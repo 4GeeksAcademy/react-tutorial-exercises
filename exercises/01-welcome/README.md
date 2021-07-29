@@ -2,8 +2,6 @@
 intro: "https://www.youtube.com/watch?v=yRjmuLAH25s"
 ---
 
-![4Geeks Logo](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/4Geeks-logo.png/-/resize/200x/)
-
 # `01` Welcome
 
 My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
