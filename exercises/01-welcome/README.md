@@ -2,8 +2,6 @@
 intro: "https://www.youtube.com/watch?v=yRjmuLAH25s"
 ---
 
-<img src="https://github.com/ElviraQDP/react-tutorial-exercises/blob/master/.learn/assets/4Geeks-logo.png?raw=true" height="200" />
-
 # `01` Welcome
 
 My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
@@ -12,8 +10,11 @@ Learning to code is hard, you need coaching! DM me on twitter if you have any qu
 During this course you will be learning the following concepts:
 
 1. **Using JSX**: A great syntax proposed by Facebook that mixes HTML and JS in the same file to help you write dynamic HTML.
+
 2. **How to building components with React.js**: The web is now being made using components: Angular, VUE, React, etc. All of them propose "component oriented" developments.  
+
 3. **All the tips to generate dynamic HTML**: In the end, that is the main front-end developer objective: Creating dynamic HTML.  
+
 4. **Using JS Modules**: Splitting your code into different files is the best way to organize and optimize your projects.  
 
 > :small_blue_diamond: We built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.

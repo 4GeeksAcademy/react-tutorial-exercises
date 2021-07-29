@@ -8,13 +8,13 @@ Let's practice a little bit more about using JSX for creating HTML.
 
 Now we have another object that is just a bit more complex than the last one.
 
-# :speech_balloon: Instructions
+# :pencil: Instructions:
 
-You have a `data` object that contains Bob Dylans information (image, title, etc).
+You have a `data` object that contains Bob Dylan's information (image, title, etc).
 
 ```js
 const data = {
-  image: "https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/",
+  image: "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true",
   cardTitle: "Bob Dylan",
   cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
   button: {
@@ -24,7 +24,7 @@ const data = {
 };
 ```
 
-Use the information contained in `data` to render a bootstrap card, for example: The card's title will be the `data.cardTitle`, etc.
+1. Use the information contained in `data` to render a bootstrap card, for example: The card's title will be the `data.cardTitle`, etc.
 
 Here is the HTML code for creating a card in bootstrap:
 
@@ -37,10 +37,10 @@ Here is the HTML code for creating a card in bootstrap:
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
-````
+```
 Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
 
-### This is how your end result needs to look like:
+### Expected result:
 
 ![Bob Dylan Card](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/1.4-1.png?raw=true)
 

@@ -19,7 +19,7 @@ To retrieve any property from the `Customer` object we have to use the dot `.` o
 console.log(customer.first_name); // will print "Bob" on the console.
 ```
 
-# :speech_balloon: Instructions
+# :pencil: Instructions:
 
 Open the `app.jsx` and create the necesary code to make your file render the following output into the DOM:
 

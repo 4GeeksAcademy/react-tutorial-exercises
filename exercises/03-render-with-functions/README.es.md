@@ -2,7 +2,7 @@
 
 JSX permite usar funciones para renderizar HTML, ¡y eso es fantástico!
 
-Es una práctica muy recomendable porque te permite crear plantillas y reusar tu código, por ejemplo:
+Es una práctica muy recomendable porque te permite crear plantillas y reutilizar tu código, por ejemplo:
 
 ```js
 
@@ -10,12 +10,12 @@ Es una práctica muy recomendable porque te permite crear plantillas y reusar tu
 const PrintHello = () => {
     return <h1>Hello World</h1>;
 }
-               //que           //donde
+               //qué           //dónde
 ReactDOM.render(PrintHello(), myDiv);
 ```
 
-Nota: La función PrintHello comienza con una letra en mayúsculas porque lo vamos a convertir en un [Componente React](https://reactjs.org/docs/react-component.html) en el ejercicio.
+:mag_right: Importante: La función `PrintHello` comienza con una letra en mayúscula porque la vamos a convertir en un [Componente React](https://reactjs.org/docs/react-component.html) en el próximo ejercicio.
 
-# :speech_balloon: Instrucciones
+# :pencil: Instrucciones:
 
-Haz que la función __PrintHello__ devuelva `<h1>I Love React</h1>` en lugar de `<h1>Hello World</h1>`.
+1. Haz que la función `PrintHello` devuelva `<h1>I Love React</h1>` en lugar de `<h1>Hello World</h1>`.

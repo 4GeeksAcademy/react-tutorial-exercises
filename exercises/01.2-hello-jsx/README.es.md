@@ -7,12 +7,13 @@ let age = 12;
 ```
 
 Si quieres incluir tu variable en tu código HTML dinámicamente, puedes hacerlo así:
+
 ```jsx
 let output = <span> James is { age } years old </span>
 ```
-Fíjate en la posición de las llave `{` y `}` envolviendo la variable.
+Fíjate en la posición de las llaves `{` y `}` envolviendo la variable.
 
-Entonces, podemos renderizar todo en contenido del sitio web usando `ReactDOM.render` así:
+Después, podemos renderizar todo en contenido en el  sitio web usando `ReactDOM.render` así:
 
 ```jsx
 // usa react-dom para renderizarlo en el DOM
@@ -21,7 +22,8 @@ import ReactDOM from 'react-dom';
 ReactDOM.render(output,             document.querySelector('#myDiv'));
 ```
 
-El documento HTML resultante se verá así:
+El documento HTML del sitio web resultante se verá así:
+
 ```html
 <div id="myDiv">
     <span>James is 12 years old</span>
@@ -30,7 +32,7 @@ El documento HTML resultante se verá así:
 
 Básicamente, ahora somos capaces de mezclar HTML y JS en el mismo documento sin tener que concatenar y usar strings. :smiley: ¡Increíble! :angry: ¿Verdad?
 
-## :speech_balloon: Instrucciones
+## :pencil: Instrucciones:
 
 El archivo app.jsx tiene una variable llamada `name` que puede contener un nombre.
 
