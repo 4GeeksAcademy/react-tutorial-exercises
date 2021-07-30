@@ -20,6 +20,6 @@ ReactDOM.render(PrintHello(), myDiv);
 
 :mag_right: Important: The function `PrintHello` starts with a capital letter because we are going to converted into a [React Component](https://reactjs.org/docs/react-component.html) in the next exercise.
 
-# :pencil: Instructions:
+## :pencil: Instructions:
 
 1. Make the function `PrintHello` return `<h1>I Love React</h1>` instead of `<h1>Hello World</h1>`.

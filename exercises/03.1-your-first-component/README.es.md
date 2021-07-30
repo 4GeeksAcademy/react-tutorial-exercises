@@ -1,12 +1,13 @@
 # `03.1` Tu primer componente funcional
 
-Cuando creas funciones que devuelven HTML, JSX te dejará tratarlos como **"Componentes"**, básicamente ellos se convertirán tus etiquetas HTML propias.
+Cuando creas funciones que devuelven HTML, JSX te dejará tratarlos como **`Componentes`**, básicamente ellos se convertirán tus etiquetas HTML propias.
 
 ## Creando nuestro primer componente funcional
 
 Una de las cosas que podemos hacer gracias a JSX es llamar funciones com si fueran etiquetas HTML, por ejemplo:
+
 ```js
-// si declaramos una función llamada MyFunction
+// si declaramos una función llamada `MyFunction`
 const MyFunction = () => {
     return <h1>I Love React</h1>;
 }
@@ -20,6 +21,6 @@ MyFunction();
 
 Cuando llamas a una función así, se convierte en un **"Componente de React"**, que es una función que genera (devuelve) HTML dinámicamente. Lo que sea que devuelva la función será reemplazado en el mismo lugar que el lugar original del `<MyFunction />`.
 
-## :speech_balloon: Instrucciones
+## :pencil: Instrucciones:
 
-En la 9na línea de app.jsx, cambia la forma en la que se llama a la función, llama a la función como un **"componente React"** usando `<` y `>` como una etiqueta HTML (en lugar de paréntesis).
+1. En la 9º línea de `app.jsx`, cambia la forma en la que se llama a la función, llama a la función como un **"componente React"** usando `<` y `>` como una etiqueta HTML (en lugar de paréntesis).

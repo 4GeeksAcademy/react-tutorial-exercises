@@ -9,7 +9,7 @@ Ahora, vamos a crear un nuevo componente (función) llamado **"Card"** que gener
 
 ```jsx
 <div class="card m-5">
-  <img class="card-img-top" src="https://github.com/ElviraQDP/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png-/resize/300x/" alt="Card image cap" />
+  <img class="card-img-top" src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true" alt="Card image cap" />
   <div class="card-body">
     <h5 class="card-title">Bob Dylan</h5>
     <p class="card-text">Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.</p>
@@ -18,10 +18,10 @@ Ahora, vamos a crear un nuevo componente (función) llamado **"Card"** que gener
 </div>
 ```
 
-:point_up: Este código HTML está basado en la [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
+:mag_right: Este código HTML está basado en la [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
 
-# :speech_balloon: Instrucciones
+## :pencil: Instrucciones:
 
-Por favor, crea una función llamada BootstrapCard que devolverá el código de la card y usará la función ReactDOM.render `<BootstrapCard />` para añadirlo dentro del sitio web, dentro de `#myDiv` usando la función ReactDOM.render.
+1. Por favor, crea una función llamada `BootstrapCard` que devuelva el código de la card y usa la función `ReactDOM.render` para añadir `<BootstrapCard />` dentro del sitio web, dentro de `#myDiv`.
 
 Nota: Si no sabes o no recuerdas cómo usar `ReactDOM.render`, puedes revisar los ejercicios anteriores.
