@@ -1,8 +1,10 @@
 # `03.4` Jumbotron
 
-# :speech_balloon: Instrucciones
+## :pencil: Instrucciones:
 
-Usando todo lo que has aprendido, construye un componente Jumbotron que reciba las siguientes propiedades:
+Usando todo lo que has aprendido:
+
+1. Construye un componente `Jumbotron` que reciba las siguientes propiedades:
 
 ```jsx
 <Jumbotron
@@ -23,10 +25,10 @@ Tu componente debería generar un HTML similar a este:
 </div>
 ```
 
-#### :bulb: Ayuda
+### :bulb: Pista:
 
-Recuerda usar los prop-types para validar las propiedades de tu componente.
++ Recuerda usar los prop-types para validar las propiedades de tu componente.
 
-Así es como el sitio web debería verse al finalizar.
+### Resultado Esperado:
 
 ![Jumbotron](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/03.4-1.png?raw=true)
