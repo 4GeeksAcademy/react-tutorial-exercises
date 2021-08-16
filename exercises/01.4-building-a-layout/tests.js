@@ -21,7 +21,7 @@ test('The component should return the exact HTML', () => {
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/"
+    src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true"
   />
   <div
     className="card-body"
