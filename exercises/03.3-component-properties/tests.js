@@ -17,7 +17,7 @@ test("Component title is being passed properly", () => {
 test("Component imageUrl is being passed properly", () => {
     const component = ReactDOM.render.mock.calls[0][0];
     if (component.props.imageUrl != undefined) {
-        expect(component.props.imageUrl).toBe("https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/");
+        expect(component.props.imageUrl).toBe("https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true");
     } else {
         throw Error('I was expecting the property imageURL')
     }
@@ -56,7 +56,7 @@ test("The component should return the exact HTML", () => {
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/"
+    src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true"
   />
   <div
     className="card-body"
