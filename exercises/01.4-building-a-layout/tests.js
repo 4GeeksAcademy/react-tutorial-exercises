@@ -21,7 +21,7 @@ test('The component should return the exact HTML', () => {
   <img
     alt="Card image cap"
     className="card-img-top"
-    src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/"
+    src="https://i.pinimg.com/736x/08/a9/b8/08a9b8cc805a1b6a7037819719ab2427.jpg"
   />
   <div
     className="card-body"
