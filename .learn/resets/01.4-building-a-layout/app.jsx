@@ -2,9 +2,10 @@ import React from "react"; //Main React.js library
 import ReactDOM from "react-dom"; //we use ReactDOM to render into the DOM
 
 const data = {
-	image: "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true",
+	image: "https://i.pinimg.com/736x/08/a9/b8/08a9b8cc805a1b6a7037819719ab2427.jpg",
 	cardTitle: "Bob Dylan",
-	cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
+	cardDescription:
+		"Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
 	button: {
 		url: "https://en.wikipedia.org/wiki/Bob_Dylan",
 		label: "Go to wikipedia"
