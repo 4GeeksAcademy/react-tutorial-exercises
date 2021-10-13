@@ -8,7 +8,7 @@ const planets = ["Mars", "Venus", "Jupiter", "Earth", "Saturn", "Neptune"];
  * planets in html called planetsInHTML
  */
 let planetsInHTML = planets.map((item, i) => (
-	<li key={i} className="list-group-item">
+	<li key={i} class="list-group-item">
 		{item}
 	</li>
 ));
