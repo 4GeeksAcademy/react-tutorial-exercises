@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 
 const Jumbotron = (props) => (
 	//here you have to return expected html using the properties being passed to the component
-	<div className="jumbotron m-5">
-		<h1 className="display-4">{props.title}</h1>
-		<p className="lead">{props.description}</p>
-		<a className="btn btn-primary btn-lg" href={props.buttonURL} role="button">
+	<div class="jumbotron m-5">
+		<h1 class="display-4">{props.title}</h1>
+		<p class="lead">{props.description}</p>
+		<a class="btn btn-primary btn-lg" href={props.buttonURL} role="button">
 			{props.buttonLabel}
 		</a>
 	</div>
