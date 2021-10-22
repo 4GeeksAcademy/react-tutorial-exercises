@@ -8,6 +8,10 @@ const Jumbotron = props => {
 
 Jumbotron.propTypes = {
 	//proptypes here
+	title: PropTypes.string,
+ 
+Member
+
 };
 
 ReactDOM.render(
