@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=79ho2T5Zy6U"
 
 The `BootstrapCard` you just made right now is [hard coded](https://www.quora.com/What-does-hard-coded-something-mean-in-computer-programming-context) for **Bob Dylan** only.
 
-But, what if we also want to re-use the same `<BootstrapCard />` component for **Paul Mccartney**?
+But, what if we also want to re-use the same `<BootstrapCard />` component for **Paul Mccartney** or any other person? What is the best way to do it? Use props!
 
 ## Using properties in HTML
 
