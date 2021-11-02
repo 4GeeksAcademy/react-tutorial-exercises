@@ -1,5 +1,3 @@
-![4Geeks Logo](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/4Geeks-logo.png/-/resize/200x/)
-
 # `01` Bienvenid@
 
 Mi nombre es Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr).      ¡¡ Estoy muy emocionado por tenerte aquí !! 🎉 😂
