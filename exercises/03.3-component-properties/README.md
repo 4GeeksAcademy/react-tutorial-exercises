@@ -21,9 +21,9 @@ When you use the **anchor** tag (`<a>`) you have to specify the **href** propert
 
 :mag_right: Here I'm re-using the anchor tag for two different links
 
-## Using properties in React.js
+> Using properties in React.js
 
-In React.js we also can create our own tags and use our own invented properties, for example we could specify the `title` property of our `<BootstrapCard />` like this:
+> In React.js we also can create our own tags and use our own invented properties, for example we could specify the `title` property of our `<BootstrapCard />` like this:
 
 ```jsx
                //for Paul Mccartney
@@ -54,18 +54,18 @@ BootstrapCard.propTypes = {
 };
 ```
 
-## :pencil: Instructions:
+## 📝 Instructions:
 
 1. Please add/use the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` properties inside the `BootstrapCard` function and also on the `<BootstrapCard />` tag (With Bob Dylan's information that has by default). Do it the same way `title` was already included in both.
 
-### :bulb: Hint:
+## 💡 Hint:
 
-+ You have to edit 3 parts of the file (check the comments for help).
+* You have to edit 3 parts of the file (check the comments for help).
 
-+ The first step will be to replace the hardcoded stuff with properties inside the component.
+* The first step will be to replace the hardcoded stuff with properties inside the component.
 
-- The second step will be to define those properties in the prop-types object on line 23, [here is a video on how to do it](https://www.youtube.com/watch?v=oty7VGcXK44).
+* The second step will be to define those properties in the prop-types object on line 23, [here is a video on how to do it](https://www.youtube.com/watch?v=oty7VGcXK44).
 
-- The third step will be to use ReactDOM to add the `<BootstrapCard>` tag declaration including the 5 properties and their respective values.
+* The third step will be to use ReactDOM to add the `<BootstrapCard>` tag declaration including the 5 properties and their respective values.
 
-- You don't have to render the component two times, just once.
+* You don't have to render the component two times, just once.

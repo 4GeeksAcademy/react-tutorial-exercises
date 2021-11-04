@@ -23,13 +23,13 @@ const Alert = (props) => {
 };
 ```
 
- :point_up: Devolver distinto código HTML según ciertas condiciones es llamado formalmente [renderizado condicional](https://joshblog.net/2018/conditional-rendering-with-react-and-jsx/).
+☝️ Devolver distinto código HTML según ciertas condiciones es llamado formalmente [renderizado condicional](https://joshblog.net/2018/conditional-rendering-with-react-and-jsx/).
 
-# :speech_balloon: Instrucciones
+## 📝 Instrucciones
 
-Crea un componente `<Alert />` que renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples).
+1. Crea un componente `<Alert />` que renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples).
 
 El componente debe ser capaz de recibir las siguientes dos propiedades:
 
 - show (bool): True or false.
-- text (string): El mensaje a incluir dentro del mensaje del alert
+- text (string): El mensaje a incluir dentro del mensaje del `<Alert />`.

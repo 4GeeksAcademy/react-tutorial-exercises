@@ -8,9 +8,9 @@ La librería viene con una función llamada **ReactDOM.render** que tú puedes v
 
 La función `ReactDOM.render` recibe dos parámetros:
 
-1. Qué renderizar (el HTML interno o innerHTML).
+* Qué renderizar (el HTML interno o innerHTML).
 
-2. Dónde renderizarlo (elemento del DOM).
+* Dónde renderizarlo (elemento del DOM).
 
 
 Por ejemplo:
@@ -19,7 +19,7 @@ Por ejemplo:
 import React from 'react'; //importar la librería de react
 import ReactDOM from 'react-dom'; //importar react-dom para que react genere el html
 
-// QUE: Esta variable contiene todo el HTML que va a ser renderizado
+// QUE: esta variable contiene todo el HTML que va a ser renderizado
 let output = <span>James is 12 years old</span>
 
 // DONDE: Un elemento DOM que contendrá todo el html generado por react
@@ -39,7 +39,7 @@ myDiv.innerHTML = '<span>James is 12 years old</span>';
 ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 ```
   
-# :pencil: Instrucciones:
+## 📝 Instrucciones:
 
 1. Abre el archivo `01.1-hello-world/app.jsx` y tómate un tiempo para entenderlo.
 

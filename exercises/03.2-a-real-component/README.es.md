@@ -1,6 +1,7 @@
 # `03.2` Un componente real
 
 En el ejericio anterior hemos creado nuestro primer componente llamado **PrintHello** y hemos aprendido que podemos usar el componente como una etiqueta HTML.
+
 ```jsx
 <PrintHello />
 ```
@@ -17,11 +18,13 @@ Ahora, vamos a crear un nuevo componente (función) llamado **"Card"** que gener
   </div>
 </div>
 ```
+🔎
+ Este código HTML está basado en la [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
 
-:mag_right: Este código HTML está basado en la [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
-
-## :pencil: Instrucciones:
+## 📝 Instrucciones:
 
 1. Por favor, crea una función llamada `BootstrapCard` que devuelva el código de la card y usa la función `ReactDOM.render` para añadir `<BootstrapCard />` dentro del sitio web, dentro de `#myDiv`.
 
-Nota: Si no sabes o no recuerdas cómo usar `ReactDOM.render`, puedes revisar los ejercicios anteriores.
+## 💡 Pista:
+
+* Si no sabes o no recuerdas cómo usar `ReactDOM.render`, puedes revisar los ejercicios anteriores.

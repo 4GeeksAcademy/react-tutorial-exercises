@@ -1,7 +1,7 @@
 # `01` Bienvenid@
 
-Mi nombre es Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr).      ¡¡ Estoy muy emocionado por tenerte aquí !! 🎉 😂
-Aprender a programar es duro ¡necesitas un coach! Mándame un DM por twitter si tienes preguntas.
+Mi nombre es Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr) ¡¡ Estoy muy emocionado por tenerte aquí !! 🎉 😂
+Aprender a programar es dificl ¡necesitas un coach! Mándame un DM por twitter si tienes preguntas.
  
 Durante este curso aprenderás los siguientes conceptos:
 
@@ -13,6 +13,6 @@ Durante este curso aprenderás los siguientes conceptos:
 
 4. **Usar Módulos JS**: Separar tu código en diferentes archivos es la mejor forma de organizar y optimizar tus proyectos.  
 
-> :small_blue_diamond: Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificuldad entre los ejercicios nunca sea tan grande como para frustrarte.
+> 🔹 Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificuldad entre los ejercicios nunca sea tan grande como para frustrarte.
 
 Haz clic en `next` arriba de estas instrucciones para empezar con el primer ejercicio.

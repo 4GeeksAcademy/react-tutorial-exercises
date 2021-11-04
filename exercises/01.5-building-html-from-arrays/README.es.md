@@ -28,7 +28,7 @@ El HTML resultante en el sitio web sería así:
 </div>
 ```
 
-# :pencil: Instrucciones:
+## 📝 Instrucciones:
 
 Digamos que queremos que react renderice la siguiente salida en el documento:
 
@@ -48,10 +48,10 @@ Digamos que queremos que react renderice la siguiente salida en el documento:
 
 1. Actualiza el arreglo `navlinkItems` para crear el código de salida que queremos.
 
-## :bulb: Pista:
+## 💡 Pista:
 
-- Solo tienes que actualizar el arreglo `navlinkItems`, nada más.
+* Solo tienes que actualizar el arreglo `navlinkItems`, nada más.
 
-- React te pedirá usar keys en cada elemento del arreglo, [puedes leer más al respecto aquí](https://reactjs.org/docs/lists-and-keys.html#keys).
+* React te pedirá usar keys en cada elemento del arreglo, [puedes leer más al respecto aquí](https://reactjs.org/docs/lists-and-keys.html#keys).
 
-- Recuerda usar `className` en lugar de `class`.
+* Recuerda usar `className` en lugar de `class`.

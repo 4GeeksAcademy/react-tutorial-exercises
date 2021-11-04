@@ -4,7 +4,7 @@ Practiquemos un poco más el uso del JSX para crear HTML.
 
 Ahora tenemos otro objeto que es solo un poco más complejo que el anterior.
 
-# :pencil: Instrucciones:
+## 📝 Instrucciones:
 
 Tienes un objeto `data` que contiene la información de Bob Dylan (imagen, título, etc).
 
@@ -34,9 +34,10 @@ Aquí está el código HTML para crear una tarjeta en bootstrap:
   </div>
 </div>
 ```
+
 Fuente: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
 
 ## Resultado esperado:
 
-![Bob Dylan Card](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/1.4-1.png?raw=true)
+![Bob Dylan Card](../../.learn/assets/1.4-1.png?raw=true)
 

@@ -1,6 +1,6 @@
 # `03.4` Jumbotron
 
-## :pencil: Instrucciones:
+## 📝 Instrucciones:
 
 Usando todo lo que has aprendido:
 
@@ -25,10 +25,10 @@ Tu componente debería generar un HTML similar a este:
 </div>
 ```
 
-### :bulb: Pista:
+## 💡 Pista:
 
-+ Recuerda usar los prop-types para validar las propiedades de tu componente.
+* Recuerda usar los prop-types para validar las propiedades de tu componente.
 
-### Resultado Esperado:
+## Resultado Esperado:
 
-![Jumbotron](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/03.4-1.png?raw=true)
+![Jumbotron](../../.learn/assets/03.4-1.png?raw=true)

@@ -4,7 +4,7 @@ La forma más recomendada de usar estilos en React es usando CSS-in-JS.
 
 Básicamente tú creas un objeto con tus estilos, así:
 
-```JS
+```js
 const mySuperStyles = {
     color: "blue",
     fontSize: "14px",
@@ -18,13 +18,15 @@ Y, entonces, puedes aplicar esos estilos a tu HTML, así:
     <div style={mySuperStyles}>I am an alert</div>
 ```
 
-# :speech_balloon: Instrucciones
+##  📝 Instrucciones:
 
 El ejercicio actual tiene un objeto con estilos ya aplicados. Por favor, actualiza los estilos para lograr lo siguiente:
 
-1. El tamaño de fuente tiene que ser 16px
-2. El color de fondo tiene que ser negro.
-3. Un borde amarillo de un 1px.
+1. El tamaño de fuente tiene que ser `16px`.
+
+2. El color de fondo (background color) tiene que ser negro (black).
+
+3. Un borde amarillo (yellow) de un `1px`.
 
 
 

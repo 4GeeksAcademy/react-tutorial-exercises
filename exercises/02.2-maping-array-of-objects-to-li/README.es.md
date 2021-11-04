@@ -1,9 +1,10 @@
 # `02.2` Mapeando funciones
 
-Cuando estás mapeando un arreglo de datos para convertirlo en un arreglo HTML tienes que especificar una **"función de mapeo"** que recibirá cada elemento del arreglo original y lo transformará e insertará en el nuevo arreglo. Ej:
+Cuando estás mapeando un arreglo de datos para convertirlo en un arreglo HTML tienes que especificar una **"función de mapeo"** que recibirá cada elemento del arreglo original y lo transformará e insertará en el nuevo arreglo. 
+
+Por ejemplo:
 
 ```js
-
 const originalData = [];
 
 const mappingFunction = (item, index) => {
@@ -14,7 +15,7 @@ const htmlList = originalData.map(mappingFunction);
 // la variable htmlList ahora contiene un nuevo arreglo.
 ```
 
-## :pencil: Instrucciones:
+## 📝 Instrucciones:
 
 1. Usa el componente [list-group de bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/#basic-example) para renderizar una lista de planetas de un arreglo dado:
 
@@ -39,4 +40,4 @@ const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
 
 ## Resultado esperado:
 
-![list-group](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02.2-1.png?raw=true)
+![list-group](../../.learn/assets/02.2-1.png?raw=true)

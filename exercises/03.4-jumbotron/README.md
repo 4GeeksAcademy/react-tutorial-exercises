@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=zv6HPveyz6g"
 
 # `03.4` Jumbotron
 
-## :pencil: Instructions
+## 📝 Instructions:
 
 1. Using everything you've learned, build a `Jumbotron` component that receives the following properties:
 
@@ -25,10 +25,10 @@ Your HTML's component should be something like this:
   <a class="btn btn-primary btn-lg" href="https://reactjs.org/" role="button">Go to the official website</a>
 </div>
 ```
-### :bulb: Hint:
+## 💡 Hint:
 
-+ Remember to use prop-types to validate your component properties.
+* Remember to use prop-types to validate your component properties.
 
-### Expected result:
+## Expected result:
 
-![Jumbotron](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/03.4-1.png?raw=true)
+![Jumbotron](../../.learn/assets/03.4-1.png?raw=true)

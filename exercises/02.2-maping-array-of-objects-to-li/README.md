@@ -18,7 +18,7 @@ const htmlList = originalData.map(mappingFunction);
 // the htmlList variable now contains a new array.
 ```
 
-# :pencil: Instructions:
+# 📝 Instructions:
 
 1. Use the [list-group bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/#basic-example) component to render a list of planets from a given array:
 
@@ -43,4 +43,4 @@ const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
 
 ## Expected result:
 
-![list-group](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/02.2-1.png?raw=true)
+![list-group](../../.learn/assets/02.2-1.png?raw=true)
