@@ -46,6 +46,6 @@ ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 2. Cambia la variable `output` por:
 
 ```js
-<span> James is <strong>12</strong> years old </span>
+<span>James is <strong>12</strong> years old</span>
 ```
 
