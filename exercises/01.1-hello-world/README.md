@@ -40,7 +40,7 @@ myDiv.innerHTML = '<span>James is 12 years old</span>';
 
 // This is not you would do it with react.
 ReactDOM.render(<span> James is 12 years old </span>, myDiv);
-```  
+
 ## 📝 Instructions:
 
 1. Open the `01.1-hello-world/app.jsx` file and take some time to understand it.
@@ -48,6 +48,6 @@ ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 2. Change the variable `output` to:
 
 ```jsx
-<span> James is <strong>12</strong> years old </span>`
+<span>James is <strong>12</strong> years old</span>
 ```
 
