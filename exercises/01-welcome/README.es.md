@@ -1,7 +1,7 @@
 # `01` Bienvenid@
 
 Mi nombre es Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr) ¡¡ Estoy muy emocionado por tenerte aquí !! 🎉 😂
-Aprender a programar es dificl ¡necesitas un coach! Mándame un DM por twitter si tienes preguntas.
+Aprender a programar es dificil ¡necesitas un coach! Mándame un DM por twitter si tienes preguntas.
  
 Durante este curso aprenderás los siguientes conceptos:
 
