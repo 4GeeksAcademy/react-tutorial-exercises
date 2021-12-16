@@ -8,7 +8,7 @@ Let's practice a little bit more about using JSX for creating HTML.
 
 Now we have another object that is just a bit more complex than the last one.
 
-# :pencil: Instructions:
+## 📝 Instructions:
 
 You have a `data` object that contains Bob Dylan's information (image, title, etc).
 
@@ -26,7 +26,9 @@ const data = {
 
 1. Use the information contained in `data` to render a bootstrap card, for example: The card's title will be the `data.cardTitle`, etc.
 
-Here is the HTML code for creating a card in bootstrap:
+## 💡 Hint:
+
++ Here is the HTML code for creating a card in bootstrap:
 
 ```html
 <div class="card m-5">
@@ -38,11 +40,12 @@ Here is the HTML code for creating a card in bootstrap:
   </div>
 </div>
 ```
+
 Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
 
-### Expected result:
+## Expected result:
 
-![Bob Dylan Card](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/66b097ba2f1812e3cabcce38566b633edd991638/.learn/assets/1.4-1.png?raw=true)
+![Bob Dylan Card](../../.learn/assets/1.4-1.png?raw=true)
 
 
 

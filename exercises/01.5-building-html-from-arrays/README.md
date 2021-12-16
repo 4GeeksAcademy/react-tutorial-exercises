@@ -32,7 +32,7 @@ The resulting HTML on the website will be:
 </div>
 ```
 
-# :pencil: Instructions:
+## 📝 Instructions:
 
 Lets say that we want react to render the following output into the document:
 
@@ -52,10 +52,10 @@ Lets say that we want react to render the following output into the document:
 
 1. Update the `navlinkItems` array to make the current code output what we want.
 
-## :bulb: Hint:
+## 💡 Hint:
 
-- You only have to update the `navlinkItems` array, nothing else.
+* You only have to update the `navlinkItems` array, nothing else.
 
-- React will ask you to use keys on each item of the array, [you can read more about it here](https://reactjs.org/docs/lists-and-keys.html#keys).
+* React will ask you to use keys on each item of the array, [you can read more about it here](https://reactjs.org/docs/lists-and-keys.html#keys).
 
-- Remember to use `className` instead of `class`.
+* Remember to use `className` instead of `class`.

@@ -17,6 +17,6 @@ During this course you will be learning the following concepts:
 
 4. **Using JS Modules**: Splitting your code into different files is the best way to organize and optimize your projects.  
 
-> :small_blue_diamond: We built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
+> 🔹 We built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
 
 Click the `next` link on the top of these instructions to begin with the first exercise.

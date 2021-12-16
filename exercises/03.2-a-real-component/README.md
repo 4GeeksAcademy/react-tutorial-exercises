@@ -23,10 +23,12 @@ Now let's create another component (function) called **`Card`** that outputs the
 </div>
 ```
 
-:mag_right: This HTML code its based on the [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
+> 🔎 This HTML code its based on the [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
 
-## :pencil: Instructions
+## 📝 Instructions
 
 1. Please create a function called `BootstrapCard` that returns the card code and use the `ReactDOM.render` function `<BootstrapCard />` to add it into the website inside `#myDiv`.
 
-Note: if you don't know or remember how to use `ReactDOM.render` you can review the past exercises.
+## 💡 Hint:
+
+* if you don't know or remember how to use `ReactDOM.render` you can review the past exercises.
