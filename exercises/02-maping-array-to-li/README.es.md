@@ -27,4 +27,4 @@ Luego, inclúyelos todos juntos en el sitio web.
 
 ## Resultado esperado:
 
-Tu sitio web debería verse algo así: ![li's](../,,/.learn/assets/02-1.png?raw=true)
+Tu sitio web debería verse algo así: ![li's](../../.learn/assets/02-1.png?raw=true)
