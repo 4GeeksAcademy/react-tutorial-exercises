@@ -38,5 +38,6 @@ test("You should use singleAnimal to get the anima for each of the iterations", 
 })
 
 test("You should add the key for each of them and it should be unique", () => {
-    expect(app_content).toMatch("key={i}");
+    // expect(app_content).toMatch("key={i}");
+    expect(app_content).toMatch(/key\s*=\s*{\s*i\s*}/)
 })
