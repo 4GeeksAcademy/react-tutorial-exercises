@@ -40,6 +40,7 @@ myDiv.innerHTML = '<span>James is 12 years old</span>';
 
 // This is not you would do it with react.
 ReactDOM.render(<span> James is 12 years old </span>, myDiv);
+```
 
 ## 📝 Instructions:
 
