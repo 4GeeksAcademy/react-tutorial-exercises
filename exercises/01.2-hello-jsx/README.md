@@ -41,4 +41,4 @@ Basically, we are now able to mix HTML and JS in the same file without having to
 
 The app.jsx file has a variable called `name` that can contain a name.
 
-1. Please include that variable inside the react output, replace the variable with the hard coded `James`.
+1. Please include that variable inside the react output replace the hard coded word `James` with the variable name (remember the curly brackets `{``}`).
