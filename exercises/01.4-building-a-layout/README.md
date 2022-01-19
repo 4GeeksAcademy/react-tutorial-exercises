@@ -14,7 +14,7 @@ You have a `data` object that contains Bob Dylan's information (image, title, et
 
 ```js
 const data = {
-  image: "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true",
+  image: "../../.learn/assets/Dylan.png?raw=true",
   cardTitle: "Bob Dylan",
   cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
   button: {
