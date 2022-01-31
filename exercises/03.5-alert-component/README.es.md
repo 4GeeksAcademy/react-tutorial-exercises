@@ -1,12 +1,12 @@
 # `03.5` Componente Alert
 
-## :pencil: Instrucciones:
+## 📝 Instrucciones:
 
 Basándote en el conocimiento que ahora tienes:
 
 1. Por favor, crea un componente `<Alert />` que reciba 1 prop `text: Proptype.string` y renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples) como la siguiente:
 
-## :bulb: Pista:
+## 💡 Pista:
 
 Así es como deberías usar el componente:
 

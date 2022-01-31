@@ -8,8 +8,7 @@ Today's biggest pain for front-end developers is **working with the DOM** to cre
 
 React.js is a rendering library made to optimize the DOM: developers save time and the browser is faster.
 
-The library comes with a function called **ReactDOM.render** that you can see as a replacement for the classic [innerHTML property](https://www.w3schools.com/jsref/prop_html_innerhtml.asp).
-
+The library comes with a function called **ReactDOM.render** that you can see as a replacement for the classic [innerHTML property](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
 `ReactDOM.render` function receives two parameters:
 
 1. What to render (the inner HTML).
@@ -41,7 +40,7 @@ myDiv.innerHTML = '<span>James is 12 years old</span>';
 // This is not you would do it with react.
 ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 ```
-  
+
 ## 📝 Instructions:
 
 1. Open the `01.1-hello-world/app.jsx` file and take some time to understand it.

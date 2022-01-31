@@ -15,6 +15,7 @@ If you want to include the value of that variable into your HTML code dynamicall
 ```jsx
 let output = <span> James is { age } years old </span>
 ```
+
 Note the position of the curly brackets `{` and `}` wrapping the variable.
 
 Then, we can render the everything in the website content using `ReactDOM.render` like this:
@@ -34,10 +35,10 @@ The resulting website HTML document will look like this:
 </div>
 ```
 
-Basically, we are now able to mix HTML and JS in the same file without having to concatenate and use strings. :smiley: Amazing! :angry: right?
+Basically, we are now able to mix HTML and JS in the same file without having to concatenate and use strings. 😃  Amazing! 😠 right?
 
-## :pencil: Instructions:
+## 📝 Instructions:
 
 The app.jsx file has a variable called `name` that can contain a name.
 
-Please include that variable inside the react output, replace the variable with the hard coded `"James"`.
+1. Please include that variable inside the react output replace the hard coded word `James` with the variable name (remember the curly brackets `{}`).

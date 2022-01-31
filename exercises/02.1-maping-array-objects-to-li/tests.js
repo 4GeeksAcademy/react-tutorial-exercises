@@ -34,9 +34,9 @@ test("The component should return the exact HTML", () => {
 });
 
 test("You should use singleAnimal to get the anima for each of the iterations", () => {
-    expect(app_content).toMatch("{singleAnimal.label}");
+    expect(app_content).toMatch(/{\s*singleAnimal.label\s*}/g);
 })
 
 test("You should add the key for each of them and it should be unique", () => {
-    expect(app_content).toMatch("key={i}");
+    expect(app_content).toMatch(/key\s*=\s*{\s*i\s*}/)
 })

@@ -17,15 +17,18 @@ const colorClasses = {
 <div class={`alert ${colorClasses[props.color]}`} role="alert">
   This is a primary alert-check it out!
 </div>
-
 ```
+
 Estamos declarando una variable `colorClasses` que contendrá todos los class names que se le aplicarán en la alerta.
 
-# :speech_balloon: Instrucciones
+##  📝 Instrucciones
 
-Crea un componente `<Alert />` que renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples). El componente debe ser capaz de recibir las siguientes dos propiedades:
+1. Crea un componente `<Alert />` que renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples). 
+
+El componente debe ser capaz de recibir las siguientes dos propiedades:
 
 - Text (string): El texto mostrado en la alerta.
+
 - Color (string): Rojo o naranja.
 
 ```jsx

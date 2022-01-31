@@ -15,9 +15,9 @@ Para obtener cualquier propiedad del objeto `Customer` tenemos que usar el opera
 console.log(customer.first_name); // imprimirá "Bob" en la consola.
 ```
 
-# :pencil: Instrucciones:
+## 📝 Instrucciones:
 
-Abre el archivo `app.js` y crea el código necesario para hacer que tu archivo renderice la siguiente salida dentro del DOM:
+1. Abre el archivo `app.js` y crea el código necesario para hacer que tu archivo renderice la siguiente salida dentro del DOM:
 
 ```jsx
 <div>
