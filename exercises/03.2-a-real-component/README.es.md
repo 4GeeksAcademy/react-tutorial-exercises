@@ -6,7 +6,7 @@ En el ejericio anterior hemos creado nuestro primer componente llamado **PrintHe
 <PrintHello />
 ```
 
-Ahora, vamos a crear un nuevo componente (función) llamado **"Card"** que generará el siguiente HTML:
+Ahora, vamos a crear un nuevo componente (función) llamado **`<BoostrapCard />`** que generará el siguiente HTML:
 
 ```jsx
 <div class="card m-5">
