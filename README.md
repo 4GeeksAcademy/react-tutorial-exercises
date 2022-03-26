@@ -1,5 +1,5 @@
 # React Interactive Tutorial & Exercises
-<!-- hide -->
+
 <!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/badge.svg?raw=true"></a>
 
