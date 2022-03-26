@@ -29,7 +29,7 @@ There are two ways to run the exercises: Immediatly gitpod (recomended) or local
 
 ### Immediatly on gitpod:
 
-This exercises are configured to [easily open in gitpod by clicking here](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git).
+This exercises are configured to [easily open in gitpod by clicking here](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git).
 
 ### Manual Installation of the Tutorial Exercises
 
