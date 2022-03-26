@@ -23,15 +23,17 @@ If you find any bugs or spelling issues, please contribute and report them and w
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-tutorial-exercises/master/preview.gif">
 </p>
 
-<h2>One click installation:</h2>
+## Whow to start this exercise?
 
-<!-- hide -->
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git)
-<!-- endhide -->
+There are two ways to run the exercises: Immediatly gitpod (recomended) or locally in your computer (requires installation).
 
-## Manual Installation of the Tutorial Exercises
+### Immediatly on gitpod:
 
-1. Make sure you have the [learnpack-cli](https://github.com/learnpack/learnpack-cli) installed and `node.js` version 10+. This is the command to install the learnpack-cli
+This exercises are configured to [easily open in gitpod by clicking here](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git).
+
+### Manual Installation of the Tutorial Exercises
+
+1. Make sure you have the [learnpack-cli](https://github.com/learnpack/learnpack-cli) installed and `node.js` version 14+. This is the command to install the learnpack-cli
 
 ```sh
 $ npm i learnpack -g
