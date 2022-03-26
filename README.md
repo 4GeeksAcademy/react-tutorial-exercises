@@ -1,6 +1,6 @@
 # React Interactive Tutorial & Exercises
 
-<!-- starthide -->
+<!-- start_hiding -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/badge.svg?raw=true"></a>
 
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/react-tutorial-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
@@ -11,7 +11,7 @@
 
 <h3>Start now: </h3>
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" /></a>
-<!-- endhide -->
+<!-- end_hiding -->
 
 You can find lots of free interactive/autograded tutorials online, but there are very few about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js.
 
