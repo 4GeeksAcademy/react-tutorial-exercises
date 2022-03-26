@@ -25,8 +25,9 @@ If you find any bugs or spelling issues, please contribute and report them and w
 
 <h2>One click installation:</h2>
 
+<!-- start_hiding -->
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git)
-
+<!-- end_hiding -->
 
 ## Manual Installation of the Tutorial Exercises
 
