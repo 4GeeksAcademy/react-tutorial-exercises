@@ -11,18 +11,15 @@ Learning to code is hard, you need coaching! DM me on twitter if you have any qu
 
 Puedes encontrar muchos tutoriales interactivos gratuitos en línea, pero ninguno sobre React.js. Por eso hemos decidido crear una selección muy completa de ejercicios para las personas interesadas en aprender React.js: ¡Para seniors y juniors! 
 
-Estos ejercicios están pensados para ser construidos en colaboración, ¡te necesitamos!
-Si encuentras algún error o falta de ortografía, por favor contribuye y repórtalo.
+¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
 
-
-<h2>Instalación en un clic:</h2>
+## Instalación en un clic:
 
 [![Abrir en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-exercises.git)
 
+## Instalación local
 
-## Instalación manual
-
-1. Asegúrate de tener el [learnpack-cli](https://github.com/learnpack/learnpack-cli)instalado y `node.js` versión 10+. Este e sel comando para instalar learnpack-cli
+1. Asegúrate de tener el [learnpack-cli](https://github.com/learnpack/learnpack-cli)instalado y `node.js` versión 14+. Este es el comando para instalar learnpack-cli:
 
 ```sh
 $ npm i learnpack -g
@@ -46,20 +43,21 @@ $ learnpack start
 
 ## ¿Cómo están organizados los ejercicios?
 
-Cada ejercicio es una pequeña aplicación en React que contiene los siguientes archivos:
+Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
+|    |    |
+|:---|:---|
+| **app.js** | Representa el archivo javascript de entrada que ejecutará la computadora ||
+| **README.md** | Contiene las instrucciones de ejercicio |
+| **test.js** | Contiene el script del test para el ejercicio (no es necesario que abras este archivo) |
 
-1. **index.js:** representa el punto de entrada a la aplicación.
-2. **README.md:** contiene las instrucciones del ejercicio.
-3. **test.js:** no tienes que abrir este archivo. Contiene los scripts de pruebas del ejercicio.
+## Colaboradores
+ 
+Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-## Contribuyentes
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) 💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 (build-tutorial) ✅ (documentación) 📖
 
-Nuestro agradecimiento para estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+2. [Paolo (plucodev)](https://github.com/plucodev), contribución: (bug reports) 🐛, (programador), (traducción) 🌎
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Nicolas (waspothegreat)](https://github.com/waspothegreat), contribution: (bug reports) :bug:, (translation) :earth_americas:
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (bug reports) :bug:, (traducción) :earth_africa:
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) 🐛, (translation) 🌎
 
-Este proyecto sigue las especificaciones
-[all-contributors](https://github.com/kentcdodds/all-contributors). 
-¡Todas las contribuciones son bienvenidas!
+Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!
