@@ -4,7 +4,9 @@ tutorial: "https://www.youtube.com/watch?v=xe-O1jhnVxk"
 
 # `02` Mapping array to `<li>`
 
-Now let's build an array dynamically. Let's say you have an array of animals:
+Now let's build an array dynamically...
+
+Let's say you have an array of animals:
 
 ```js
 const animals = [ 'Horse', 'Turtle', 'Elephant', 'Monkey' ];

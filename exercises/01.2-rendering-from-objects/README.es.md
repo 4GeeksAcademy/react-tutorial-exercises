@@ -1,4 +1,4 @@
-# `01.3` Renderizando desde objetos
+# `01.2` Rendering from objects
 
 Ahora, vamos a usar una variable más compleja para renderizar nuestro HTML, digamos que tenemos el siguiente Objeto JS con la información de un cliente:
 
@@ -9,7 +9,7 @@ const customer = {
 };
 ```
 
-Para obtener cualquier propiedad del objeto `Customer` tenemos que usar el operador punto `.`, así:
+Para obtener cualquier propiedad del objeto `Customer` tenemos que usar el operador punto (`.`), así:
 
 ```js
 console.log(customer.first_name); // imprimirá "Bob" en la consola.

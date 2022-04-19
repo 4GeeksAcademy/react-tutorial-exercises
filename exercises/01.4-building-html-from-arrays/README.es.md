@@ -1,4 +1,4 @@
-# `01.5` Construyendo desde arreglos o arrrays
+# `01.4` Building from arrays
 
 Con JSX también puedes crear **arrays o arreglos** de elementos HTML. Por ejemplo, si tenemos un arreglo de `<li>` podemos incluirlos todos dentro del documento a la vez, así:
 
@@ -28,8 +28,6 @@ El HTML resultante en el sitio web sería así:
 </div>
 ```
 
-## 📝 Instrucciones:
-
 Digamos que queremos que react renderice la siguiente salida en el documento:
 
 ```html
@@ -46,12 +44,14 @@ Digamos que queremos que react renderice la siguiente salida en el documento:
 </ul>
 ```
 
+## 📝 Instrucciones:
+
 1. Actualiza el arreglo `navlinkItems` para crear el código de salida que queremos.
 
-## 💡 Pista:
+## 💡 Pistas:
 
-* Solo tienes que actualizar el arreglo `navlinkItems`, nada más.
++ Solo tienes que actualizar el arreglo `navlinkItems`, nada más.
 
-* React te pedirá usar keys en cada elemento del arreglo, [puedes leer más al respecto aquí](https://reactjs.org/docs/lists-and-keys.html#keys).
++ React te pedirá usar keys en cada elemento del arreglo. Puedes leer más al respecto aquí: [https://reactjs.org/docs/lists-and-keys.html#keys](https://reactjs.org/docs/lists-and-keys.html#keys).
 
-* Recuerda usar `className` en lugar de `class`.
++ Recuerda usar `className` en lugar de `class`.

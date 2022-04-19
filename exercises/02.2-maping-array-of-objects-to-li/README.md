@@ -2,12 +2,13 @@
 tutorial: "https://www.youtube.com/watch?v=-B0KJP1tzXE"
 ---
 
-# `02.2` Mapping function
+# `02.2` Mapping array of objects to `<li>`
 
-When you are mapping an array of data to convert it into an array of HTML you have to specify a **"mapping function"** that will receive each item from the original array, transform it and insert it into the new array. E.g.:
+When you are mapping an array of data to convert it into an array of HTML, you have to specify a **"mapping function"** that will receive each item from the original array, transform it and insert it into the new array.
+
+For example: 
 
 ```js
-
 const originalData = [];
 
 const mappingFunction = (item, index) => {

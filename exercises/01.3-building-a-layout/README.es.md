@@ -1,10 +1,10 @@
-# `01.4` Construyendo un layout(diseño)
+# `01.3` Building a layout
 
 Practiquemos un poco más el uso del JSX para crear HTML.
 
 Ahora tenemos otro objeto que es solo un poco más complejo que el anterior.
-
-## 📝 Instrucciones:
+ 
+ ¿Estas listo? 😃
 
 Tienes un objeto `data` que contiene la información de Bob Dylan (imagen, título, etc).
 
@@ -20,15 +20,23 @@ const data = {
 };
 ```
 
+  ## 📝 Instrucciones:
+
 1. Usa esa información contenida en `data` para renderizar una tarjeta bootstrap (bootstrap card): por ejemplo el título de la tarjeta sería el `data.cardTitle`, etc.
 
-Aquí está el código HTML para crear una tarjeta en bootstrap:
+  ## Resultado esperado:
+  
+  ![Bob Dylan Card](../../.learn/assets/1.4-1.png?raw=true)
+
+  ## 💡 Pista:
+
++ Aquí está el código HTML para crear una tarjeta en bootstrap:
 
 ```html
 <div class="card m-5">
   <img class="card-img-top" src="..." alt="Card image cap" />
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Card title</h5>    
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
@@ -36,8 +44,4 @@ Aquí está el código HTML para crear una tarjeta en bootstrap:
 ```
 
 Fuente: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
-
-## Resultado esperado:
-
-![Bob Dylan Card](../../.learn/assets/1.4-1.png?raw=true)
 

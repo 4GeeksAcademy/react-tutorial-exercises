@@ -2,9 +2,9 @@
 tutorial: "https://www.youtube.com/watch?v=Gw6i3BWzwNY"
 ---
 
-# `02.1` Mapping array to `<li>`
+# `02.1` Mapping array objects to `<li>`
 
-Using the knowledge you have from the previous example, now lets fix the `.map` function again but starting from an array of objects.
+Using the knowledge you have from the previous example, now lets fix the `.map` function again, but this time, starting from an array of objects.
 
 ```js
 const animals = [ { label: 'Horse' }, { label: 'Turtle' }, { label: 'Elephant' }, { label: 'Monkey' } ];

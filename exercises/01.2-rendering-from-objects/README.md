@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=Z9gzZoYM4pY"
 ---
 
-# `01.3` Rendering from objects
+# `01.2` Rendering from objects
 
 Now lets use a more complex variable to render our HTML, let's say we have the following JS Object containing a customer information:
 
@@ -13,7 +13,7 @@ const customer = {
 };
 ```
 
-To retrieve any property from the `Customer` object we have to use the dot `.` operator like this:
+To retrieve any property from the `Customer` object we have to use the dot (`.`) operator, like this:
 
 ```js
 console.log(customer.first_name); // will print "Bob" on the console.

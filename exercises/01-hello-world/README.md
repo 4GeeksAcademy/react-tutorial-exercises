@@ -2,18 +2,19 @@
 tutorial: "https://www.youtube.com/watch?v=Qdu6GSew8xM"
 ---
 
-# `01.1` Hello World
+# `01` Hello World
 
-Today's biggest pain for front-end developers is **working with the DOM** to create dynamic HTML, something that React.js does best.
+Today's biggest pain for front-end developers is **working with the DOM** to create dynamic HTML, and that is something that React.js does best.
 
 React.js is a rendering library made to optimize the DOM: developers save time and the browser is faster.
 
 The library comes with a function called **ReactDOM.render** that you can see as a replacement for the classic [innerHTML property](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
-`ReactDOM.render` function receives two parameters:
 
-1. What to render (the inner HTML).
+The `ReactDOM.render` function receives two parameters:
 
-2. Where to render it (DOM element).
++  What to render (the inner HTML).
+
++  Where to render it (DOM element).
 
 For example:
 
@@ -43,7 +44,7 @@ ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 
 ## 📝 Instructions:
 
-1. Open the `01.1-hello-world/app.jsx` file and take some time to understand it.
+1. Open the `01-hello-world/app.jsx` file and take some time to understand it.
 
 2. Change the variable `output` to:
 

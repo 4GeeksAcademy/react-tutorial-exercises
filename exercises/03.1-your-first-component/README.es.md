@@ -1,6 +1,6 @@
-# `03.1` Tu primer componente funcional
+# `03.1` Your first functional component
 
-Cuando creas funciones que devuelven HTML, JSX te dejará tratarlos como **Componentes**, básicamente ellos se convertirán tus etiquetas HTML propias.
+Cuando creas funciones que devuelven HTML, JSX te dejará tratarlos como **Componentes**. Básicamente ellos se convertirán tus propias etiquetas HTML.
 
 > Creando nuestro primer componente funcional
 

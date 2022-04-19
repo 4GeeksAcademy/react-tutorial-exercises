@@ -1,4 +1,4 @@
-# `01.2` Hola JSX
+# `01.1` Hello JSX
 
 JSX también te permite incluir variables en el HTML fácilmente. Por ejemplo, asumamos que tienes la siguiente variable disponible:
 
@@ -31,10 +31,12 @@ El documento HTML del sitio web resultante se verá así:
 </div>
 ```
 
-Básicamente, ahora somos capaces de mezclar HTML y JS en el mismo documento sin tener que concatenar y usar strings. 😃  ¡Increíble! 😠 ¿Verdad?
+Básicamente, ahora somos capaces de mezclar HTML y JS en el mismo documento sin tener que concatenar y usar strings. 
 
-## 📝 Instrucciones:
+😃 ¡Increíble!... ¿Verdad? 😠
 
 El archivo app.jsx tiene una variable llamada `name` que puede contener un nombre.
+
+## 📝 Instrucciones:
 
 1. Por favor, incluye esa variable dentro del resultado(output) de react, reemplaza la variable por el `James`.
