@@ -1,6 +1,6 @@
-# `03.2` Un componente real
+# `03.2`  A real component
 
-En el ejericio anterior hemos creado nuestro primer componente llamado **PrintHello** y hemos aprendido que podemos usar el componente como una etiqueta HTML.
+En el ejericio anterior hemos creado nuestro primer componente llamado **PrintHello**, y hemos aprendido que podemos usar el componente como una etiqueta HTML.
 
 ```jsx
 <PrintHello />
@@ -18,8 +18,7 @@ Ahora, vamos a crear un nuevo componente (función) llamado **`<BoostrapCard />`
   </div>
 </div>
 ```
-🔎
- Este código HTML está basado en la [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
+ Nota: Este código HTML está basado en la [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
 
 ## 📝 Instrucciones:
 
@@ -27,4 +26,4 @@ Ahora, vamos a crear un nuevo componente (función) llamado **`<BoostrapCard />`
 
 ## 💡 Pista:
 
-* Si no sabes o no recuerdas cómo usar `ReactDOM.render`, puedes revisar los ejercicios anteriores.
++  Si no sabes o no recuerdas cómo usar `ReactDOM.render`, puedes revisar los ejercicios anteriores.

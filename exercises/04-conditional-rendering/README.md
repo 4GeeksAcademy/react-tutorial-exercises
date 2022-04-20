@@ -27,14 +27,16 @@ const Alert = (props) => {
 };
 ```
 
-☝️ Returning different HTML code based on conditions its formally called [conditional rendering](https://joshblog.net/2018/conditional-rendering-with-react-and-jsx/).
+Note: ☝️ Returning different HTML code based on conditions its formally called [conditional rendering](https://joshblog.net/2018/conditional-rendering-with-react-and-jsx/).
 
 ##  📝 Instructions:
 
 1. Create an `<Alert />` component that renders a [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples).
 
+## 💡 Hint: 
+
 The component must be able to receive the following 2 properties:
 
-- show (bool): True or false.
++ Show (bool): True or false.
 
-- text (string): The message to include inside the alert message
++ Text (string): The message to include inside the alert message.

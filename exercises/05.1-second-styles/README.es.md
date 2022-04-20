@@ -1,4 +1,4 @@
-# `05.1` Añadiendo estilos a componentes
+# `05.1` Adding styles to the components
 
 ## 📝 Instrucciones:
 

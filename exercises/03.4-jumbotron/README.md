@@ -4,9 +4,11 @@ tutorial: "https://www.youtube.com/watch?v=zv6HPveyz6g"
 
 # `03.4` Jumbotron
 
+Using everything you have learned so far... 
+
 ## 📝 Instructions:
 
-1. Using everything you've learned, build a `Jumbotron` component that receives the following properties:
+1. Build a `Jumbotron` component that receives the following properties:
 
 ```jsx
 <Jumbotron
@@ -16,7 +18,16 @@ tutorial: "https://www.youtube.com/watch?v=zv6HPveyz6g"
     buttonURL="https://reactjs.org/"
 />
 ```
-Your HTML's component should be something like this:
+
+  ## Expected result:
+  
+  ![Jumbotron](../../.learn/assets/03.4-1.png?raw=true)
+
+## 💡 Hints:
+
++ Remember to use prop-types to validate your component properties.
+
++ Your HTML's component should be something like this:
 
 ```html
 <div class="jumbotron m-5">
@@ -25,10 +36,3 @@ Your HTML's component should be something like this:
   <a class="btn btn-primary btn-lg" href="https://reactjs.org/" role="button">Go to the official website</a>
 </div>
 ```
-## 💡 Hint:
-
-* Remember to use prop-types to validate your component properties.
-
-## Expected result:
-
-![Jumbotron](../../.learn/assets/03.4-1.png?raw=true)

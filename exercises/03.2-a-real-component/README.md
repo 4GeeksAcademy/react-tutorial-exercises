@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=MGqH3dOhxL4"
 
 # `03.2` A real component
 
-In the past exercise we created our first component called **`PrintHello`** and we learn that we can use the component like an HTML tag.
+In the past exercise we created our first component called **`PrintHello`**, and we have learned that we can use the component like an HTML tag.
 
 ```jsx
 <PrintHello />
@@ -23,12 +23,12 @@ Now let's create another component (function) called **`<BoostrapCard />`** that
 </div>
 ```
 
-> 🔎 This HTML code its based on the [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
+ Note: This HTML code its based on the [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/).
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Please create a function called `BootstrapCard` that returns the card code and use the `ReactDOM.render` function `<BootstrapCard />` to add it into the website inside `#myDiv`.
 
 ## 💡 Hint:
 
-* if you don't know or remember how to use `ReactDOM.render` you can review the past exercises.
++ If you don't know or remember how to use `ReactDOM.render` you can review the past exercises.

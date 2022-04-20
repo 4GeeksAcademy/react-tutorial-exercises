@@ -24,13 +24,13 @@ And then you can apply those styles to your HTML like this:
 
 ##  📝 Instructions:
 
-The current exercise has an object with styles applied already, please update the the styles to meet the following:
+1. The current exercise has an object with styles applied already, please update the the styles to meet the following:
 
-1. Font size has to be `16px`
++ Font size has to be `16px`
 
-2. Background color has to be `black`.
++ Background color has to be `black`.
 
-3. A yellow border with `1px`.
++ A yellow border with `1px`.
 
 
 

@@ -1,10 +1,10 @@
-# `04.2` Renderizado condicional (Parte II)
+# `04.2` Conditional Rendering (Part II)
 
-Justo ahora este componente `<Alert>` puede renderizar en **orange**(naranjo) o **red**(rojo) dependiendo del valor de su propiedad `color`.
+Justo ahora este componente `<Alert>` puede renderizar en **orange** (naranjo) o **red** (rojo) dependiendo del valor de su propiedad `color`.
 
-##  📝 Instrucciones
+##  📝 Instrucciones:
 
-1. Por favor, añade la posibilidad de especificar el color **green**(verde)
+1. Por favor, añade la posibilidad de especificar el color **green** (verde).
 
 ## Resultado esperado:
 

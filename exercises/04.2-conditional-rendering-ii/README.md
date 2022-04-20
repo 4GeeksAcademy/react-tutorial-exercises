@@ -8,7 +8,7 @@ Right now this `<Alert>` component can render in **orange** or **red** depending
 
 ##  📝 Instructions:
 
-1. Please add the possibility to specify the color as **green**
+1. Please add the possibility to specify the color as **green**.
 
 ## Expected result:
 
