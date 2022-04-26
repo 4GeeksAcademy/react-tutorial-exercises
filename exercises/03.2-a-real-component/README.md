@@ -10,7 +10,7 @@ In the past exercise we created our first component called **`PrintHello`** and 
 <PrintHello />
 ```
 
-Now let's create another component (function) called **`<BoostrapCard />`** that outputs the following HTML:
+Now let's create another component (function) called **`<BootstrapCard />`** that outputs the following HTML:
 
 ```jsx
 <div class="card m-5">
