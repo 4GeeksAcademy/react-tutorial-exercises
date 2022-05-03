@@ -8,7 +8,7 @@ Durante este curso aprenderás los siguientes conceptos:
 
 1. **Usar JSX**: Una gran sintaxis propuesta por Facebook que mezcla HTML y JS en el mismo documento para ayudarte a escribir HTML dinámico.
 
-2. **Cómo construir componentes en React.js**: La web ahora se está siendo con componentes: Angular, VUE, React, etc. Todos ellos proponen desarrollo "orientado a componentes".  
+2. **Cómo construir componentes en React.js**: La web ahora se está haciendo con componentes: Angular, VUE, React, etc. Todos ellos proponen desarrollo "orientado a componentes".  
 
 3. **Todos los tips para generar HTML dinámico**: Al final, es el objetivo principal del desarrollador front-end: Crear HTML dinámico.  
 

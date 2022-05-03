@@ -27,10 +27,10 @@ const animalsInHTML = [
 
 And include them all together inside the website.
 
-## 💡 Hint:
-
-+ You can use the second parameter of the map function as a `key` to uniquely identify each html item.
-
 ## Expected result:
 
 Your website should look like this: ![Li's](../../.learn/assets/02-1.png?raw=true)
+
+## 💡 Hint:
+
++ You can use the second parameter of the map function as a `key` to uniquely identify each html item.
