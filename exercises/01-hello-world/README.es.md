@@ -1,6 +1,6 @@
-# `01.1` Hello world
+# `01` Hello world
 
-El mayor dolor de cabeza de los desarrolladores front-end es **trabajar con el DOM** para crear HTML dinámico, algo que React.js hace mucho mejor.
+El mayor dolor de cabeza de los desarrolladores front-end es **trabajar con el DOM** para crear HTML dinámico, lo cual es algo que React.js hace mucho mejor.
 
 React.js es una librería de renderizado hecha para optimizar el DOM: los programadores ahorran tiempo y el navegador es más rápido.
 
@@ -8,10 +8,9 @@ La librería viene con una función llamada **ReactDOM.render** que tú puedes v
 
 La función `ReactDOM.render` recibe dos parámetros:
 
-* Qué renderizar (el HTML interno o innerHTML).
++  Qué renderizar (el HTML interno o innerHTML).
 
-* Dónde renderizarlo (elemento del DOM).
-
++  Dónde renderizarlo (elemento del DOM).
 
 Por ejemplo:
 
@@ -41,7 +40,7 @@ ReactDOM.render(<span> James is 12 years old </span>, myDiv);
   
 ## 📝 Instrucciones:
 
-1. Abre el archivo `01.1-hello-world/app.jsx` y tómate un tiempo para entenderlo.
+1. Abre el archivo `01-hello-world/app.jsx` y tómate un tiempo para entenderlo.
 
 2. Cambia la variable `output` por:
 

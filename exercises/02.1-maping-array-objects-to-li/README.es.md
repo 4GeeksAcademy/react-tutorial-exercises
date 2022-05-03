@@ -1,6 +1,6 @@
-# `02.1` Mapeando arreglos a `<li>`
+# `02.1` Mapping array objects to `<li>`
 
-Usando el conocimiento que tienes del ejercicio anterior, ahora corrijamos la función `.map` nuevamente pero partiendo de un arreglo de objetos.
+Usando el conocimiento que tienes del ejercicio anterior, ahora corrijamos la función `.map` nuevamente, pero esta vez, partiendo de un arreglo de objetos.
 
 ```js
 const animals = [ { label: 'Horse' }, { label: 'Turtle' }, { label: 'Elephant' }, { label: 'Monkey' } ];

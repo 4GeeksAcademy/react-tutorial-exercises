@@ -2,13 +2,13 @@
 tutorial: "https://www.youtube.com/watch?v=5Z12IWd4CI8"
 ---
 
-# `01.4` Building a layout
+# `01.3` Building a layout
 
 Let's practice a little bit more about using JSX for creating HTML.
 
 Now we have another object that is just a bit more complex than the last one.
 
-## 📝 Instructions:
+Are you ready? 😃
 
 You have a `data` object that contains Bob Dylan's information (image, title, etc).
 
@@ -23,8 +23,13 @@ const data = {
   }
 };
 ```
+## 📝 Instructions:
 
 1. Use the information contained in `data` to render a bootstrap card, for example: The card's title will be the `data.cardTitle`, etc.
+
+ ## Expected result:
+  
+  ![Bob Dylan Card](../../.learn/assets/1.4-1.png?raw=true)
 
 ## 💡 Hint:
 
@@ -43,9 +48,6 @@ const data = {
 
 Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
 
-## Expected result:
-
-![Bob Dylan Card](../../.learn/assets/1.4-1.png?raw=true)
 
 
 

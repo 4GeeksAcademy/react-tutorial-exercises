@@ -1,6 +1,6 @@
-# `02.2` Mapeando funciones
+# `02.2`  Mapping array of objects to `<li>`
 
-Cuando estás mapeando un arreglo de datos para convertirlo en un arreglo HTML tienes que especificar una **"función de mapeo"** que recibirá cada elemento del arreglo original y lo transformará e insertará en el nuevo arreglo. 
+Cuando estás mapeando un arreglo de datos para convertirlo en un arreglo HTML, tienes que especificar una **"función de mapeo"** que recibirá cada elemento del arreglo original y lo transformará e insertará en el nuevo arreglo. 
 
 Por ejemplo:
 
