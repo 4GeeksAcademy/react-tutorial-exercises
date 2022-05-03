@@ -1,4 +1,4 @@
-# `03.5` Componente Alert
+# `03.5` Alert Component
 
 Basándote en el conocimiento que ahora tienes:
 

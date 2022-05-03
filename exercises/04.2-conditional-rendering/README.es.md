@@ -1,4 +1,4 @@
-# `04.2` Conditional Rendering (Part II)
+# `04.2` Conditional Rendering
 
 Justo ahora este componente `<Alert>` puede renderizar en **orange** (naranjo) o **red** (rojo) dependiendo del valor de su propiedad `color`.
 

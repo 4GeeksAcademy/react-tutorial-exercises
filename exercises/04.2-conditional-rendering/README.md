@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=l3v6E1o_YUI"
 ---
 
-# `04.2` Conditional Rendering (Part II)
+# `04.2` Conditional Rendering
 
 Right now this `<Alert>` component can render in **orange** or **red** depending on the value of its `color` property.
 

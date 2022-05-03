@@ -22,11 +22,8 @@ Y, entonces, puedes aplicar esos estilos a tu HTML, así:
 
 1. El ejercicio actual tiene un objeto con estilos ya aplicados. Por favor, actualiza los estilos para lograr lo siguiente:
 
-+ El tamaño de fuente tiene que ser `16px`.
+    + El tamaño de fuente tiene que ser `16px`.
 
-+ El color de fondo (background color) tiene que ser negro (black).
+    + El color de fondo (background color) tiene que ser negro (black).
 
-+ Un borde amarillo (yellow) de un `1px`.
-
-
-
+    + Un borde amarillo (yellow) de un `1px`.

@@ -26,11 +26,11 @@ And then you can apply those styles to your HTML like this:
 
 1. The current exercise has an object with styles applied already, please update the the styles to meet the following:
 
-+ Font size has to be `16px`
+    + Font size has to be `16px`
 
-+ Background color has to be `black`.
+    + Background color has to be `black`.
 
-+ A yellow border with `1px`.
+    + A yellow border with `1px`.
 
 
 
