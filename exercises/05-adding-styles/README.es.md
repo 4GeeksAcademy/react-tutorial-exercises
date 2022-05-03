@@ -1,4 +1,4 @@
-# `05` Añadiendo estilos a los componentes
+# `05` Adding styles to the components
 
 La forma más recomendada de usar estilos en React es usando CSS-in-JS.
 
@@ -20,13 +20,10 @@ Y, entonces, puedes aplicar esos estilos a tu HTML, así:
 
 ##  📝 Instrucciones:
 
-El ejercicio actual tiene un objeto con estilos ya aplicados. Por favor, actualiza los estilos para lograr lo siguiente:
+1. El ejercicio actual tiene un objeto con estilos ya aplicados. Por favor, actualiza los estilos para lograr lo siguiente:
 
-1. El tamaño de fuente tiene que ser `16px`.
+    + El tamaño de fuente tiene que ser `16px`.
 
-2. El color de fondo (background color) tiene que ser negro (black).
+    + El color de fondo (background color) tiene que ser negro (black).
 
-3. Un borde amarillo (yellow) de un `1px`.
-
-
-
+    + Un borde amarillo (yellow) de un `1px`.

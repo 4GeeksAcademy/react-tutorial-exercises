@@ -29,11 +29,13 @@ We are declaring a variable `colorClasses` that will contain all the class names
 
 1. Create an `<Alert />` component that renders a [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples). 
 
+## 💡 Hint:
+
 The component must be able to receive the following 2 properties:
 
-- Text (string): The text content that will be displayed on the alert.
++ Text (string): The text content that will be displayed on the alert.
 
-- Color (string): Red or Orange.
++ Color (string): Red or Orange.
 
 ```jsx
 //for red color

@@ -1,8 +1,8 @@
-# `04.1` Renderizado condicional
+# `04.1` Conditional Rendering
 
 Hagamos nuestro componente `<Alert>` un poco más inteligente.
 
-Cuando usas JSX tienes todas las funcionalidades de JavaScript disponibles: Variables,Bucles, Condicionales, etc.
+Cuando usas JSX tienes todas las funcionalidades de JavaScript disponibles: Variables, Bucles, Condicionales, etc.
 
 Ya hemos usado bucles y variables, ¡es momento de usar condicionales!
 
@@ -21,15 +21,17 @@ const colorClasses = {
 
 Estamos declarando una variable `colorClasses` que contendrá todos los class names que se le aplicarán en la alerta.
 
-##  📝 Instrucciones
+##  📝 Instrucciones:
 
 1. Crea un componente `<Alert />` que renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples). 
 
+## 💡 Pista: 
+
 El componente debe ser capaz de recibir las siguientes dos propiedades:
 
-- Text (string): El texto mostrado en la alerta.
++ Text (string): El texto mostrado en la alerta.
 
-- Color (string): Rojo o naranja.
++ Color (string): Rojo o naranja.
 
 ```jsx
 //para el color rojo
