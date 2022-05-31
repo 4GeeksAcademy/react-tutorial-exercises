@@ -29,7 +29,7 @@ test("The component Badge should return the exact HTML", () => {
     style={
       Object {
         "background": "red",
-        "color": "white",
+        "borderRadius": "50%",
       }
     }
   >
