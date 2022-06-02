@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=5Z12IWd4CI8"
 
 Let's practice a little bit more about using JSX for creating HTML.
 
-Now we have another object that is just a bit more complex than the last one.
+Now we have another object that's a bit more complex than the last one.
 
 Are you ready? 😃
 
