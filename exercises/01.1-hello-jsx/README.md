@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=Wp8hcH8jScQ"
 ---
 
-# `01` Hello JSX
+# `01.1` Hello JSX
 
 JSX also allows you to easily include variables into your HTML, for example, lets assume that you have the following variable available:
 
