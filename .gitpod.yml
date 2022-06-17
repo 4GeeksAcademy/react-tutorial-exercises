@@ -4,8 +4,7 @@ image:
 
 vscode:
   extensions:
-    - learnpack.learnpack-vscode
-
+    - learn-pack.learnpack-vscode
 ports:
   - port: 3000
     onOpen: ignore
