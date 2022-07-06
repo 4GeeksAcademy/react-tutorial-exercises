@@ -11,11 +11,16 @@ test("ReactDOM.render needs to be called once", () => {
 test("The output variable needs to be set to <span> James is <strong>12</strong> years old </span>", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
-<h1>
-  Hello 
+<div>
+  <h1>
+    Hello World!
+  </h1>
+  <p>
+    This is the second element
+  </p>
   <strong>
-    World!
+    This is the last element
   </strong>
-</h1>
+</div>
 `);
 });
