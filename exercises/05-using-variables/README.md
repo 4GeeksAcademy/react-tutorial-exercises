@@ -1,4 +1,4 @@
-# `05` Inline Styles
+# `05` Using Variables
 
 We use properties on HTML to provide additional information related to the elements.  This are common properties used on HTML: `src`, `href`, `style`, `onchange`, `onclick`
 
