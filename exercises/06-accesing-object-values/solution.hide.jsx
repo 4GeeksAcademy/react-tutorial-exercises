@@ -1,14 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const product = {
+	name: "Nike Mercurial Superfly 8Max",
+	type: "Firm-Ground Soccer Cleats",
+	price: 295,
+	image: "../../.learn/assets/06-accessing-object-values.webp",
+	stars: 5,
+	button: {
+		label: "Shop Now",
+		url: "https://www.nike.com/t/mercurial-superfly-8-elite-fg-firm-ground-soccer-cleats-htj6pt/DN3779-375",
+	},
+};
+
 const output = (
-	<div className="card col-3 mx-auto">
-		<img src="../../.learn/assets/rigo-baby.jpg" className="w-100" alt="..." />
-		<div className="card-body">
-			<h5 className="card-title">Rigo</h5>
-			<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			<a href="#" className="btn btn-primary">
-				Go somewhere
+	<div className="col-2 mx-auto mt-5 rounded border">
+		<img src={product.image} alt="Wrong Image!" className="img-fluid w-100" />
+		<div className="col-12 p-3">
+			<h5>{product.name}</h5>
+			<span className="text-secondary">{product.type}</span>
+			<p>$ {product.price}</p>
+			<p>Reviews: {product.stars}</p>
+			<a href={product.button.url} className="w-100 btn btn-dark" target="_blank">
+				{product.button.label}
 			</a>
 		</div>
 	</div>
