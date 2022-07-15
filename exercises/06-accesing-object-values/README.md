@@ -1,18 +1,8 @@
-# `04` Properties
+# `06` Accesing Object Values
 
-We use properties on HTML to provide additional information related to the elements.  This are common properties used on HTML: `src`, `href`, `style`, `onchange`, `onclick`
+You can have variables with simple values like a string or a number, but you can also have more complex data types like arrays or objects.
 
-On React we still need to use them, but the syntax can change on some of this properies. These properites should be written on [camelCase](https://www.theserverside.com/answer/Camel-case-vs-snake-case-Whats-the-difference#:~:text=When%20multiple%20words%20are%20used,between%20words%20to%20create%20separation.).
-
-## Example:
-
-|HTML        |   React   |
-|:-----------|:----------|
-|`src`       |  `src`    |
-| `tabindex` |`tabIndex` |
-| `onclick`  | `onClick` |
-| `onchange` |`onChange` |
-|`aria-label`|`ariaLabel`|
+On this exercise we are going to use an object which will have the data of a product we want to sell, in order to show a card filled with the user's data, we are going to have to use that object.
 
 ## 📝 Instructions:
 
