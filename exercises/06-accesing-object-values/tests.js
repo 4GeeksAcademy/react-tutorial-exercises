@@ -8,7 +8,7 @@ test("ReactDOM.render needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("The output variable needs to be set to <span> James is <strong>12</strong> years old </span>", () => {
+test("The output variable needs to be the expected one", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
@@ -40,7 +40,7 @@ test("The output variable needs to be set to <span> James is <strong>12</strong>
     </p>
     <a
       className="w-100 btn btn-dark"
-      href="https://www.nike.com/t/mercurial-superfly-8-elite-fg-firm-ground-soccer-cleats-htj6pt/DN3779-375"
+      href="https://www.nike.com/t/mercurial-superfly-8-elite-fg-firm-ground-soccer-cleats-htj6pt/CV0958-403"
       target="_blank"
     >
       Shop Now

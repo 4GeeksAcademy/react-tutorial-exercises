@@ -1,27 +1,37 @@
-# `05` Inline Styles
+# `08` Inline Styles
 
-We use properties on HTML to provide additional information related to the elements.  This are common properties used on HTML: `src`, `href`, `style`, `onchange`, `onclick`
+In the previous exercise, we learned about inline stylings storing the styling's object in a variable and theb using it as the value of the `style` property.
 
-On React we still need to use them, but the syntax can change on some of this properies. These properites should be written on [camelCase](https://www.theserverside.com/answer/Camel-case-vs-snake-case-Whats-the-difference#:~:text=When%20multiple%20words%20are%20used,between%20words%20to%20create%20separation.).
+Now we are going to create the object directly as the value of the `style` property. The syntax looks like this:
 
-## Example:
+```jsx
+const output = (
+    <div style={{ color: "black", width: "100%", backgroundColor: "blue", marginTop: "2.5rem"}}>
+        Hello World!
+    </div>
+)
+```
 
-|HTML        |   React   |
-|:-----------|:----------|
-|`src`       |  `src`    |
-| `tabindex` |`tabIndex` |
-| `onclick`  | `onClick` |
-| `onchange` |`onChange` |
-|`aria-label`|`ariaLabel`|
+We have two curly brackets `style={{}}`, because the outsider one is to access javascript and the insiders are from the object.
+
+If you build the current code, you'll see there are a lot of styles missing.
+
+In this case you are going to apply the stylings to the card's `div` tag.
 
 ## 📝 Instructions:
 
-1. Change all the properties from HTML syntax to React's syntax.
+1. Add the following stylings to the object of the `style` property value of the card's `div`:
 
-## 💡 Hint:
+    + A width of `"16.66%"`.
 
-+ The properties that you should modify are:
+    + margin `"auto"` to center it.
 
-    + `onsubmit`.
+    + margin top of `"2.5rem"`.
 
-    + `onclick`.
+    + A solid border with 1px of width and color lightgrey `"1px solid lightgrey"` 
+
+## 💡 Hints:
+
++ Remember the syntax to apply stylings in react: `style={{style1: "value of style", style2: "value of style 2"}}`.
+
++ Here is more information about react stylings: [https://www.w3schools.com/react/react_css.asp](https://www.w3schools.com/react/react_css.asp)

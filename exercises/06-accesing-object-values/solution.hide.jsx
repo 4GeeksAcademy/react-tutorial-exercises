@@ -9,7 +9,7 @@ const product = {
 	stars: 5,
 	button: {
 		label: "Shop Now",
-		url: "https://www.nike.com/t/mercurial-superfly-8-elite-fg-firm-ground-soccer-cleats-htj6pt/DN3779-375",
+		url: "https://www.nike.com/t/mercurial-superfly-8-elite-fg-firm-ground-soccer-cleats-htj6pt/CV0958-403",
 	},
 };
 
