@@ -1,6 +1,8 @@
 import ReactDOM from "react-dom";
 import renderer from "react-test-renderer";
 import file from "./app.jsx";
+const fs = require('fs');
+const path = require('path');
 
 jest.mock("react-dom", () => ({ render: jest.fn() }));
 
@@ -8,30 +10,22 @@ test("ReactDOM.render needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
+test("You have to call the component with right syntax", () => {
+  const file = fs.readFileSync(path.resolve(__dirname, './app.jsx'), 'utf8').toString();
+  const regex = /<Card\s*\/>/gm
+  expect(regex.test(file)).toBeTruthy();
+})
+
 test("The output variable needs to be the expected one", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
-  id="card"
-  style={
-    Object {
-      "border": "1px solid lightgrey",
-      "margin": "auto",
-      "marginTop": "2.5rem",
-      "width": "16.66%",
-    }
-  }
+  className="col-2 mx-auto mt-5 rounded border"
 >
   <img
     alt="Wrong Image!"
-    id="card-image"
+    className="img-fluid w-100"
     src="../../.learn/assets/06-accessing-object-values.webp"
-    style={
-      Object {
-        "objectFit": "cover",
-        "width": "100%",
-      }
-    }
   />
   <div
     className="col-12 p-3"
@@ -45,10 +39,12 @@ test("The output variable needs to be the expected one", () => {
       Firm-Ground Soccer Cleats
     </span>
     <p>
-      $ 295.00
+      $ 
+      295
     </p>
     <p>
-      Reviews: 5
+      Reviews: 
+      5
     </p>
     <a
       className="w-100 btn btn-dark"
