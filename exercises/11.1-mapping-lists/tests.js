@@ -12,7 +12,7 @@ test("ReactDOM.render needs to be called once", () => {
 
 test("You have to call the component with right syntax", () => {
   const file = fs.readFileSync(path.resolve(__dirname, './app.jsx'), 'utf8').toString();
-  const regex = /<Product\s*\/>/gm
+  const regex = /key\s*=\s*{\s*.+\s*}/gm
   expect(regex.test(file)).toBeTruthy();
 })
 
@@ -20,39 +20,27 @@ test("The output variable needs to be the expected one", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
-  className="col-3 mx-auto mt-5 rounded border"
+  className="col-4 mx-auto mt-5"
 >
-  <img
-    alt="Wrong Image!"
-    className="img-fluid w-100"
-    src="../../.learn/assets/09.2-components.jfif"
-  />
-  <div
-    className="col-12 p-3"
+  <h2
+    className="text-center"
   >
-    <h5>
-      Tesla Model S
-    </h5>
-    <p>
-      Range (EPA est.): 396 mi
-    </p>
-    <p>
-      0-60 mph: 1.99s
-    </p>
-    <p>
-      Top Speed: 200 mph
-    </p>
-    <p>
-      Peak Power: 1,020 hp
-    </p>
-    <a
-      className="w-100 btn btn-dark"
-      href="https://www.tesla.com/models/design#overview"
-      target="_blank"
-    >
-      Order now
-    </a>
-  </div>
+    My Favorite Programming Languages
+  </h2>
+  <ul>
+    <li>
+      JavaScript
+    </li>
+    <li>
+      Python
+    </li>
+    <li>
+      Java
+    </li>
+    <li>
+      C++
+    </li>
+  </ul>
 </div>
 `);
 });

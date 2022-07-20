@@ -5,7 +5,7 @@ function Product() {
 	return (
 		<div className="col-3 mx-auto mt-5 rounded border">
 			<img
-				src="../../.learn/assets/09.2-components.jfif"
+				src="https://tesla-cdn.thron.com/delivery/public/image/tesla/8a74d206-66dc-4386-8c7a-88ff32174e7d/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD"
 				alt="Wrong Image!"
 				className="img-fluid w-100"
 			/>

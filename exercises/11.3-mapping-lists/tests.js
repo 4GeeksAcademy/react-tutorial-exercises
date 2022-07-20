@@ -25,7 +25,7 @@ test("The output variable needs to be the expected one", () => {
   <img
     alt="Wrong Image!"
     className="img-fluid w-100"
-    src="../../.learn/assets/09.2-components.jfif"
+    src="https://tesla-cdn.thron.com/delivery/public/image/tesla/8a74d206-66dc-4386-8c7a-88ff32174e7d/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD"
   />
   <div
     className="col-12 p-3"
