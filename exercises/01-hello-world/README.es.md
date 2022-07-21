@@ -12,39 +12,22 @@ La función `ReactDOM.render` recibe dos parámetros:
 
 +  Dónde renderizarlo (elemento del DOM).
 
-Por ejemplo:
+En el código del archivo `app.jsx`, la función `ReactDOM.render()` establecerá el innerHTML de `myDiv` (un elemento DOM) para ser lo que sea que contenga la variable `output`, muy similar a como funciona `innerHTML`:
 
 ```js
-import React from 'react'; //importar la librería de react
-import ReactDOM from 'react-dom'; //importar react-dom para que react genere el html
+// Así es como lo harías sin React.
+myDiv.innerHTML = '<span>Hello World!</span>';
 
-// QUE: esta variable contiene todo el HTML que va a ser renderizado
-let output = <span>James is 12 years old</span>
-
-// DONDE: Un elemento DOM que contendrá todo el html generado por react
-const myDiv = document.querySelector('#myDiv');
-
-               //qué    //dónde
-ReactDOM.render(output, myDiv);
+// Así es como lo harías con React.
+ReactDOM.render(<span>Hello World!</span>, myDiv);
 ```
 
-La función `ReactDOM.render` establecerá el innerHTML de `myDiv` (un elemento DOM) para ser lo que sea que contenga la variable `output`, muy similar a como funciona `innerHTML`:
-
-```js
-//Así lo harías sin react
-myDiv.innerHTML = '<span>James is 12 years old</span>';
-
-// Así se hace con react
-ReactDOM.render(<span> James is 12 years old </span>, myDiv);
-```
-  
 ## 📝 Instrucciones:
 
-1. Abre el archivo `01-hello-world/app.jsx` y tómate un tiempo para entenderlo.
+1. Tómate un tiempo para entender el archivo `app.jsx`.
 
-2. Cambia la variable `output` por:
+2. Cambia el valor de la variable `output` por:
 
-```js
-<span>James is <strong>12</strong> years old</span>
+```jsx
+<h1>Hello <strong>World!</strong></h1>
 ```
-

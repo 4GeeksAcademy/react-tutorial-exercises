@@ -11,11 +11,28 @@ test("ReactDOM.render needs to be called once", () => {
 test("The output variable needs to be the expected one", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
-<h1>
-  Hello 
-  <strong>
-    World!
-  </strong>
-</h1>
+<div
+  className="col-4 mx-auto mt-5"
+>
+  <h2
+    className="text-center"
+  >
+    My Favorite Programming Languages
+  </h2>
+  <ul>
+    <li>
+      JavaScript
+    </li>
+    <li>
+      Python
+    </li>
+    <li>
+      Java
+    </li>
+    <li>
+      C++
+    </li>
+  </ul>
+</div>
 `);
 });

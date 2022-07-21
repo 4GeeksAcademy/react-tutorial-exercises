@@ -11,11 +11,29 @@ test("ReactDOM.render needs to be called once", () => {
 test("The output variable needs to be the expected one", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
-<h1>
-  Hello 
-  <strong>
-    World!
-  </strong>
-</h1>
+<form
+  className="card col-3 mx-auto mt-5 p-4"
+  onSubmit={[Function]}
+>
+  <h2>
+    Login
+  </h2>
+  <input
+    className="w-100 rounded form-control mt-3"
+    placeholder="Enter your email"
+    type="email"
+  />
+  <input
+    className="w-100 rounded form-control my-2"
+    placeholder="Enter your password"
+    type="password"
+  />
+  <button
+    className="btn btn-success w-100 mt-3"
+    onClick={[Function]}
+  >
+    SUBMIT
+  </button>
+</form>
 `);
 });

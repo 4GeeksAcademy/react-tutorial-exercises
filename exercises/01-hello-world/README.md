@@ -16,39 +16,22 @@ The `ReactDOM.render` function receives two parameters:
 
 +  Where to render it (DOM element).
 
-For example:
-
-```js
-import React from 'react'; //import the react library
-import ReactDOM from 'react-dom'; //import react-dom to make react generate html
-
-// WHAT: This variable contains all the HTML that will be rendered
-let output = <span>James is 12 years old</span>
-
-// WHERE: A DOM element that will contain the entire react generated html
-const myDiv = document.querySelector('#myDiv');
-
-               //what           //where
-ReactDOM.render(output, myDiv);
-```
-
-The function `ReactDOM.render` will set the innerHTML of `myDiv` (a DOM element) to be whatever the variable `output` contains, very similar to how `innerHTML` works:
+In the code given, the function `ReactDOM.render()` will set the innerHTML of `myDiv` (a DOM element) to be whatever the variable `output` contains, very similar to how `innerHTML` works:
 
 ```js
 //This is how you would do it without react.
-myDiv.innerHTML = '<span>James is 12 years old</span>';
+myDiv.innerHTML = '<span>Hello World!</span>';
 
 // This is not you would do it with react.
-ReactDOM.render(<span> James is 12 years old </span>, myDiv);
+ReactDOM.render(<span>Hello World!</span>, myDiv);
 ```
 
 ## 📝 Instructions:
 
-1. Open the `01-hello-world/app.jsx` file and take some time to understand it.
+1. Take some time to understand the `app.jsx` file.
 
 2. Change the variable `output` to:
 
 ```jsx
-<span>James is <strong>12</strong> years old</span>
+<h1>Hello <strong>World!</strong></h1>
 ```
-
