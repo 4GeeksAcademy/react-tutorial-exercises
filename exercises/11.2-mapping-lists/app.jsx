@@ -1,3 +1,4 @@
+/** @jest-environment jsdom */
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -23,12 +24,7 @@ function Cards() {
 		},
 	];
 
-	return (
-		<div className="row mt-5">
-            {/* Add your code below this line */}
-			
-		</div>
-	);
+	return <div className="row mt-5">{/* Add your code below this line */}</div>;
 }
 
 const myDiv = document.querySelector("#myDiv");

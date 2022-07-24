@@ -1,3 +1,4 @@
+/** @jest-environment jsdom */
 import ReactDOM from "react-dom";
 import renderer from "react-test-renderer";
 import file from "./app.jsx";
