@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import renderer from "react-test-renderer";
-import file from "./app.jsx";
+import file from "./app.jsx.js.js";
 const fs = require('fs');
 const path = require('path');
 
@@ -15,9 +15,15 @@ test("ReactDOM.render needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("You have to use the if statement", () => {
+test("You have to use the ? conditional operator", () => {
   const file = fs.readFileSync(path.resolve(__dirname, './app.jsx'), 'utf8').toString();
-  const regex = /if\s*\(/gm
+  const regex = /\?/gm
+  expect(regex.test(file)).toBeTruthy();
+})
+
+test("You have to use the : conditional operator", () => {
+  const file = fs.readFileSync(path.resolve(__dirname, './app.jsx'), 'utf8').toString();
+  const regex = /\:/
   expect(regex.test(file)).toBeTruthy();
 })
 
@@ -47,9 +53,9 @@ test("The output variable needs to be the expected one", () => {
     Age:
     ${age}
   </p>
-  <p>
+  <span>
     I can drink! Let's party tonight!
-  </p>
+  </span>
 </div>
 `);
   } else {
@@ -60,7 +66,7 @@ test("The output variable needs to be the expected one", () => {
   <img
     alt="Profile picture"
     className="w-100 img-fluid"
-    src="../../.learn/assets/12.1-conditionals.jpg"
+    src="../../.learn/assets/05.2-using-variables.jpg"
   />
   <h2>
     John Doe
@@ -69,9 +75,9 @@ test("The output variable needs to be the expected one", () => {
     Age:
     ${age}
   </p>
-  <p>
+  <span>
     I can't drink, I'm still a kid :(
-  </p>
+  </span>
 </div>
 `);
   }
