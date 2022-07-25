@@ -35,13 +35,12 @@ This is an example of `if` conditional:
 ```jsx
 function Profile(){
     let hasImage = false;
-        return (
-            <div>
-                {hasImage && <img src="profile-picture" />}
-                <h1>John Doe</h1>
-            </div>
-        )
-    }
+    return (
+        <div>
+            {hasImage && <img src="profile-picture" />}
+            <h1>John Doe</h1>
+        </div>
+    )
 }
 ```
 
@@ -51,16 +50,15 @@ This is an example of `if else` conditional:
 function Profile(){
     let hasImage = false;
     let age = 24;
-        return (
-            <div>
-                {hasImage && <img src="profile-picture" />}
-                <h1>John Doe</h1>
-                {age >= 21 
-                    ? <p>You can drink!</p> 
-                    : <span>Sorry you can't drink :(</span>}
-            </div>
-        )
-    }
+    return (
+        <div>
+            {hasImage && <img src="profile-picture" />}
+            <h1>John Doe</h1>
+            {age >= 21 
+                ? <p>You can drink!</p> 
+                : <span>Sorry you can't drink :(</span>}
+        </div>
+    )
 }
 ```
 
