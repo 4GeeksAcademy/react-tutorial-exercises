@@ -10,7 +10,7 @@ On react there are two ways of generating JSX by looping:
 
 On this exercise we are going to teach you how to do it with the first option, evethough we recommend you to do it using the map method inside the JSX, which you'll learn later. Both are valid, that's why we want you to know them.
 
-## Example
+## Example:
 
 This is an example of using the for loop to generate a list from an array:
 

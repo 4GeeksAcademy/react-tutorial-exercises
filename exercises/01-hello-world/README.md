@@ -22,7 +22,7 @@ In the code given, the function `ReactDOM.render()` will set the innerHTML of `m
 //This is how you would do it without react.
 myDiv.innerHTML = '<span>Hello World!</span>';
 
-// This is not you would do it with react.
+// This is not how you would do it with react.
 ReactDOM.render(<span>Hello World!</span>, myDiv);
 ```
 
