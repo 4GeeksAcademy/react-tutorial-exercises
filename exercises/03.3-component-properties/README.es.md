@@ -1,6 +1,6 @@
 # `03.3` Component Properties
 
-La `BootstrapCard` que acabas de hacer está [hard coded](https://es.quora.com/Qu%C3%A9-significa-en-computacion-hard-coded) para **Bob Dylan** únicamente.
+La `BootstrapCard` que acabas de hacer está [hard coded](https://www.youtube.com/watch?v=8AfUqg5pUQQ) para **Bob Dylan** únicamente.
 
 Pero, ¿qué pasa si queremos reutilizar el componente `<BootstrapCard />` para **Paul Mccartney** o cualquier otra persona? ¿Cómo podriamos hacer? ¡Usa propiedades!
 
