@@ -1,10 +1,10 @@
 # `09.2` Components
 
-In the previous exercise you learned about components, and now that you know their structure, we are going to ask you to create your component with the data given.
+En el ejercicio anterior aprendiste sobre los componentes, y ahora que conoces su estructura, te vamos a pedir que crees tu componente con los datos dados.
 
-## 📝 Instructions:
+## 📝 Instrucciones:
 
-1. Create a component named `<Product />` with the following JSX code:
+1. Crea un componente llamado `<Product />` con el siguiente código JSX:
 
 ```jsx
 <div className="col-3 mx-auto mt-5 rounded border">
@@ -26,10 +26,10 @@ In the previous exercise you learned about components, and now that you know the
 </div>
 ```
 
-## 💡 Hints:
+## 💡 Pistas:
 
-+ You have to use the previous JSX in the return of the component.
++ Tienes que usar el JSX anterior en la devolución del componente.
 
-+ You can go to the previous exercise if you don't remember about component's structure.
++ Puedes ir al ejercicio anterior si no recuerda la estructura del componente.
 
-+ Here is more information about react components: [React Components](https://www.w3schools.com/react/react_components.asp#:~:text=Components%20are%20independent%20and%20reusable,will%20concentrate%20on%20Function%20components.)
++ Aquí hay más información sobre los componentes de react: [React Components](https://www.w3schools.com/react/react_components.asp#:~:text=Components%20are%20independent%20and%20reusable,will%20concentrate%20on%20Function%20components.)

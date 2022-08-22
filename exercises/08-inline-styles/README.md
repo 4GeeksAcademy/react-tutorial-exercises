@@ -24,9 +24,9 @@ In this case you are going to apply the stylings to the card's `div` tag.
 
     + A width of `"16.66%"`.
 
-    + margin `"auto"` to center it.
+    + Margin `"auto"` to center it.
 
-    + margin top of `"2.5rem"`.
+    + Margin top of `"2.5rem"`.
 
     + A solid border with 1px of width and color lightgrey `"1px solid lightgrey"` 
 
