@@ -10,3 +10,7 @@ tutorial: "https://www.youtube.com/watch?v=Vr5Kh47NSuM"
 
 ![Alert in bootstrap](../../.learn/assets/05.1-1.png?raw=true)
 
+## 💡 Hint:
+
++ You should only style the background colors, text colors, and borders.
++ The badge has a `border-radius` of `50%`

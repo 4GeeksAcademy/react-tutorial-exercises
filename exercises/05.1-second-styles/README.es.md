@@ -6,3 +6,7 @@
 
 ![Alert in bootstrap](../../.learn/assets/05.1-1.png?raw=true)
 
+## 💡 Pista:
+
++ Solamente debes cambiar los colores de fondo, colores de texto, y el estilo de los bordes.
++ El Badge tiene un `border-radius` de `50%`
