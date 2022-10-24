@@ -7,7 +7,8 @@
     "description": "Learn and practice React.js using hooks, interactive tutorial with dozens of react exercises, get instant feedback with automatic grading and watch video solutions afterwards.",
     "duration": 8,
     "difficulty": "easy",
-    "video-solutions": true,
+    "videoSolutions": true,
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "grading": "isolated",
     "editor": {
         "version": "1.0.73"
