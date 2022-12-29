@@ -1,6 +1,6 @@
+<!-- hide -->
 # React Interactive Tutorial & Exercises
 
-<!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/badge.svg?raw=true"></a>
 
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/react-tutorial-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
