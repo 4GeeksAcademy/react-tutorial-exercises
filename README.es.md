@@ -19,7 +19,7 @@ Puedes encontrar muchos tutoriales interactivos gratuitos en línea, pero ningun
 
 ## Instalación local
 
-1. Asegúrate de tener el [learnpack-cli](https://github.com/learnpack/learnpack-cli)instalado y `node.js` versión 14+. Este es el comando para instalar learnpack-cli:
+1. Asegúrate de tener el [learnpack-cli](https://github.com/learnpack/learnpack-cli) instalado y `node.js` versión 14+. Este es el comando para instalar learnpack-cli:
 
 ```sh
 $ npm i learnpack -g
