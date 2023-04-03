@@ -15,7 +15,7 @@
 
 You can find lots of free interactive/autograded tutorials online, but there are very few about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js.
 
-These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your help !
+These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your help!
 
 If you find any bugs or spelling issues, please contribute and report them and we will correct them.
 
@@ -67,3 +67,5 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
+
+This and many other exercises are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sánchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and  [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
