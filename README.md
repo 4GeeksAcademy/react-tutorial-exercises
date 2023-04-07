@@ -9,8 +9,6 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-<h3>Start now: </h3>
-<a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" /></a>
 <!-- endhide -->
 
 You can find lots of free interactive/autograded tutorials online, but there are very few about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js.
@@ -23,9 +21,13 @@ If you find any bugs or spelling issues, please contribute and report them and w
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-tutorial-exercises/master/preview.gif">
 </p>
 
-## One click installation:
+<!-- hide -->
 
-This exercises are configured to [easily open in gitpod by clicking here](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git).
+## One click installation (recommended):
+
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
+
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local installation:
 
@@ -46,6 +48,8 @@ $ npm i jest@24.8.0 -g
 $ learnpack plugins:install learnpack-react
 $ learnpack start
 ```
+
+<!-- endhide -->
 
 ## How are the exercises organized?
 
