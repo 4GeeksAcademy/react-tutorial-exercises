@@ -11,6 +11,8 @@
 
 <!-- endhide -->
 
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/README.es.md) :es:*
+
 You can find lots of free interactive/autograded tutorials online, but there are very few about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js.
 
 These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your help!
@@ -58,6 +60,8 @@ Each exercise is a small react application containing the following files:
 1. **app.js:** represents the entry file for the exercise.
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+
+> Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
 
 ## Contributors
 
