@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 700,
+    "editor.minimap.enabled": false,
+    "workbench.editorAssociations": {   
+        "*.md": "vscode.markdown.preview.editor"
+    }
+}
