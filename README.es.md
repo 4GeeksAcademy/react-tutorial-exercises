@@ -21,9 +21,13 @@ Puedes encontrar muchos tutoriales interactivos gratuitos en línea, pero ningun
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-tutorial-exercises/master/preview.gif">
 </p>
 
-## Instalación en un clic:
+<!-- hide -->
 
-[![Abrir en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-exercises.git)
+## Instalación en un clic (recomendado)
+
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/react-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git).
+
+> Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente; si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
 ## Instalación local
 
@@ -44,6 +48,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack plugins:install learnpack-react@0.0.17
 $ learnpack start
 ```
+<!-- endhide -->
 
 ## ¿Cómo están organizados los ejercicios?
 
@@ -53,7 +58,9 @@ Cada ejercicio es una pequeña aplicación de react que contiene los siguientes 
 2. **README.md:** contiene instrucciones de ejercicios.
 3. **test.js:** no tienes que abrir este archivo, contiene el script de prueba para el ejercicio.
 
-## Colaboradores
+> Nota: Los ejercicios tienen calificación automática pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
+
+## Colaboradores 
  
 Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
