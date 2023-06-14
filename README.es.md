@@ -31,6 +31,8 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación local
 
+Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
+
 1. Asegúrate de tener el [learnpack-cli](https://github.com/learnpack/learnpack-cli) instalado y `node.js` versión 14+. Este es el comando para instalar learnpack-cli:
 
 ```sh

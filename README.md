@@ -9,9 +9,8 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-<!-- endhide -->
-
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/README.es.md) :es:*
+<!-- endhide -->
 
 You can find lots of free interactive/autograded tutorials online, but there are very few about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js.
 
@@ -32,6 +31,8 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 > Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local installation:
+
+Clone the repository in your local environment and follow the steps below:
 
 1. Make sure you have the [learnpack-cli](https://github.com/learnpack/learnpack-cli) installed and `node.js` version 14+. This is the command to install the learnpack-cli
 
