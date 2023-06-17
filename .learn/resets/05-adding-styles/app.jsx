@@ -4,22 +4,19 @@ import PropTypes from "prop-types";
 
 //add the styles here
 const mySuperStyles = {
-	fontSize: "16px",
-	background: "black",
-	border: "1px solid yellow",
+
 };
 
-const Badge = (props) => {
+const Badge = props => {
 	return (
 		<button style={mySuperStyles} type="button" className="btn btn-primary">
-			{props.label}
-			<span className="badge badge-light">{props.number}</span>
+			{props.label}<span className="badge badge-light">{props.number}</span>
 		</button>
 	);
 };
 Badge.propTypes = {
 	label: PropTypes.string,
-	number: PropTypes.string,
+	number: PropTypes.string
 };
 
 ReactDOM.render(<Badge label="Notifications" number="2" />, document.querySelector("#myDiv"));
