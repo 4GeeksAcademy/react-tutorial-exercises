@@ -15,7 +15,7 @@
 
 Puedes encontrar muchos tutoriales interactivos gratuitos en línea, pero ninguno sobre React.js. Por eso hemos decidido crear una selección muy completa de ejercicios para las personas interesadas en aprender React.js: ¡Para seniors y juniors! 
 
-¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
+¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentras algún error o falta de ortografía, contribuye y/o infórmanos.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-tutorial-exercises/master/preview.gif">
