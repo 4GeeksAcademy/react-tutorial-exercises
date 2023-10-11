@@ -10,7 +10,7 @@ const animals = [ 'Horse', 'Turtle', 'Elephant', 'Monkey' ];
 
 ## 📝 Instrucciones:
 
-1. Actualiza la [función .map](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) del código para crear un nuevo arreglo de `<li>` donde cada uno de ellos corresponde a un animal del arreglo original, el arreglo resultante debería ser algo como esto:
+1. Actualiza la [función map()](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) del código para crear un nuevo arreglo de `<li>` donde cada uno de ellos corresponde a un animal del arreglo original, el arreglo resultante debería ser algo como esto:
 
 ```jsx
 const animalsInHTML = [
@@ -23,9 +23,9 @@ const animalsInHTML = [
 
 2. Luego, inclúyelos todos juntos en el sitio web.
 
-## Resultado esperado:
+## 💻 Resultado esperado:
 
-Tu sitio web debería verse algo así: ![li's](../../.learn/assets/02-1.png?raw=true)
+![resultado esperado de li's](../../.learn/assets/02-1.png?raw=true)
 
 ## 💡 Pista:
 
