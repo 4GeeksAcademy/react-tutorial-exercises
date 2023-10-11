@@ -43,4 +43,4 @@ The app.jsx file has a variable called `name` that can contain a name.
 
 ## 📝 Instructions:
 
-1. Please include that variable inside the React output. Replace the hard coded word `James` with the variable name (remember the curly brackets `{}`).
+1. Please include that variable inside the `output` variable. Replace the hardcoded word `James` with the `name` variable (remember the curly brackets `{}`).
