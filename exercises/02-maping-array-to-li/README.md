@@ -25,7 +25,7 @@ const animalsInHTML = [
 ];
 ```
 
-And include them all together inside the website.
+2. Include them all together inside your website.
 
 ## 💻 Expected result:
 
