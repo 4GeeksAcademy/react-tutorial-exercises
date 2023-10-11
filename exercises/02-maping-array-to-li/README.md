@@ -14,7 +14,7 @@ const animals = [ 'Horse', 'Turtle', 'Elephant', 'Monkey' ];
 
 ## 📝 Instructions:
 
-1. Update the code's [map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) to create a new array of `<li>`'s that corresponds to each animal from the original array, the resulting array should be something like this:
+1. Update the code's [map() function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) to create a new array of `<li>`'s that corresponds to each animal from the original array, the resulting array should be something like this:
 
 ```jsx
 const animalsInHTML = [
