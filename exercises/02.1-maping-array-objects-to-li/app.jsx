@@ -4,9 +4,9 @@ import ReactDOM from "react-dom";
 const animals = [{ label: "Horse" }, { label: "Turtle" }, { label: "Elephant" }, { label: "Monkey" }];
 
 /**
- * change the content of the map function
+ * Change the content of the map function
  **/
-const animalsInHTML = animals.map((singleAnimal, i) => {
+const animalsInHTML = animals.map((singleAnimal, index) => {
 	return <li>hello</li>;
 });
 
