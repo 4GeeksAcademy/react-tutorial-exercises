@@ -16,7 +16,7 @@ const customer = {
 To retrieve any property from the `customer` object we have to use the dot (`.`) operator, like this:
 
 ```js
-console.log(customer.first_name); // Will print "Bob" on the console.
+console.log(customer.first_name); // Will print "Bob" on the console
 ```
 
 ## 📝 Instructions:
