@@ -38,5 +38,5 @@ test("You should use singleAnimal to get the animal for each of the iterations",
 })
 
 test("You should add a unique key for each <li> using the second parameter on the map function", () => {
-    expect(app_content).toMatch("key={i}");
+    expect(app_content).toMatch("key={index}");
 })
