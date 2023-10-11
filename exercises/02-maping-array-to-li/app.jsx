@@ -6,7 +6,7 @@ const animals = ["Horse", "Turtle", "Elephant", "Monkey"];
 /**
  * Change the content inside the map function
  **/
-const animalsInHTML = animals.map((singleAnimal, i) => {
+const animalsInHTML = animals.map((singleAnimal, index) => {
 	return <li>hello</li>;
 });
 
