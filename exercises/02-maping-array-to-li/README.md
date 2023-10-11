@@ -33,4 +33,4 @@ And include them all together inside the website.
 
 ## 💡 Hint:
 
-+ You can use the second parameter of the map function as a `key` to uniquely identify each html item.
++ You can use the second parameter of the map function as a `key` to uniquely identify each HTML item.
