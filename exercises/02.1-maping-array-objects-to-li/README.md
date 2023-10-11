@@ -31,4 +31,4 @@ const animalsInHTML = [
 
 ## 💻 Expected result:
 
-![Li's](../../.learn/assets/02.1-1.png?raw=true)
+![expected result of li's](../../.learn/assets/02.1-1.png?raw=true)
