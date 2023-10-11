@@ -35,10 +35,10 @@ ReactDOM.render(output, myDiv);
 The function `ReactDOM.render` will set the innerHTML of `myDiv` (a DOM element) to be whatever the variable `output` contains, very similar to how `innerHTML` works:
 
 ```jsx
-// This is how you would do it without React
+// This is how you would do it without react
 myDiv.innerHTML = '<span>James is 12 years old</span>';
 
-// This is how you would do it with React
+// This is how you would do it with react
 ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 ```
 
