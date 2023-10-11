@@ -16,9 +16,7 @@ Durante este curso aprenderás los siguientes conceptos:
 
 ## Lecturas Útiles:
 
-+ [https://es.reactjs.org/docs/introducing-jsx.html](https://es.reactjs.org/docs/introducing-jsx.html)
-
-+ [https://es.reactjs.org/](https://es.reactjs.org/) 
++ [https://es.react.dev/learn](https://es.react.dev/learn)
 
 ## Videos Útiles:
 
@@ -30,17 +28,17 @@ Durante este curso aprenderás los siguientes conceptos:
 
 Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sánchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentación) :book:
+1. [Alejandro Sánchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀, (build-tutorial) ✅, (documentación) 📖
 
-2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribución: (programador) :computer:, (build-tests) :warning:
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribución: (programador) 💻, (build-tests) ⚠️
 
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (traducción) :earth_africa:
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (traducción) 🌍
 
 Este proyecto sigue las especificaciones: [all-contributors](https://github.com/kentcdodds/all-contributors). 
 
 ¡Todas las contribuciones son bienvenidas!
 
 ### Nota:
-> 🔹 Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificuldad entre los ejercicios nunca sea tan grande como para frustrarte.
+> 🔹 Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificultad entre los ejercicios nunca sea tan grande como para frustrarte.
 
 Haz clic en `next` arriba de estas instrucciones para empezar con el primer ejercicio...
