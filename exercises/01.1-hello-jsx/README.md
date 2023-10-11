@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=Wp8hcH8jScQ"
 
 # `01` Hello JSX
 
-JSX also allows you to easily include variables into your HTML. For example, lets assume that you have the following variable available:
+JSX also allows you to easily include variables into your HTML. For example, let's assume that you have the following variable available:
 
 ```js
 let age = 12;
