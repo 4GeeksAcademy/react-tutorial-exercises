@@ -33,7 +33,7 @@ test("The component should return the exact HTML", () => {
 `);
 });
 
-test("You should use singleAnimal to get the anima for each of the iterations", () => {
+test("You should use singleAnimal to get the animal for each of the iterations", () => {
     expect(app_content).toMatch("{singleAnimal}");
 })
 
