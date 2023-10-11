@@ -3,7 +3,7 @@
 
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/badge.svg?raw=true"></a>
 
-> By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/react-tutorial-exercises/graphs/contributors) en [4Geeks Academy](https://4geeksacademy.co/)
+> Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/react-tutorial-exercises/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.co/)
 
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/react-tutorial-exercises)
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
