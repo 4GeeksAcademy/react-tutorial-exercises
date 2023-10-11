@@ -52,6 +52,6 @@ Digamos que queremos que React renderice la siguiente salida en el documento:
 
 + Solo tienes que actualizar el arreglo `navlinkItems`, nada más.
 
-+ React te pedirá usar keys en cada elemento del arreglo. Puedes leer más al respecto aquí: [https://react.dev/learn/rendering-lists#rules-of-keys](https://react.dev/learn/rendering-lists#rules-of-keys).
++ React te pedirá usar keys en cada elemento del arreglo. Puedes leer más al respecto aquí: [https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key).
 
 + Recuerda usar `className` en lugar de `class`.
