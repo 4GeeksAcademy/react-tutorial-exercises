@@ -56,6 +56,6 @@ Lets say that we want React to render the following output into the document:
 
 + You only have to update the `navlinkItems` array, nothing else.
 
-+ React will ask you to use keys on each item of the array. You can read more about it here: [https://react.dev/learn/rendering-lists#rules-of-keys](https://react.dev/learn/rendering-lists#rules-of-keys).
++ React will ask you to use keys on each item of the array. You can read more about it here: [https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key).
 
 + Remember to use `className` instead of `class`.
