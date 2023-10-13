@@ -38,7 +38,7 @@ The function `ReactDOM.render` will set the innerHTML of `myDiv` (a DOM element)
 //This is how you would do it without react.
 myDiv.innerHTML = '<span>James is 12 years old</span>';
 
-// This is not you would do it with react.
+// This is how you would do it with react.
 ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 ```
 
