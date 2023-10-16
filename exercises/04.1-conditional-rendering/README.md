@@ -43,7 +43,7 @@ The component must be able to receive the following 2 properties:
   This is a primary alert—check it out!
 </div>
 
-//for yellow color
+//for orange color
 <div class="alert alert-warning" role="alert">
   This is a primary alert—check it out!
 </div>
