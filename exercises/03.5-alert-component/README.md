@@ -8,15 +8,15 @@ Based on the knowledge that you now have:
 
 ## 📝 Instructions:
 
-1. Please create an `<Alert />` component that receives 1 prop `text: Proptype.string` and renders a [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples) like the following:
+1. Please create an `<Alert />` component that receives 1 prop `text: Proptype.string` and renders a [bootstrap alert](https://getbootstrap.com/docs/5.0/components/alerts/#examples) like the following:
 
-## Expected Result:
+## 💻 Expected Result:
 
-This is What the component should output as HTML:
+This is what the component should output as HTML:
 
 ```html
 <div class="alert alert-danger" role="alert">
-  OMG! Something really bad has happended!
+  OMG! Something really bad has happened!
 </div>
 ```
 ## 💡 Hint:
@@ -24,5 +24,5 @@ This is What the component should output as HTML:
 + This is how the component should be used:
 
 ```jsx
-<Alert text="OMG! Something really bad has happended!" />
+<Alert text="OMG! Something really bad has happened!" />
 ```
