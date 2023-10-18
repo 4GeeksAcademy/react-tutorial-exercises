@@ -6,7 +6,7 @@ const Alert = (props) => {
 	// Your component here
 	const colorClasses = {
 		red: "alert-danger",
-		orange: "alert-warning",
+		yellow: "alert-warning",
 	};
 
 	return (
@@ -26,7 +26,7 @@ Alert.propTypes = {
 ReactDOM.render(
 	<div>
 		<Alert text="OMG! Something really bad has happened!" color="red" />
-		<Alert text="Well, it is not that bad after all!" color="orange" />
+		<Alert text="Well, it is not that bad after all!" color="yellow" />
 	</div>,
 	document.querySelector("#myDiv")
 );
