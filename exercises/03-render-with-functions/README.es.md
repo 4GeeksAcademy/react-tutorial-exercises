@@ -1,4 +1,4 @@
-# `03`  Render with Functions
+# `03` Render with Functions
 
 JSX permite usar funciones para renderizar HTML, ¡y eso es fantástico!
 
@@ -11,7 +11,7 @@ Por ejemplo:
 const PrintHello = () => {
     return <h1>Hello World</h1>;
 }
-               //qué           //dónde
+                  //qué       //dónde
 ReactDOM.render(PrintHello(), myDiv);
 ```
 
@@ -21,4 +21,4 @@ ReactDOM.render(PrintHello(), myDiv);
 
 ## 💡 Pista:
 
-+  La función `PrintHello` comienza con una letra en mayúscula porque la vamos a convertir en un [Componente React](https://reactjs.org/docs/react-component.html) en el próximo ejercicio.
++  La función `PrintHello` comienza con una letra en mayúscula porque la vamos a convertir en un Componente React en el próximo ejercicio.
