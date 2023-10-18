@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // Create your function here
-export const BootstrapCard = () => {
+const BootstrapCard = () => {
 	return (
 		<div className="card m-5">
 			<img alt="Card image cap" className="card-img-top" src="../../.learn/assets/Dylan.png?raw=true" />
