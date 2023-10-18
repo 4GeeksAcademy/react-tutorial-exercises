@@ -3,10 +3,10 @@
 También puedes usar las propiedades de un componente para cambiar su comportamiento como mostrar u ocultar `<Alert />`, según una propiedad llamada `show`.
 
 ```jsx
-/* Esto hará que tu alerta se muestre */
+{/* Esto hará que tu alerta se muestre */}
 <Alert text="Are you sure?" show={true}>
 
-/* Esto hará que tu alerta se oculte */
+{/* Esto hará que tu alerta se oculte */}
 <Alert text="Are you sure?" show={false}>
 ```
 
