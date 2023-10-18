@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-//add the styles here
+// Add the styles here
 const mySuperStyles = {
 
 };
@@ -14,6 +14,7 @@ const Badge = props => {
 		</button>
 	);
 };
+
 Badge.propTypes = {
 	label: PropTypes.string,
 	number: PropTypes.string
