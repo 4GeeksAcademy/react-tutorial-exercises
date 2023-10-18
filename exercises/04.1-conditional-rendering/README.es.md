@@ -9,7 +9,7 @@ Por ejemplo, el siguiente código renderiza una alerta roja o amarilla dependien
 ```jsx
 const colorClasses = {
     'red': 'alert-danger',
-    'orange': 'alert-warning'
+    'yellow': 'alert-warning'
 }
 
 <div class={`alert ${colorClasses[props.color]}`} role="alert">
@@ -21,7 +21,7 @@ Estamos declarando una variable `colorClasses` que contendrá todos los class na
 
 ##  📝 Instrucciones:
 
-1. Crea un componente `<Alert />` que renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples). 
+1. Crea un componente `<Alert />` que cambie de color cuando se modifique la propiedad `color` siguiendo los [colores de las alertas de bootstrap](https://getbootstrap.com/docs/5.0/components/alerts/#examples).
 
 ## 💡 Pista: 
 
