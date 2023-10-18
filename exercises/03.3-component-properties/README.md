@@ -6,11 +6,11 @@ tutorial: "https://www.youtube.com/watch?v=79ho2T5Zy6U"
 
 The `BootstrapCard` you just made right now is [hard coded](https://www.youtube.com/watch?v=8AfUqg5pUQQ) for **Bob Dylan** only.
 
-But, what if we also want to re-use the same `<BootstrapCard />` component for **Paul Mccartney** or any other person? What is the best way to do it? Use props!
+But, what if we also want to re-use the same `<BootstrapCard />` component for **Paul McCartney** or any other person? What is the best way to do it? Use props!
 
 ## Using properties in HTML
 
-When you are coding HTML you are constantly using the `<tag>` properties to modify the tag behavior, for example: 
+When you are coding HTML, you are constantly using the `<tag>` properties to modify the tag behavior, for example: 
 
 When you use the **anchor** tag (`<a>`) you have to specify the **href** property like this:
 
@@ -19,21 +19,21 @@ When you use the **anchor** tag (`<a>`) you have to specify the **href** propert
 <a href="http://twitter.com">Take me to twitter</a>
 ```
 
-Note: Here I'm re-using the anchor tag (`<a>`) for two different links
+> Note: Here I'm re-using the anchor tag (`<a>`) for two different links
 
-> Using properties in React.js
+## Using properties in React.js
 
-In React.js we also can create our own tags and use our own invented properties, for example we could specify the `title` property of our `<BootstrapCard />`, like this:
+In React.js we can also create our own tags and use our own invented properties. For example, we could specify the `title` property of our `<BootstrapCard />`, like this:
 
 ```jsx
-               //for Paul Mccartney
-<BootstrapCard title="Paul Mccartney" />
+               // For Paul McCartney
+<BootstrapCard title="Paul McCartney" />
 
-               //for Bob Dylan
+               // For Bob Dylan
 <BootstrapCard title="Bob Dylan" />
 ```
 
-Our `component` function will receive all its properties (including title) through the first parameter that we can call `props`.
+Our `component` function will receive all of its properties (including title) through the first parameter that we can call `props`.
 
 ```jsx
 const BootstrapCard = (props) => {
@@ -50,7 +50,7 @@ To be able to work with component properties, you have to specify what propertie
 For example: 
 
 ```jsx
-// here we are specifying that this component will receive the property "title" and it will be a string.
+// Here we are specifying that this component will receive the property "title" and it will be a string.
 BootstrapCard.propTypes = {
 	title: PropType.string
 };
@@ -58,7 +58,7 @@ BootstrapCard.propTypes = {
 
 ## 📝 Instructions:
 
-1. Please add/use the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` properties inside the `BootstrapCard` function and also on the `<BootstrapCard />` tag (With Bob Dylan's information that has by default). Do it the same way `title` was already included in both.
+1. Please add/use the `imageUrl`, `description`, `buttonUrl` and `buttonLabel` properties inside the `BootstrapCard` function and also on the `<BootstrapCard />` tag (with Bob Dylan's information by default). Do it the same way `title` was already included in both.
 
 ## 💡 Hints:
 
@@ -66,8 +66,8 @@ BootstrapCard.propTypes = {
 
 + The first step will be to replace the hardcoded stuff with properties inside the component.
 
-+ The second step will be to define those properties in the prop-types object on line 23, [here is a video on how to do it](https://www.youtube.com/watch?v=oty7VGcXK44).
++ The second step will be to define those properties in the prop-types object on line 23. [Here is a video on how to do it](https://www.youtube.com/watch?v=oty7VGcXK44).
 
-+ The third step will be to use ReactDOM to add the `<BootstrapCard>` tag declaration including the 5 properties and their respective values.
++ The third step will be to use ReactDOM to add the `<BootstrapCard />` tag declaration, including the 5 properties and their respective values.
 
-+ You don't have to render the component two times, just once.
++ You don't have to render the component twice, just once.
