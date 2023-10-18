@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=79ho2T5Zy6U"
 
 # `03.3` Component Properties
 
-The `BootstrapCard` you just made right now is [hard coded](https://www.youtube.com/watch?v=8AfUqg5pUQQ) for **Bob Dylan** only.
+The `BootstrapCard` you just made right now is [hard coded](https://en.wikipedia.org/wiki/Hard_coding) for **Bob Dylan** only.
 
 But, what if we also want to re-use the same `<BootstrapCard />` component for **Paul McCartney** or any other person? What is the best way to do it? Use props!
 
