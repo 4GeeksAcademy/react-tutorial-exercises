@@ -20,7 +20,7 @@ Alert.propTypes = {
 // But it helps you understand what properties are being passed to the component
 ReactDOM.render(
 	<div>
-		<Alert show={true} text="This is a primary alert-check it out!" />
+		<Alert show={true} text="This is a primary alert - check it out!" />
 		<Alert show={false} text="This alert shouldn't appear" />
 	</div>,
 	document.querySelector("#myDiv")
