@@ -13,7 +13,7 @@ const colorClasses = {
 }
 
 <div className={`alert ${colorClasses[props.color]}`} role="alert">
-  This is a primary alert-check it out!
+  This is a primary alert - check it out!
 </div>
 ```
 
