@@ -9,9 +9,9 @@ test("ReactDOM needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("Component text is being passed properly", () => {
+test("Component text has to be passed properly", () => {
   const component = ReactDOM.render.mock.calls[0][0];
-  expect(component.props.text).toBe("OMG! Something really bad has happended!");
+  expect(component.props.text).toBe("OMG! Something really bad has happened!");
 });
 
 test("The component should return the exact HTML", () => {
