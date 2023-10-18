@@ -13,8 +13,7 @@ const Alert = props => {
 };
 
 Alert.propTypes = {
-	color: PropTypes.string,
-	text: PropTypes.string
+	
 };
 
 // Here is where the <Alert /> component is being used, you don't have to edit this part
@@ -22,7 +21,7 @@ Alert.propTypes = {
 ReactDOM.render(
 	<div>
 		<Alert show={true} text="This is a primary alert-check it out!" />
-		<Alert show={false} text="This is a primary alert-check it out!" />
+		<Alert show={false} text="This alert shouldn't appear" />
 	</div>,
 	document.querySelector("#myDiv")
 );
