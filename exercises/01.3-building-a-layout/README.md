@@ -47,7 +47,7 @@ const data = {
 </div>
 ```
 
-Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
+Source: [Bootstrap Card](https://getbootstrap.com/docs/5.0/components/card/#example)
 
 
 
