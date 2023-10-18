@@ -24,6 +24,8 @@ Ahora, vamos a crear un nuevo componente (función) llamado `<BootstrapCard />` 
 
 1. Por favor, crea una función llamada `BootstrapCard` que devuelva el código de la card y usa la función `ReactDOM.render` para añadir `<BootstrapCard />` dentro del sitio web, dentro de `#myDiv`.
 
-## 💡 Pista:
+## 💡 Pistas:
 
 +  Si no sabes o no recuerdas cómo usar `ReactDOM.render`, puedes revisar los ejercicios anteriores.
+
++  Recuerda usar la sintaxis de React correcta `className` en vez de `class` cuando crees tu tarjeta de bootstrap.
