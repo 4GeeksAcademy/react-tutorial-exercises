@@ -33,6 +33,6 @@ const Alert = (props) => {
 
 El componente debe ser capaz de recibir las siguientes dos propiedades:
 
-+ `show` (boolean): true o false.
++ `show` (bool): true o false.
 
 + `text` (string): El mensaje a incluir en la alerta.
