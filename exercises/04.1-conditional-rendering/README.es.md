@@ -1,10 +1,8 @@
 # `04.1` Conditional Rendering
 
-Hagamos nuestro componente `<Alert>` un poco más inteligente.
+Hagamos nuestro componente `<Alert />` un poco más inteligente.
 
 Cuando usas JSX tienes todas las funcionalidades de JavaScript disponibles: Variables, Bucles, Condicionales, etc.
-
-Ya hemos usado bucles y variables, ¡es momento de usar condicionales!
 
 Por ejemplo, el siguiente código renderiza una alerta roja o naranja dependiendo de la propiedad `color`.
 
@@ -14,7 +12,7 @@ const colorClasses = {
     'orange': 'alert-warning'
 }
 
-<div class={`alert ${colorClasses[props.color]}`} role="alert">
+<div className={`alert ${colorClasses[props.color]}`} role="alert">
   This is a primary alert-check it out!
 </div>
 ```
@@ -34,13 +32,13 @@ El componente debe ser capaz de recibir las siguientes dos propiedades:
 + Color (string): Rojo o naranja.
 
 ```jsx
-//para el color rojo
-<div class="alert alert-danger" role="alert">
-  This is a primary alert—check it out!
+{/* Para el color rojo */}
+<div className="alert alert-danger" role="alert">
+  This is a danger alert - check it out!
 </div>
 
-//para el color amarillo
-<div class="alert alert-warning" role="alert">
-  This is a primary alert—check it out!
+{/* Para el color amarillo */}
+<div className="alert alert-warning" role="alert">
+  This is a warning alert - check it out!
 </div>
 ```
