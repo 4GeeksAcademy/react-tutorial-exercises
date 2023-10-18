@@ -17,7 +17,7 @@ const htmlList = originalData.map(mappingFunction);
 
 ## 📝 Instrucciones:
 
-1. Usa el componente [list-group de bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/#basic-example) para renderizar una lista de planetas de un arreglo dado:
+1. Usa el componente [list-group de bootstrap](https://getbootstrap.com/docs/5.0/components/list-group/#basic-example) para renderizar una lista de planetas de un arreglo dado:
 
 ```js
 const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
