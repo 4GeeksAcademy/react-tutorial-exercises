@@ -17,7 +17,7 @@ test("The component Alert should return the exact HTML", () => {
     className="alert alert-danger"
     role="alert"
   >
-    OMG! Something really bad has happended!
+    OMG! Something really bad has happened!
   </div>
   <div
     className="alert alert-warning"
