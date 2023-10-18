@@ -10,6 +10,6 @@ The current code has one component that prints "I was clicked!" to the console.
 
 ## 📝 Instructions:
 
-1. Update the **Alert** component to call it correctly and then check the console.
+1. Update the **Alert** component to call it correctly, and then check the console.
 
 
