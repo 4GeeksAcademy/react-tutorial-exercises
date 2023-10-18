@@ -29,7 +29,7 @@ Now let's create another component (function) called `<BootstrapCard />` that ou
 
 1. Please create a function called `BootstrapCard` that returns the card code and use the `ReactDOM.render` function and `<BootstrapCard />` to add it into the website inside `#myDiv`.
 
-## 💡 Hint:
+## 💡 Hints:
 
 + If you don't know or remember how to use `ReactDOM.render` you can review the past exercises.
 
