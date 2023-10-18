@@ -19,7 +19,7 @@ When you use the **anchor** tag (`<a>`) you have to specify the **href** propert
 <a href="http://twitter.com">Take me to twitter</a>
 ```
 
-> Note: Here I'm re-using the anchor tag (`<a>`) for two different links
+> Note: Here I'm re-using the anchor tag (`<a>`) for two different links.
 
 ## Using properties in React.js
 
