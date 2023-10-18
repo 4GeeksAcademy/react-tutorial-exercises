@@ -35,4 +35,4 @@ El componente debe ser capaz de recibir las siguientes dos propiedades:
 
 + `show` (boolean): true o false.
 
-+ `text` (string): El mensaje a incluir dentro del mensaje del `<Alert />`.
++ `text` (string): El mensaje a incluir en la alerta.
