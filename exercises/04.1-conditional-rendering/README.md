@@ -16,8 +16,8 @@ const colorClasses = {
     'orange': 'alert-warning'
 }
 
-<div class={`alert ${colorClasses[props.color]}`} role="alert">
-  This is a primary alert-check it out!
+<div className={`alert ${colorClasses[props.color]}`} role="alert">
+  This is a primary alert - check it out!
 </div>
 ```
 
@@ -37,12 +37,12 @@ The component must be able to receive the following 2 properties:
 
 ```jsx
 {/* For red color */}
-<div class="alert alert-danger" role="alert">
+<div className="alert alert-danger" role="alert">
   This is a danger alert - check it out!
 </div>
 
 {/* For yellow color */}
-<div class="alert alert-warning" role="alert">
+<div className="alert alert-warning" role="alert">
   This is a warning alert - check it out!
 </div>
 ```
