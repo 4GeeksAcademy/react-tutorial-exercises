@@ -4,7 +4,7 @@ Hagamos nuestro componente `<Alert />` un poco más inteligente.
 
 Cuando usas JSX tienes todas las funcionalidades de JavaScript disponibles: Variables, Bucles, Condicionales, etc.
 
-Por ejemplo, el siguiente código renderiza una alerta roja o naranja dependiendo de la propiedad `color`.
+Por ejemplo, el siguiente código renderiza una alerta roja o amarilla dependiendo de la propiedad `color`.
 
 ```jsx
 const colorClasses = {
@@ -12,8 +12,8 @@ const colorClasses = {
     'orange': 'alert-warning'
 }
 
-<div className={`alert ${colorClasses[props.color]}`} role="alert">
-  This is a primary alert - check it out!
+<div class={`alert ${colorClasses[props.color]}`} role="alert">
+  This is an alert - check it out!
 </div>
 ```
 
@@ -27,18 +27,18 @@ Estamos declarando una variable `colorClasses` que contendrá todos los class na
 
 El componente debe ser capaz de recibir las siguientes dos propiedades:
 
-+ Text (string): El texto mostrado en la alerta.
++ `text` (string): El texto mostrado en la alerta.
 
-+ Color (string): Rojo o naranja.
++ `color` (string): El color red o yellow.
 
 ```jsx
 {/* Para el color rojo */}
-<div className="alert alert-danger" role="alert">
+<div class="alert alert-danger" role="alert">
   This is a danger alert - check it out!
 </div>
 
 {/* Para el color amarillo */}
-<div className="alert alert-warning" role="alert">
+<div class="alert alert-warning" role="alert">
   This is a warning alert - check it out!
 </div>
 ```
