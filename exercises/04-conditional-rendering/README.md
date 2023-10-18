@@ -7,10 +7,10 @@ tutorial: "https://www.youtube.com/watch?v=1O9uUXymny4"
 You can also use the component properties to change its behavior, like show or hide your `<Alert />` based on a property called `show`.
 
 ```jsx
-/* This will make your alert show */
+// This will make your alert show
 <Alert text="Are you sure?" show={true}>
 
-/* This will make your alert to be hidden */
+// This will make your alert to be hidden 
 <Alert text="Are you sure?" show={false}>
 ```
 
