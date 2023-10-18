@@ -21,7 +21,7 @@ const htmlList = originalData.map(mappingFunction);
 
 # 📝 Instructions:
 
-1. Use the [list-group bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/#basic-example) component to render a list of planets from a given array:
+1. Use the [list-group bootstrap](https://getbootstrap.com/docs/5.0/components/list-group/#basic-example) component to render a list of planets from a given array:
 
 ```js
 const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
