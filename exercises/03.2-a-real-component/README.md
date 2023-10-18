@@ -32,3 +32,5 @@ Now let's create another component (function) called `<BootstrapCard />` that ou
 ## 💡 Hint:
 
 + If you don't know or remember how to use `ReactDOM.render` you can review the past exercises.
+
++ Remember to use the correct React syntax `className` instead of `class` when creating your bootstrap card.
