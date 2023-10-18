@@ -18,6 +18,9 @@ const Jumbotron = (props) => {
 Jumbotron.propTypes = {
 	// PropTypes here
 	title: PropTypes.string,
+	description: PropTypes.string,
+	buttonLabel: PropTypes.string,
+	buttonURL: PropTypes.string
 };
 
 ReactDOM.render(
