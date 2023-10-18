@@ -23,4 +23,4 @@ Cuando llamas a una función así, se convierte en un **Componente de React**, q
 
 ## 📝 Instrucciones:
 
-1. En la 9º línea de `app.jsx`, cambia la forma en la que se llama a la función, llama a la función como un **componente React** usando `<` y `>` como una etiqueta HTML (en lugar de paréntesis).
+1. En la 9ª línea de `app.jsx`, cambia la forma en la que se llama a la función, llama a la función como un **componente React** usando `<` y `>` como una etiqueta HTML (en lugar de paréntesis).
