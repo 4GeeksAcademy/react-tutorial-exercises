@@ -19,9 +19,9 @@ Using everything you have learned so far...
 />
 ```
 
-  ## Expected result:
+## 💻 Expected result:
   
-  ![Jumbotron](../../.learn/assets/03.4-1.png?raw=true)
+![Jumbotron](../../.learn/assets/03.4-1.png?raw=true)
 
 ## 💡 Hints:
 
