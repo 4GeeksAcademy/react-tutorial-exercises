@@ -36,12 +36,12 @@ The component must be able to receive the following 2 properties:
 + `color` (string): The colors red or orange.
 
 ```jsx
-// For red color
+{/* For red color */}
 <div class="alert alert-danger" role="alert">
   This is a danger alert - check it out!
 </div>
 
-// For yellow color
+{/* For yellow color */}
 <div class="alert alert-warning" role="alert">
   This is a warning alert - check it out!
 </div>
