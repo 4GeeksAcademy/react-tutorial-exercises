@@ -8,12 +8,12 @@ Let's make our `<Alert />` component a little bit smarter.
 
 When using JSX, you have all the JavaScript functionalities available: Variables, Loops, Conditionals, etc.
 
-For example, the following code renders a red or orange alert, depending on the `color` property.
+For example, the following code renders a red or yellow alert, depending on the `color` property.
 
 ```jsx
 const colorClasses = {
     'red': 'alert-danger',
-    'orange': 'alert-warning'
+    'yellow': 'alert-warning'
 }
 
 <div className={`alert ${colorClasses[props.color]}`} role="alert">
@@ -33,7 +33,7 @@ The component must be able to receive the following 2 properties:
 
 + `text` (string): The text content that will be displayed on the alert.
 
-+ `color` (string): The colors red or orange.
++ `color` (string): The colors red or yellow.
 
 ```jsx
 {/* For red color */}
