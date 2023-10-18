@@ -26,7 +26,7 @@ test("The component Alert should return the exact HTML", () => {
     className="alert alert-primary"
     role="alert"
   >
-    This is a primary alert-check it out!
+    This is a primary alert - check it out!
   </div>
 </div>
 `);
