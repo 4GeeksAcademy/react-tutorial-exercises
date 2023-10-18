@@ -18,6 +18,7 @@ const Alert = props => {
 		</div>
 	);
 };
+
 Alert.propTypes = {
 	color: PropTypes.string,
 	text: PropTypes.string
