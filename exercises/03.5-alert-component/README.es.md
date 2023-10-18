@@ -4,7 +4,7 @@ Basado en el conocimiento que tienes ahora:
 
 ## 📝 Instrucciones:
 
-1. Por favor, crea un componente `<Alert />` que reciba 1 prop `text: Proptype.string` y renderice una [bootstrap alert](https://getbootstrap.com/docs/5.0/components/alerts/#examples) como la siguiente:
+1. Por favor, crea un componente `<Alert />` que reciba 1 prop `text: PropTypes.string` y renderice una [bootstrap alert](https://getbootstrap.com/docs/5.0/components/alerts/#examples) como la siguiente:
 
 ## 💻 Resultado esperado:
 
