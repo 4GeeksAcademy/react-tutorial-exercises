@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=hEY3YRQN0uk"
 
 # `04.1` Conditional Rendering
 
-Let's make our `<Alert>` component a little bit smarter.
+Let's make our `<Alert />` component a little bit smarter.
 
 When using JSX, you have all the JavaScript functionalities available: Variables, Loops, Conditionals, etc.
 
