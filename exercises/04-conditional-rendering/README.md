@@ -31,7 +31,7 @@ const Alert = (props) => {
 
 ##  📝 Instructions:
 
-1. Create an `<Alert />` component that renders a [bootstrap alert](https://getbootstrap.com/docs/5.0/components/alerts/#examples).
+1. Implement a conditional rendering in the `<Alert />` component to display the component when the `show` property is `true` and hide it when it's `false`.
 
 ## 💡 Hint: 
 
