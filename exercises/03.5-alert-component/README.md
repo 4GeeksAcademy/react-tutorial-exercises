@@ -8,7 +8,7 @@ Based on the knowledge that you now have:
 
 ## 📝 Instructions:
 
-1. Please create an `<Alert />` component that receives 1 prop `text: Proptype.string` and renders a [bootstrap alert](https://getbootstrap.com/docs/5.0/components/alerts/#examples) like the following:
+1. Please create an `<Alert />` component that receives 1 prop `text: PropTypes.string` and renders a [bootstrap alert](https://getbootstrap.com/docs/5.0/components/alerts/#examples) like the following:
 
 ## 💻 Expected Result:
 
