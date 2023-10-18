@@ -23,7 +23,7 @@ const Alert = (props) => {
 };
 ```
 
-Nota: ☝️ Devolver distinto código HTML según ciertas condiciones es llamado formalmente [renderizado condicional](https://react.dev/learn/conditional-rendering).
+> Nota: ☝️ Devolver distinto código HTML según ciertas condiciones es llamado formalmente [renderizado condicional](https://react.dev/learn/conditional-rendering).
 
 ## 📝 Instrucciones:
 
