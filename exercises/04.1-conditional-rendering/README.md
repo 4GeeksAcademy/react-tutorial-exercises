@@ -16,8 +16,8 @@ const colorClasses = {
     'yellow': 'alert-warning'
 }
 
-<div className={`alert ${colorClasses[props.color]}`} role="alert">
-  This is a primary alert - check it out!
+<div class={`alert ${colorClasses[props.color]}`} role="alert">
+  This is an alert - check it out!
 </div>
 ```
 
@@ -25,7 +25,7 @@ We are declaring a variable `colorClasses` that will contain all the class names
 
 ##  📝 Instructions:
 
-1. Create an `<Alert />` component that renders a [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples). 
+1. Create an `<Alert />` that changes its color by modifying the `color` property following [bootstrap's alert color names](https://getbootstrap.com/docs/5.0/components/alerts/#examples).
 
 ## 💡 Hint:
 
@@ -37,12 +37,12 @@ The component must be able to receive the following 2 properties:
 
 ```jsx
 {/* For red color */}
-<div className="alert alert-danger" role="alert">
+<div class="alert alert-danger" role="alert">
   This is a danger alert - check it out!
 </div>
 
 {/* For yellow color */}
-<div className="alert alert-warning" role="alert">
+<div class="alert alert-warning" role="alert">
   This is a warning alert - check it out!
 </div>
 ```
