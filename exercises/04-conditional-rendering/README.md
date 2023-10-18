@@ -37,6 +37,6 @@ const Alert = (props) => {
 
 The component must be able to receive the following 2 properties:
 
-+ Show (boolean): True or false.
++ show (boolean): True or false.
 
-+ Text (string): The message to include inside the alert message.
++ text (string): The message to include inside the alert message.
