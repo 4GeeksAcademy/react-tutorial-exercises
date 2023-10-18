@@ -60,7 +60,7 @@ BootstrapCard.propTypes = {
 
 + Tienes que editar 3 partes del archivo (verifica los comentarios para ayudarte).
 
-+ El primer paso es reemplazar la información hard-coded por las propiedades del componente.
++ El primer paso es reemplazar la información *hard coded* por las propiedades del componente.
 
 + El segundo paso es definir esas propiedades en el objeto prop-types en la línea 23. [Aquí un video de cómo hacerlo](https://www.youtube.com/watch?v=oty7VGcXK44).
 
