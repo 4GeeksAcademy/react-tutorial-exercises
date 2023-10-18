@@ -25,7 +25,7 @@ We are declaring a variable `colorClasses` that will contain all the class names
 
 ##  📝 Instructions:
 
-1. Create an `<Alert />` that changes its color by modifying the `color` property following [bootstrap's alert color names](https://getbootstrap.com/docs/5.0/components/alerts/#examples).
+1. Create an `<Alert />` component that changes its color by modifying the `color` property following [bootstrap's alert color names](https://getbootstrap.com/docs/5.0/components/alerts/#examples).
 
 ## 💡 Hint:
 
