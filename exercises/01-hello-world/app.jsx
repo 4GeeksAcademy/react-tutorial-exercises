@@ -7,8 +7,7 @@ let output = (
 	<span>
 		James is <strong>12</strong> years old
 	</span>
-);
-
+)
 // WHERE: A DOM element that will contain the entire react generated html
 const myDiv = document.querySelector("#myDiv");
 
