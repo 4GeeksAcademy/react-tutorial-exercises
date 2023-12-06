@@ -12,22 +12,22 @@ For example:
 const originalData = [];
 
 const mappingFunction = (item, index) => {
-  // return something in JSX.
+  // return something in JSX
 };
 
 const htmlList = originalData.map(mappingFunction);
-// the htmlList variable now contains a new array.
+// The htmlList variable now contains a new array
 ```
 
 # 📝 Instructions:
 
-1. Use the [list-group bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/#basic-example) component to render a list of planets from a given array:
+1. Use the [list-group bootstrap](https://getbootstrap.com/docs/5.0/components/list-group/#basic-example) component to render a list of planets from a given array:
 
 ```js
 const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
 ```
 
-2. Use the [.map function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) and make your algorithm output the following HTML:
+2. Use the [map() function](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d) and make your algorithm output the following HTML:
 
 ```jsx
 <ul class="list-group m-5">
@@ -42,6 +42,6 @@ const planets = [ 'Mars', 'Venus', 'Jupiter', 'Earth', 'Saturn', 'Neptune' ];
 
 3. Include them all together inside the website.
 
-## Expected result:
+## 💻 Expected result:
 
-![list-group](../../.learn/assets/02.2-1.png?raw=true)
+![list-group expected result](../../.learn/assets/02.2-1.png?raw=true)

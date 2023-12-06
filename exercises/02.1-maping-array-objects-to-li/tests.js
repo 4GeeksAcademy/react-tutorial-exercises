@@ -37,6 +37,6 @@ test("You should use singleAnimal to get the animal for each of the iterations",
     expect(app_content).toMatch(/{\s*singleAnimal.label\s*}/g);
 })
 
-test("You should add the key for each of them and it should be unique", () => {
-    expect(app_content).toMatch(/key\s*=\s*{\s*i\s*}/)
+test("You should assign a unique key for each <li> using the 'index' parameter on the map function", () => {
+    expect(app_content).toMatch(/key\s*=\s*{\s*index\s*}/)
 })

@@ -23,13 +23,14 @@ const data = {
   }
 };
 ```
+
 ## 📝 Instructions:
 
-1. Use the information contained in `data` to render a bootstrap card, for example: The card's title will be the `data.cardTitle`, etc.
+1. Use the information contained in `data` to render a bootstrap card. For example: The card's title will be `data.cardTitle`, etc.
 
- ## Expected result:
+## 💻 Expected result:
   
-  ![Bob Dylan Card](../../.learn/assets/1.4-1.png?raw=true)
+![Bob Dylan Card](../../.learn/assets/1.4-1.png?raw=true)
 
 ## 💡 Hint:
 
@@ -46,7 +47,7 @@ const data = {
 </div>
 ```
 
-Source: [Bootstrap Card](https://getbootstrap.com/docs/4.0/components/card/#example)
+Source: [Bootstrap Card](https://getbootstrap.com/docs/5.0/components/card/#example)
 
 
 

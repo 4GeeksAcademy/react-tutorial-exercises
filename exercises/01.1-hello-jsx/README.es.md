@@ -14,10 +14,10 @@ let output = <span> James is { age } years old </span>
 
 Fíjate en la posición de las llaves `{` y `}` envolviendo la variable.
 
-Después, podemos renderizar todo en contenido en el  sitio web usando `ReactDOM.render` así:
+Después, podemos renderizar todo en contenido en el sitio web usando `ReactDOM.render` así:
 
 ```jsx
-// usa react-dom para renderizarlo en el DOM
+// Usa react-dom para renderizarlo en el DOM
 import ReactDOM from 'react-dom';
                //renderizar output    //dentro del innerHTML de #myDiv
 ReactDOM.render(output,             document.querySelector('#myDiv'));
@@ -39,4 +39,4 @@ El archivo app.jsx tiene una variable llamada `name` que puede contener un nombr
 
 ## 📝 Instrucciones:
 
-1. Por favor, incluye esa variable dentro del resultado(output) de react, reemplaza la variable por el `James`.
+1. Por favor, incluye esa variable dentro de la variable `output`. Reemplaza la palabra `James` con la nueva variable `name` (recuerda usar las llaves `{}`).

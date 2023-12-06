@@ -9,10 +9,10 @@ const customer = {
 };
 ```
 
-Para obtener cualquier propiedad del objeto `Customer` tenemos que usar el operador punto (`.`), así:
+Para obtener cualquier propiedad del objeto `customer` tenemos que usar el operador punto (`.`), así:
 
 ```js
-console.log(customer.first_name); // imprimirá "Bob" en la consola.
+console.log(customer.first_name); // Imprimirá "Bob" en la consola
 ```
 
 ## 📝 Instrucciones:

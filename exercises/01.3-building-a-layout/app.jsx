@@ -1,5 +1,5 @@
-import React from "react"; //Main React.js library
-import ReactDOM from "react-dom"; //we use ReactDOM to render into the DOM
+import React from "react"; // Main React.js library
+import ReactDOM from "react-dom"; // We use ReactDOM to render into the DOM
 
 const data = {
 	image: "../../.learn/assets/Dylan.png?raw=true",
@@ -12,12 +12,9 @@ const data = {
 	},
 };
 
+// Modify the 'content' variable below to display the desired bootstrap card
 let content = (
 		<img src={data.image} />
 );
-/**
- * define the variable 'content' here and fill it with the
- * needed code to render the bootstrap card
- **/
 
 ReactDOM.render(content, document.querySelector("#myDiv"));

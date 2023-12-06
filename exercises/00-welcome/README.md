@@ -8,7 +8,7 @@ We are very excited to have you here! 🎉 😂
 
 ## 💬 Fundamentals:
 
-During this course you will be learning the following concepts:
+During this course, you will be learning the following concepts:
 
 1. **Using JSX**: A great syntax proposed by Facebook that mixes HTML and JS in the same file to help you write dynamic HTML.
 
@@ -34,11 +34,11 @@ During this course you will be learning the following concepts:
 
 Thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻, (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀, (build-tutorial) ✅, (documentation) 📖
 
-2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder) 💻, (build-tests) ⚠️
 
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (translator) :earth_africa:
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (translator) 🌍
 
 This project follows these specifications: [all-contributors](https://github.com/kentcdodds/all-contributors)
 

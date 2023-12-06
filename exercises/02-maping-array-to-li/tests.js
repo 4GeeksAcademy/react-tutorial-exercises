@@ -33,10 +33,10 @@ test("The component should return the exact HTML", () => {
 `);
 });
 
-test("You should use singleAnimal to get the anima for each of the iterations", () => {
+test("You should use singleAnimal to get the animal for each of the iterations", () => {
     expect(app_content).toMatch("{singleAnimal}");
 })
 
-test("You should add the key for each of them and it should be unique", () => {
-    expect(app_content).toMatch("key={i}");
+test("You should assign a unique key for each <li> using the 'index' parameter on the map function", () => {
+    expect(app_content).toMatch("key={index}");
 })

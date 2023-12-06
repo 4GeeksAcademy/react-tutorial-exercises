@@ -1,4 +1,4 @@
-# `01` Hello world
+# `01` Hello World
 
 El mayor dolor de cabeza de los desarrolladores front-end es **trabajar con el DOM** para crear HTML dinámico, lo cual es algo que React.js hace mucho mejor.
 
@@ -14,24 +14,24 @@ La función `ReactDOM.render` recibe dos parámetros:
 
 Por ejemplo:
 
-```js
-import React from 'react'; //importar la librería de react
-import ReactDOM from 'react-dom'; //importar react-dom para que react genere el html
+```jsx
+import React from 'react'; // importar la librería de react
+import ReactDOM from 'react-dom'; // importar react-dom para que react genere el html
 
-// QUE: esta variable contiene todo el HTML que va a ser renderizado
+// QUÉ: esta variable contiene todo el HTML que va a ser renderizado
 let output = <span>James is 12 years old</span>
 
-// DONDE: Un elemento DOM que contendrá todo el html generado por react
+// DÓNDE: Un elemento del DOM que contendrá todo el html generado por react
 const myDiv = document.querySelector('#myDiv');
 
-               //qué    //dónde
+                //qué   //dónde
 ReactDOM.render(output, myDiv);
 ```
 
 La función `ReactDOM.render` establecerá el innerHTML de `myDiv` (un elemento DOM) para ser lo que sea que contenga la variable `output`, muy similar a como funciona `innerHTML`:
 
-```js
-//Así lo harías sin react
+```jsx
+// Así lo harías sin react
 myDiv.innerHTML = '<span>James is 12 years old</span>';
 
 // Así se hace con react
@@ -44,7 +44,7 @@ ReactDOM.render(<span> James is 12 years old </span>, myDiv);
 
 2. Cambia la variable `output` por:
 
-```js
+```jsx
 <span>James is <strong>12</strong> years old</span>
 ```
 

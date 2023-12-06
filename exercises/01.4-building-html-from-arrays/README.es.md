@@ -1,11 +1,11 @@
 # `01.4` Building from arrays
 
-Con JSX también puedes crear **arrays o arreglos** de elementos HTML. Por ejemplo, si tenemos un arreglo de `<li>` podemos incluirlos todos dentro del documento a la vez, así:
+Con JSX también puedes crear **arrays** de elementos HTML. Por ejemplo, si tenemos un arreglo de `<li>` podemos incluirlos todos dentro del documento a la vez, así:
 
 ```jsx
 const namesInHTML = [
   <li>Bob Dust</li>,
-  <li>Fredy Mercury</li>,
+  <li>Freddie Mercury</li>,
   <li>Shazam Nikola</li>,
   <li>Wilibin Walabam</li>
 ];
@@ -21,14 +21,14 @@ El HTML resultante en el sitio web sería así:
 <div id="myDiv">
   <ul>
     <li>Bob Dust</li>
-    <li>Fredy Mercury</li>
+    <li>Freddie Mercury</li>
     <li>Shazam Nikola</li>
     <li>Wilibin Walabam</li>
   </ul>
 </div>
 ```
 
-Digamos que queremos que react renderice la siguiente salida en el documento:
+Digamos que queremos que React renderice la siguiente salida en el documento:
 
 ```html
 <ul class="nav">
@@ -52,6 +52,6 @@ Digamos que queremos que react renderice la siguiente salida en el documento:
 
 + Solo tienes que actualizar el arreglo `navlinkItems`, nada más.
 
-+ React te pedirá usar keys en cada elemento del arreglo. Puedes leer más al respecto aquí: [https://reactjs.org/docs/lists-and-keys.html#keys](https://reactjs.org/docs/lists-and-keys.html#keys).
++ React te pedirá usar keys en cada elemento del arreglo. Puedes leer más al respecto aquí: [https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key).
 
 + Recuerda usar `className` en lugar de `class`.

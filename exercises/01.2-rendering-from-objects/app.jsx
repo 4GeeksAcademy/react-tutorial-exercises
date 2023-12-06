@@ -6,8 +6,8 @@ const customer = {
 	last_name: "Dylan"
 };
 
-//              your code inside these <div> tags
+//              Your code inside these <div> tags
 const output = <div></div>;
 
-//              what     where
+//               what     where
 ReactDOM.render(output, document.querySelector("#myDiv"));

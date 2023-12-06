@@ -13,7 +13,7 @@ test("ReactDOM.render needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("The component should return LITERALLY what was asked", () => {
+test("The component should exactly match the requested output", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div>
