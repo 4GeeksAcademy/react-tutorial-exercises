@@ -2,7 +2,7 @@
 
 La forma más recomendada de usar estilos en React es usando CSS-in-JS.
 
-Básicamente tú creas un objeto con tus estilos, así:
+Básicamente, creas un objeto con tus estilos, así:
 
 ```js
 const mySuperStyles = {
@@ -15,7 +15,7 @@ const mySuperStyles = {
 Y, entonces, puedes aplicar esos estilos a tu HTML, así:
 
 ```jsx
-    <div style={mySuperStyles}>I am an alert</div>
+<div style={mySuperStyles}>I am an alert</div>
 ```
 
 ##  📝 Instrucciones:
@@ -26,4 +26,4 @@ Y, entonces, puedes aplicar esos estilos a tu HTML, así:
 
     + El color de fondo (background color) tiene que ser negro (black).
 
-    + Un borde amarillo (yellow) de un `1px`.
+    + Un borde amarillo (yellow) sólido de un `1px`.

@@ -1,18 +1,18 @@
 # `03.5` Alert Component
 
-Basándote en el conocimiento que ahora tienes:
+Basado en el conocimiento que tienes ahora:
 
 ## 📝 Instrucciones:
 
-1. Por favor, crea un componente `<Alert />` que reciba 1 prop `text: Proptype.string` y renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples) como la siguiente:
+1. Por favor, crea un componente `<Alert />` que reciba 1 prop `text: PropTypes.string` y renderice una [bootstrap alert](https://getbootstrap.com/docs/5.0/components/alerts/#examples) como la siguiente:
 
-## Resultado esperado:
+## 💻 Resultado esperado:
 
 Esto es lo que el componente debería generar en el HTML:
 
 ```html
 <div class="alert alert-danger" role="alert">
-  OMG! Something really bad has happended!
+  OMG! Something really bad has happened!
 </div>
 ```
 
@@ -21,5 +21,5 @@ Esto es lo que el componente debería generar en el HTML:
 + Así es como deberías usar el componente:
 
 ```jsx
-<Alert text="OMG! Something really bad has happended!" />
+<Alert text="OMG! Something really bad has happened!" />
 ```

@@ -14,7 +14,7 @@ You can also use the component properties to change its behavior, like show or h
 <Alert text="Are you sure?" show={false}>
 ```
 
-We can acomplish that by adding a `if... else...` statement inside the render method like this:
+We can accomplish that by adding an `if...else` statement inside the render method like this:
 
 ```jsx
 const Alert = (props) => {
@@ -27,16 +27,16 @@ const Alert = (props) => {
 };
 ```
 
-Note: ☝️ Returning different HTML code based on conditions its formally called [conditional rendering](https://joshblog.net/2018/conditional-rendering-with-react-and-jsx/).
+> Note: ☝️ Returning different HTML code based on conditions is formally called [conditional rendering](https://react.dev/learn/conditional-rendering).
 
 ##  📝 Instructions:
 
-1. Create an `<Alert />` component that renders a [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples).
+1. Implement a conditional rendering in the `<Alert />` component to display the component when the `show` property is `true` and hide it when it's `false`.
 
 ## 💡 Hint: 
 
 The component must be able to receive the following 2 properties:
 
-+ Show (bool): True or false.
++ `show` (bool): True or false.
 
-+ Text (string): The message to include inside the alert message.
++ `text` (string): The message to include in the alert.

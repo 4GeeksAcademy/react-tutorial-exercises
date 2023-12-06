@@ -9,12 +9,12 @@ test("ReactDOM.render needs to be called once", () => {
     expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("Component title is being passed properly", () => {
+test("Component title has to be passed properly", () => {
     const component = ReactDOM.render.mock.calls[0][0];
     expect(component.props.title).toBe("Bob Dylan");
 });
 
-test("Component imageUrl is being passed properly", () => {
+test("Component imageUrl has to be passed properly", () => {
     const component = ReactDOM.render.mock.calls[0][0];
     if (component.props.imageUrl != undefined) {
         expect(component.props.imageUrl).toBe("https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true");
@@ -23,14 +23,14 @@ test("Component imageUrl is being passed properly", () => {
     }
 });
 
-test("Component description is being passed properly", () => {
+test("Component description has to be passed properly", () => {
     const component = ReactDOM.render.mock.calls[0][0];
     expect(component.props.description).toBe(
         "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter."
     );
 });
 
-test("Component buttonUrl is being passed properly", () => {
+test("Component buttonUrl has to be passed properly", () => {
     const component = ReactDOM.render.mock.calls[0][0];
     
     if (component.props.buttonUrl != undefined) {
@@ -42,7 +42,7 @@ test("Component buttonUrl is being passed properly", () => {
     }
 });
 
-test("Component buttonLabel is being passed properly", () => {
+test("Component buttonLabel has to be passed properly", () => {
     const component = ReactDOM.render.mock.calls[0][0];
     expect(component.props.buttonLabel).toBe("Go to wikipedia");
 });

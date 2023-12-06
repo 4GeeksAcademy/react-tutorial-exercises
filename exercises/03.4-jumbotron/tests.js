@@ -9,24 +9,24 @@ test("ReactDOM needs to be called once", () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("Component title is being passed properly", () => {
+test("Component title has to be passed properly", () => {
   const component = ReactDOM.render.mock.calls[0][0];
   expect(component.props.title).toBe("Welcome to react");
 });
 
-test("Component description is being passed properly", () => {
+test("Component description has to be passed properly", () => {
   const component = ReactDOM.render.mock.calls[0][0];
   expect(component.props.description).toBe(
     "React is the most popular rendering library in the world"
   );
 });
 
-test("Component buttonLabel is being passed properly", () => {
+test("Component buttonLabel has to be passed properly", () => {
   const component = ReactDOM.render.mock.calls[0][0];
   expect(component.props.buttonLabel).toBe("Go to the official website");
 });
 
-test("Component buttonURL is being passed properly", () => {
+test("Component buttonURL has to be passed properly", () => {
   const component = ReactDOM.render.mock.calls[0][0];
   expect(component.props.buttonURL).toBe("https://reactjs.org/");
 });

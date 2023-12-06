@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=EdpPIo_JNVc"
 
 JSX allows using functions to render HTML, and that is awesome!
 
-It is a strongly recommended practice because, it lets you create templates and re-use your code
+It is a strongly recommended practice because it lets you create templates and re-use your code.
 
 For example:
 
@@ -15,7 +15,7 @@ For example:
 const PrintHello = () => {
     return <h1>Hello World</h1>;
 }
-               //what           //where
+                 //what       //where
 ReactDOM.render(PrintHello(), myDiv);
 ```
 
@@ -25,4 +25,4 @@ ReactDOM.render(PrintHello(), myDiv);
 
 ## 💡 Hint:
 
-+ The function `PrintHello` starts with a capital letter because we are going to convert it into a [React Component](https://reactjs.org/docs/react-component.html) in the next exercise.
++ The function `PrintHello` starts with a capital letter because we are going to convert it into a React Component in the next exercise.

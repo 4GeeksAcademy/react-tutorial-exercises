@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import PropType from "prop-types";
 
 const BootstrapCard = props => {
-	// 1) replace the hard-coded image, description, link, etc. With their property variable.
+	// 1) Replace the hard-coded image, description, link, etc. With their property variable
 	return (
 		<div className="card m-5">
 			<img className="card-img-top" src="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true" alt="Card image cap" />
@@ -19,7 +19,7 @@ const BootstrapCard = props => {
 };
 BootstrapCard.propTypes = {
 	title: PropType.string
-		// 2) add here the new properties into the proptypes object
+	// 2) Add here the new properties into the proptypes object
 };
 
 

@@ -1,21 +1,19 @@
 # `04.1` Conditional Rendering
 
-Hagamos nuestro componente `<Alert>` un poco más inteligente.
+Hagamos nuestro componente `<Alert />` un poco más inteligente.
 
 Cuando usas JSX tienes todas las funcionalidades de JavaScript disponibles: Variables, Bucles, Condicionales, etc.
 
-Ya hemos usado bucles y variables, ¡es momento de usar condicionales!
-
-Por ejemplo, el siguiente código renderiza una alerta roja o naranja dependiendo de la propiedad `color`.
+Por ejemplo, el siguiente código renderiza una alerta roja o amarilla dependiendo de la propiedad `color`.
 
 ```jsx
 const colorClasses = {
     'red': 'alert-danger',
-    'orange': 'alert-warning'
+    'yellow': 'alert-warning'
 }
 
 <div class={`alert ${colorClasses[props.color]}`} role="alert">
-  This is a primary alert-check it out!
+  This is an alert - check it out!
 </div>
 ```
 
@@ -23,24 +21,24 @@ Estamos declarando una variable `colorClasses` que contendrá todos los class na
 
 ##  📝 Instrucciones:
 
-1. Crea un componente `<Alert />` que renderice una [bootstrap alert](https://getbootstrap.com/docs/4.0/components/alerts/#examples). 
+1. Crea un componente `<Alert />` que cambie de color cuando se modifique la propiedad `color` siguiendo los [colores de las alertas de bootstrap](https://getbootstrap.com/docs/5.0/components/alerts/#examples).
 
 ## 💡 Pista: 
 
 El componente debe ser capaz de recibir las siguientes dos propiedades:
 
-+ Text (string): El texto mostrado en la alerta.
++ `text` (string): El texto mostrado en la alerta.
 
-+ Color (string): Rojo o naranja.
++ `color` (string): El color red o yellow.
 
 ```jsx
-//para el color rojo
+{/* Para el color rojo */}
 <div class="alert alert-danger" role="alert">
-  This is a primary alert—check it out!
+  This is a danger alert - check it out!
 </div>
 
-//para el color amarillo
+{/* Para el color amarillo */}
 <div class="alert alert-warning" role="alert">
-  This is a primary alert—check it out!
+  This is a warning alert - check it out!
 </div>
 ```

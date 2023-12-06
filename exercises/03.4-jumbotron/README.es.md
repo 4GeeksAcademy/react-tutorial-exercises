@@ -15,9 +15,9 @@ Usando todo lo que has aprendido...
 />
 ```
 
-##  Resultado Esperado:
+## 💻 Resultado Esperado:
   
-  ![Jumbotron](../../.learn/assets/03.4-1.png?raw=true)
+![Jumbotron](../../.learn/assets/03.4-1.png?raw=true)
 
 ## 💡 Pistas:
 
