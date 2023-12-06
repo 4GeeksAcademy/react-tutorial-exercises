@@ -14,39 +14,34 @@
 
 You can find lots of free interactive/autograded tutorials online, but there are very few about React.js. That's why we decided to create a comprehensive selection of exercises for developers who are interested in learning React.js.
 
-These exercises can be done by both junior and senior developers and are intended to be built by collaboration, we need your help!
+These exercises can be done by both junior and senior developers and are intended to be built through collaboration. We need your help!
 
-If you find any bugs or spelling issues, please contribute and report them and we will correct them.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-tutorial-exercises/master/preview.gif">
-</p>
+If you find any bugs or spelling issues, please contribute and report them, and we will correct them.
 
 <!-- hide -->
-
 ## One click installation (recommended):
 
 You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/react-tutorial-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/react-tutorial-exercises.git).
 
-> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
+> Once you have VSCode open, the LearnPack exercises should start automatically. If exercises don't run automatically, you can try typing on your terminal: `$ learnpack start`
 
 ## Local installation:
 
 Clone the repository in your local environment and follow the steps below:
 
-1. Make sure you have the [learnpack-cli](https://github.com/learnpack/learnpack-cli) installed and `node.js` version 14+. This is the command to install the learnpack-cli
+1. Make sure you have the [learnpack-cli](https://github.com/learnpack/learnpack-cli) installed and `node.js` version 14+. This is the command to install the learnpack-cli:
 
-```sh
+```bash
 $ npm i learnpack -g
 ```
 
-2. Download the react exercises by **cloning** the project or downloading the zip from github.
+2. Download the React exercises by **cloning** the project or downloading the zip from GitHub.
 
-> Note: Once you finish downloading, make sure you are in the right folder (you will find a the subdirectory "exercises").
+> Note: Once you finish downloading, make sure you are in the right folder (you will find the subdirectory "exercises").
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
-```sh
+```bash
 $ npm i jest@24.8.0 -g
 $ learnpack plugins:install learnpack-react
 $ learnpack start
@@ -56,23 +51,23 @@ $ learnpack start
 
 ## How are the exercises organized?
 
-Each exercise is a small react application containing the following files:
+Each exercise is a small React application containing the following files:
 
 1. **app.js:** represents the entry file for the exercise.
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
-> Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
+> Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion, or you may get frustrated.
 
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻, (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀, (build-tutorial) ✅, (documentation) 📖
 
-2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
+2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, (coder) 💻, (translation) 🌎
 
-3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) :🐛, (translation) 🌎
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (bug reports) 🐛, (translation) 🌎
 
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
