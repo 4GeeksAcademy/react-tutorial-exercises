@@ -1,46 +1,46 @@
-import ReactDOM from "react-dom";
-import { WhatToRender } from "./app.jsx";
-import jsxToString from "jsx-to-string";
-import renderer from "react-test-renderer";
+import ReactDOM from 'react-dom';
+import { WhatToRender } from './app.jsx';
+import jsxToString from 'jsx-to-string';
+import renderer from 'react-test-renderer';
 
-jest.mock("react-dom", () => ({ render: jest.fn() }));
+jest.mock('react-dom', () => ({ render: jest.fn() }));
 
-test("ReactDOM needs to be called once", () => {
+test('ReactDOM needs to be called once', () => {
   expect(ReactDOM.render.mock.calls.length).toBe(1);
 });
 
-test("Component title has to be passed properly", () => {
+test('Component title has to be passed properly', () => {
   const component = ReactDOM.render.mock.calls[0][0];
-  expect(component.props.title).toBe("Welcome to react");
+  expect(component.props.title).toBe('Welcome to React!');
 });
 
-test("Component description has to be passed properly", () => {
+test('Component description has to be passed properly', () => {
   const component = ReactDOM.render.mock.calls[0][0];
   expect(component.props.description).toBe(
-    "React is the most popular rendering library in the world"
+    'React is the most popular rendering library in the world'
   );
 });
 
-test("Component buttonLabel has to be passed properly", () => {
+test('Component buttonLabel has to be passed properly', () => {
   const component = ReactDOM.render.mock.calls[0][0];
-  expect(component.props.buttonLabel).toBe("Go to the official website");
+  expect(component.props.buttonLabel).toBe('Go to the official website');
 });
 
-test("Component buttonURL has to be passed properly", () => {
+test('Component buttonURL has to be passed properly', () => {
   const component = ReactDOM.render.mock.calls[0][0];
-  expect(component.props.buttonURL).toBe("https://reactjs.org/");
+  expect(component.props.buttonURL).toBe('https://reactjs.org/');
 });
 
-test("The component should return the exact HTML", () => {
+test('The component should return the exact HTML', () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
-  className="jumbotron m-5"
+  className="bg-light p-5 m-5"
 >
   <h1
     className="display-4"
   >
-    Welcome to react
+    Welcome to React!
   </h1>
   <p
     className="lead"
