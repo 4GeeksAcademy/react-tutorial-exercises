@@ -2,7 +2,7 @@
 tutorial: 'https://www.youtube.com/watch?v=zv6HPveyz6g'
 ---
 
-# `03.4` Hero-Component
+# `03.4` Hero Component
 
 Using everything you have learned so far...
 
