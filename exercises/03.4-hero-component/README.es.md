@@ -1,4 +1,4 @@
-# `03.4` Hero-Component
+# `03.4` Hero Component
 
 Usando todo lo que has aprendido...
 
