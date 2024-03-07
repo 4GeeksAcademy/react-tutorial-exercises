@@ -4,16 +4,16 @@ Cuando creas funciones que devuelven HTML, JSX te dejará tratarlos como **Compo
 
 > Creando nuestro primer componente funcional
 
-> Una de las cosas que podemos hacer gracias a JSX es llamar funciones com si fueran etiquetas HTML, por ejemplo:
+> Una de las cosas que podemos hacer gracias a JSX es llamar funciones como si fueran etiquetas HTML, por ejemplo:
 
 ```js
 // Si declaramos una función llamada `MyFunction`
 const MyFunction = () => {
-    return <h1>I Love React</h1>;
-}
+  return <h1>I Love React</h1>;
+};
 
-// Podemos llamar la función como una etiqueta HTML así 
-<MyFunction />
+// Podemos llamar la función como una etiqueta HTML así
+<MyFunction />;
 
 // En vez de hacerlo de la típica forma usando paréntesis
 MyFunction();
