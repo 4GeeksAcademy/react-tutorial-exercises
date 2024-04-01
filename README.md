@@ -29,7 +29,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 Clone the repository in your local environment and follow the steps below:
 
-1. Make sure you have the [learnpack-cli](https://github.com/learnpack/learnpack-cli) installed and `node.js` version 14+. This is the command to install the learnpack-cli:
+1. Make sure you have the [learnpack-cli](https://www.npmjs.com/package/@learnpack/learnpack) installed and `node.js` version 14+. This is the command to install the learnpack-cli:
 
 ```bash
 $ npm i learnpack -g
