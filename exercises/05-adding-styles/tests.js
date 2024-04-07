@@ -11,11 +11,12 @@ test("ReactDOM needs to be called once", () => {
 
 test("The component Badge should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
+  // throw tree
   expect(tree).toMatchInlineSnapshot(`
 <button
   className="btn btn-primary"
   style={
-    Object {
+    {
       "background": "black",
       "border": "1px solid yellow",
       "fontSize": "16px",

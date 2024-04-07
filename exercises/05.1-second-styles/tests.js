@@ -15,7 +15,7 @@ test("The component Badge should return the exact HTML", () => {
 <button
   className="btn btn-primary"
   style={
-    Object {
+    {
       "background": "yellow",
       "border": "none",
       "color": "black",
@@ -27,7 +27,7 @@ test("The component Badge should return the exact HTML", () => {
   <span
     className="badge badge-light"
     style={
-      Object {
+      {
         "background": "red",
         "borderRadius": "50%",
       }
