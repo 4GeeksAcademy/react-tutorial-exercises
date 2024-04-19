@@ -19,5 +19,11 @@
     "grading": "isolated",
     "editor": {
         "version": "3.1.23"
+    },
+    "video": {
+        "intro": {
+            "en": "https://www.youtube.com/watch?v=yRjmuLAH25s",
+            "es": "https://www.youtube.com/watch?v=yRjmuLAH25s"
+        }
     }
 }
