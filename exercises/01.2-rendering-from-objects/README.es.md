@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=Wnw2DmuZSX0"
+---
+
 # `01.2` Rendering from objects
 
 Ahora, vamos a usar una variable más compleja para renderizar nuestro HTML, digamos que tenemos el siguiente Objeto JS con la información de un cliente:

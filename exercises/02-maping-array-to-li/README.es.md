@@ -1,3 +1,7 @@
+---
+tutorial: "https://youtu.be/hONwtbNOBuc"
+---
+
 # `02` Mapping array to `<li>`
 
 Ahora, vamos a construir un arreglo dinámicamente...

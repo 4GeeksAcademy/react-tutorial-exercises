@@ -1,3 +1,8 @@
+---
+tutorial: "https://youtu.be/JEQaixuE78Q"
+---
+
+
 # `03.1` Your first functional component
 
 Cuando creas funciones que devuelven HTML, JSX te dejará tratarlos como **Componentes**. Básicamente, se convertirán en tus propias etiquetas HTML personalizables.

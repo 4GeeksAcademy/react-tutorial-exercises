@@ -1,3 +1,7 @@
+---
+tutorial: "https://youtu.be/9ZYIO78TGb0"
+---
+
 # `01.1` Hello JSX
 
 JSX también te permite incluir variables en el HTML fácilmente. Por ejemplo, asumamos que tienes la siguiente variable disponible:

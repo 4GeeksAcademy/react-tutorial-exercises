@@ -1,3 +1,8 @@
+---
+tutorial: "https://youtu.be/lNBbv8_0rC8"
+---
+
+
 # `03.3` Component Properties
 
 La `BootstrapCard` que acabas de hacer está [hard coded](https://es.wikipedia.org/wiki/Codificaci%C3%B3n_r%C3%ADgida) para **Bob Dylan** únicamente.

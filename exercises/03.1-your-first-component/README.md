@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=9Eiidx--_GQ"
+tutorial: "https://www.youtube.com/watch?v=cpq-MqQWMs8"
 ---
 
 # `03.1` Your first functional component

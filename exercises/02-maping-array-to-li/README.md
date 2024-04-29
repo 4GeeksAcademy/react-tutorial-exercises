@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=xe-O1jhnVxk"
+tutorial: "https://www.youtube.com/watch?v=wR18z-IngeA"
 ---
 
 # `02` Mapping array to `<li>`

@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=rsPIYF2PWAQ"
+---
+
+
 # `04` Conditional Rendering
 
 También puedes usar las propiedades de un componente para cambiar su comportamiento como mostrar u ocultar `<Alert />`, según una propiedad llamada `show`.

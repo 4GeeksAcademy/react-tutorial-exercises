@@ -1,3 +1,8 @@
+---
+tutorial: "https://youtu.be/PexVFLiJjE8"
+---
+
+
 # `02.1` Mapping array objects to `<li>`
 
 Usando el conocimiento que tienes del ejercicio anterior, ahora corrijamos la función `map()` nuevamente, pero esta vez, partiendo de un arreglo de objetos.

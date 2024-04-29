@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=p5JuLoQ0gA8"
+---
+
 # `06` Listening for events
 
 Los eventos en React trabajan de forma muy similar a como lo harían en Vanilla JS, si quieres escuchar el `Click` de un usuario, todo lo que tienes que hacer es agregar tu propiedad `onClick` (o cualquier otro evento en la etiqueta HTML) como suele hacerse.

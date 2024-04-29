@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=EdpPIo_JNVc"
+tutorial: "https://www.youtube.com/watch?v=2jGeHZ97_LU"
 ---
 
 # `03` Render with Functions

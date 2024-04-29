@@ -1,4 +1,10 @@
+---
+tutorial: "https://youtu.be/iXSBNgZTTFc"
+---
+
+
 # `03.2`  A real component
+
 
 En el ejercicio anterior hemos creado nuestro primer componente llamado `PrintHello`, y hemos aprendido que podemos usar el componente como una etiqueta HTML.
 

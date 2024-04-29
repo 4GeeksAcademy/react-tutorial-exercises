@@ -1,3 +1,7 @@
+---
+tutorial: "https://youtu.be/FWk6mHpYeRo"
+---
+
 # `01.4` Building from arrays
 
 Con JSX también puedes crear **arrays** de elementos HTML. Por ejemplo, si tenemos un arreglo de `<li>` podemos incluirlos todos dentro del documento a la vez, así:
