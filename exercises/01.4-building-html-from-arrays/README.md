@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=mFPtdyHeKVM"
+tutorial: "https://www.youtube.com/watch?v=s3pv6ZOg6-8"
 ---
 
 # `01.4` Building from arrays

@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=SJxlGFSUgG0"
+---
+
 # `05.1` Adding styles to the components
 
 ## 📝 Instrucciones:

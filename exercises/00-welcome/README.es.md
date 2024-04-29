@@ -1,3 +1,7 @@
+---
+intro: "https://youtu.be/watch?v=L21NvjxiVmc"
+---
+
 # Welcome!
 
 ¡Estamos muy entusiasmados por tenerte aquí! 🎉 😂

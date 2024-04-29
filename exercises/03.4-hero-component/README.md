@@ -1,5 +1,5 @@
 ---
-tutorial: 'https://www.youtube.com/watch?v=zv6HPveyz6g'
+tutorial: 'https://www.youtube.com/watch?v=ruD2opV_eGg'
 ---
 
 # `03.4` Hero Component

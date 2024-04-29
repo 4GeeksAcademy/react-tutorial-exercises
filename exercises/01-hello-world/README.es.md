@@ -1,3 +1,7 @@
+---
+tutorial: "https://youtu.be/watch?v=FQv38IJJvng"
+---
+
 # `01` Hello World
 
 El mayor dolor de cabeza de los desarrolladores front-end es **trabajar con el DOM** para crear HTML dinámico, lo cual es algo que React.js hace mucho mejor.

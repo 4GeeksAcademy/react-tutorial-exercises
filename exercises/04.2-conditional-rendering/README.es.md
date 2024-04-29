@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=1cYgv4aorjw"
+---
+
+
 # `04.2` Conditional Rendering
 
 Justo ahora este componente `<Alert />` puede renderizar en **yellow** o **red** dependiendo del valor de su propiedad `color`.

@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=79ho2T5Zy6U"
+tutorial: "https://www.youtube.com/watch?v=hIhhpm85kZU"
 ---
 
 # `03.3` Component Properties
