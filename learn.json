@@ -2,14 +2,14 @@
     "language": "react",
     "slug": "react-tutorial-exercises",
     "title": {
-        "us": "Learn React.js Interactively",
-        "es": "Aprende React.js Interactivamente"
+        "us": "Learn React.js Tutorial and Interactive Exercises",
+        "es": "Tutorial de React.js y ejercicios interactivos"
     },
     "repository": "https://github.com/4GeeksAcademy/react-tutorial-exercises",
     "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png?raw=true",
     "description": {
         "us": "Learn and practice ReactJS using hooks, interactive tutorial with dozens of react exercises, get instant feedback with automatic grading and watch video solutions afterwards.",
-        "es": "Aprende y practica ReactJS con un tutorial interactivo que contiene docenas de ejercicios de React, obtén feedback instantáneo, con evaluación automática y video soluciones."
+        "es": "Aprende y practica ReactJS con un tutorial interactivo que contiene docenas de ejercicios de React, obtén ayuda de nuestro AI llamado Rigobot, feedback instantáneo, auto-evaluación y video soluciones."
     },
     "duration": 8,
     "projectType": "tutorial",
