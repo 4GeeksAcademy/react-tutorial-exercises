@@ -29,12 +29,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 Clone the repository in your local environment and follow the steps below:
 
-1. Make sure you have the [learnpack-cli](https://www.npmjs.com/package/@learnpack/learnpack) installed and `node.js` version 14+. This is the command to install the learnpack-cli:
-
-```bash
-$ npm i learnpack -g
-```
-
+1. Make sure you have [installed learnpack locally](https://4geeks.com/docs/learnpack/quickstart-for-learners#how-to-use-learnpack-locally).
 2. Download the React exercises by **cloning** the project or downloading the zip from GitHub.
 
 > Note: Once you finish downloading, make sure you are in the right folder (you will find the subdirectory "exercises").
@@ -42,7 +37,7 @@ $ npm i learnpack -g
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
 ```bash
-$ npm i jest@24.8.0 -g
+$ npm i jest@29.7.0 -g
 $ learnpack plugins:install learnpack-react
 $ learnpack start
 ```
