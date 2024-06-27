@@ -37,8 +37,7 @@ Clone the repository in your local environment and follow the steps below:
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
 ```bash
-$ npm i jest@29.7.0 -g
-$ learnpack plugins:install learnpack-react
+$ npm i @learnpack/learnpack -g
 $ learnpack start
 ```
 
