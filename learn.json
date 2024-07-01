@@ -18,7 +18,7 @@
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "grading": "isolated",
     "editor": {
-        "version": "3.1.36"
+        "version": "3.1.40"
     },
     "telemetry": {
         "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
