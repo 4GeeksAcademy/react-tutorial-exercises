@@ -1,12 +1,18 @@
-import React from "react"; // Main React.js library
+//Crear un texto con react, el cual genere una tag span que contenga una tag strong.
 
-import ReactDOM from "react-dom"; // We use ReactDOM to render into the DOM
+//Importamos las librerias de react.
+import React from "react";
+import ReactDOM from "react-dom";
 
-// WHAT: This variable contains the html to render
-let output = <span>James is 12 years old</span>;
+//Ahora creamos un nuevo componente el cual contenga la tag span.
+let output = (
+	<span>
+		James is <strong>12</strong> years old
+	</span>
+);
 
-// WHERE: A DOM element that will contain the entire react generated html
+//Creamos una constante, la cual nos trae el valor de id.
 const myDiv = document.querySelector("#myDiv");
-
-                //what  //where
+//llamamos a la funcion ReactDOM para que se muestre por pantalla el componente creado.
 ReactDOM.render(output, myDiv);
+
