@@ -1,17 +1,19 @@
+//FOMRA 1
 import React from "react";
 import ReactDOM from "react-dom";
 
-const customer = {
+let customer = {
 	first_name: "Bob",
-	last_name: "Dylan"
+	last_name: "Dylan",
 };
 
-//              Your code inside these <div> tags
-const output =
+const output = (
 	<div>
 		<h1>My name is {customer.first_name}</h1>
 		<h2>My last name is {customer.last_name}</h2>
-	</div>;
+	</div>
+);
 
-//               what     where
-ReactDOM.render(output, document.querySelector("#myDiv"));
+let myDiv = document.querySelector("#myDiv");
+
+ReactDOM.render(output, myDiv);

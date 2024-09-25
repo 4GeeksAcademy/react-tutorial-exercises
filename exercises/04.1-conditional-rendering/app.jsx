@@ -1,18 +1,29 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import PropTypes from "prop-types";
+//Importamos las librerias de React.
+import React from "react"; //Libreria para crear componentes React.
+import ReactDOM from "react-dom"; //Libreria para renderisar los componentes de react.
+import PropTypes from "prop-types"; //Libreria para vrificar que los componentes que reciban los props sean del tipo correcto.
 
-const Alert = props => {
-	// Your component here
-
+//Funcion para generar alertas con React.
+export const Alert = (props) => {
+	//Objeto que contiene el valor de las class.
+	const colorClasses = {
+		red: "alert-danger",
+		yellow: "alert-warning",
+	};
+	//componente Recat de la Alerta
+	return (
+		<div className={`alert ${colorClasses[props.color]}`} role="alert">
+			{props.text}
+		</div>
+	);
 };
-Alert.propTypes = {
+
+//Verificamos los tipos de datos que recibiran los props
+Alert.PropTypes = {
 	color: PropTypes.string,
-	text: PropTypes.string
+	text: PropTypes.string,
 };
 
-// Here is where the <Alert /> component is being used, you don't have to edit this part
-// But it helps you understand what properties are being passed to the component
 ReactDOM.render(
 	<div>
 		<Alert text="OMG! Something really bad has happened!" color="red" />

@@ -26,4 +26,4 @@ let content = (
 	</div>
 );
 
-ReactDOM.render(content, document.querySelector("#myDiv"));
+ReactDOM.render(content, document.querySelector('#myDiv'));
