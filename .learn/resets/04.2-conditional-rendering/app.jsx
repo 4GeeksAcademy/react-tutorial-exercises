@@ -3,13 +3,12 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 // Add the green inside this function
-const Alert = (props) => {
+const Alert = props => {
 	const colorClasses = {
 		red: "alert-danger",
-		yellow: "alert-warning",
-		green: "alert-success",
+		yellow: "alert-warning"
 	};
-
+	
 	if (colorClasses[props.color] === undefined) alert(`The color ${props.color} is not in the possible list of colors`);
 
 	return (
@@ -20,7 +19,7 @@ const Alert = (props) => {
 };
 Alert.propTypes = {
 	color: PropTypes.string,
-	text: PropTypes.string,
+	text: PropTypes.string
 };
 
 // Here is where the <Alert /> component is being used, you don't have to edit this part

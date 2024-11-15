@@ -1,11 +1,11 @@
-import React from "react"; // Main React.js library
+//Crea un codigo el cual imprima por pantalla I Love React, pero que se imprima como un componente.
 
-import ReactDOM from "react-dom"; // We use ReactDOM to render into the DOM
+//Importamos a las bibliotecas de Recat.
+import React from "react";
+import ReactDOM from "react-dom";
 
-// This function returns a string that will be rendered
-export const PrintHello = () => {
-	return <h1>Hello World</h1>;
+const PrintHello = () => {
+	return <h1>I Love React</h1>;
 };
 
-//              what           where
-ReactDOM.render(PrintHello(), document.querySelector("#myDiv"));
+ReactDOM.render(<PrintHello />), document.querySelector("#myDiv");
