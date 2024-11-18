@@ -14,7 +14,7 @@
     "duration": 8,
     "projectType": "tutorial",
     "difficulty": "easy",
-    "technologies": ["react js", "javascript"]
+    "technologies": ["react js", "javascript"],
     "videoSolutions": true,
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "grading": "isolated",
