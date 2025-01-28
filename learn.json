@@ -8,8 +8,8 @@
     "repository": "https://github.com/4GeeksAcademy/react-tutorial-exercises",
     "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png?raw=true",
     "description": {
-        "us": "Learn and practice ReactJS using hooks, interactive tutorial with dozens of react exercises, get instant feedback with automatic grading and watch video solutions afterwards.",
-        "es": "Aprende y practica React desde cero con un curso interactivo que contiene decenas de ejercicios de React, obtén ayuda de nuestro AI llamado Rigobot, feedback instantáneo, auto-evaluación y video soluciones."
+        "us": "Master ReactJS fundamentals with an interactive tutorial featuring dozens of exercises. Learn JSX, build components, create dynamic HTML, and work with JS modules. Receive instant feedback through automatic grading and access detailed video solutions to solidify your understanding.",
+        "es": "Domina los fundamentos de ReactJS con un tutorial interactivo que incluye docenas de ejercicios. Aprende JSX, crea componentes, desarrolla HTML dinámico y trabaja con módulos de JS. Recibe retroalimentación instantánea con evaluaciones automáticas y accede a soluciones en video para reforzar tu aprendizaje."
     },
     "duration": 8,
     "projectType": "tutorial",
@@ -19,7 +19,8 @@
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "grading": "isolated",
     "editor": {
-        "version": "5.0"
+        "version": "5.0",
+        "agent": "vscode"
     },
     "telemetry": {
         "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=153"
