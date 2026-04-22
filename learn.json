@@ -17,7 +17,7 @@
         "javascript",
         "reactjs"
     ],
-    "projectType": "exercise",
+    "projectType": "tutorial",
     "video": {
         "intro": {
             "us": "https://www.youtube.com/watch?v=yRjmuLAH25s",
@@ -27,12 +27,13 @@
     "editor": {
         "agent": "vscode"
     },
+    "grading": "incremental",
+    "localhostOnly": false,
     "delivery": {
         "instructions": "",
         "formats": [
             "url"
         ],
         "regex": ""
-    },
-    "grading": "isolated"
+    }
 }
