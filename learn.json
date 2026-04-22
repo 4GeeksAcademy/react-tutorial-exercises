@@ -1,34 +1,38 @@
 {
-    "language": "react",
-    "slug": "react-tutorial-exercises",
+    "slug": "react-js-tutorial-exercises",
     "title": {
         "us": "Learn React.js Tutorial and Interactive Exercises",
         "es": "Curso de React.js desde cero y ejercicios interactivos"
     },
-    "repository": "https://github.com/4GeeksAcademy/react-tutorial-exercises",
-    "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png?raw=true",
     "description": {
         "us": "Master ReactJS fundamentals with an interactive tutorial featuring dozens of exercises. Learn JSX, build components, create dynamic HTML, and work with JS modules. Receive instant feedback through automatic grading and access detailed video solutions to solidify your understanding.",
-        "es": "Domina los fundamentos de ReactJS con un tutorial interactivo que incluye docenas de ejercicios. Aprende JSX, crea componentes, desarrolla HTML dinámico y trabaja con módulos de JS. Recibe retroalimentación instantánea con evaluaciones automáticas y accede a soluciones en video para reforzar tu aprendizaje."
+        "es": "Domina los fundamentos de ReactJS con un tutorial interactivo que incluye docenas de ejercicios. Aprende JSX, crea componentes, desarrolla HTML din\u00e1mico y trabaja con m\u00f3dulos de JS. Recibe retroalimentaci\u00f3n instant\u00e1nea con evaluaciones autom\u00e1ticas y accede a soluciones en video para reforzar tu aprendizaje."
     },
+    "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png?raw=true",
+    "difficulty": "EASY",
     "duration": 8,
-    "projectType": "tutorial",
-    "difficulty": "easy",
-    "technologies": ["react js", "javascript"],
-    "videoSolutions": true,
-    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "grading": "isolated",
-    "editor": {
-        "version": "5.0",
-        "agent": "vscode"
-    },
-    "telemetry": {
-        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=153"
-    },
+    "template_url": null,
+    "gitpod": true,
+    "technologies": [
+        "javascript",
+        "reactjs"
+    ],
+    "projectType": "exercise",
     "video": {
         "intro": {
             "us": "https://www.youtube.com/watch?v=yRjmuLAH25s",
             "es": "https://www.youtube.com/watch?v=L21NvjxiVmc"
         }
-    }
+    },
+    "editor": {
+        "agent": "vscode"
+    },
+    "delivery": {
+        "instructions": "",
+        "formats": [
+            "url"
+        ],
+        "regex": ""
+    },
+    "grading": "isolated"
 }
