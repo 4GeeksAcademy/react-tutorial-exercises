@@ -3,7 +3,7 @@
 {
 	"name": "Node.js",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-16",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:22",
 	"customizations": {
 		"vscode": {
 			"settings": {
@@ -22,7 +22,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"onCreateCommand": "npm i jest@29.7.0 -g && npm i jest-environment-jsdom@29.7.0 -g && npm i @learnpack/learnpack@5.0.29 -g && learnpack plugins:install @learnpack/react"
+	"onCreateCommand": "npm i jest@29.7.0 -g && npm i jest-environment-jsdom@29.7.0 -g && npm i @learnpack/learnpack@5.0.348 -g && learnpack plugins:install @learnpack/react"
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
