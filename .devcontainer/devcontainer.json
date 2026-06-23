@@ -17,16 +17,18 @@
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	    "features": {
         "ghcr.io/devcontainers/features/sshd:1": {
         "version": "latest"
     }
     },
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	"onCreateCommand": "npm i jest@29.7.0 -g && npm i jest-environment-jsdom@29.7.0 -g && npm i @learnpack/learnpack@5.0.348 -g && learnpack plugins:install @learnpack/react"
+    "onCreateCommand": "npm i jest@29.7.0 -g && npm i jest-environment-jsdom@29.7.0 -g && npm i @learnpack/learnpack@5.0.348 -g && learnpack plugins:install @learnpack/react"
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
