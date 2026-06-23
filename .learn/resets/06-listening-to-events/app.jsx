@@ -6,7 +6,7 @@ const clickHandler = e => {
 };
 
 const Alert = () => {
-	return <button onClick={clickHandler} className="btn btn-success btn-lg">Click Me</button>;
+	return <button className="btn btn-success btn-lg">Click Me</button>;
 };
 
 // You don't have to edit anything below
