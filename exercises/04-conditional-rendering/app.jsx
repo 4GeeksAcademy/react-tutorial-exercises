@@ -4,16 +4,20 @@ import PropTypes from "prop-types";
 
 const Alert = props => {
 	// Add the condition inside this function
-
+	if(props.show === false)
+		return null;
 	return (
+
 		<div className="alert alert-primary" role="alert">
-			This is a primary alert - check it out!
+			{props.text}
 		</div>
 	);
 };
 
 Alert.propTypes = {
-	
+	show: PropTypes.bool,
+	text: PropTypes.string
+
 };
 
 // Here is where the <Alert /> component is being used, you don't have to edit this part
